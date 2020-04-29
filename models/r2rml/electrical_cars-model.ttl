@@ -1,0 +1,421 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr5hac3px1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "electrical_cars.csv" ;
+	km-dev:modelPublicationTime "1575365193849"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"model\"}],[{\"columnName\":\"energySource\"}],[{\"columnName\":\"eco_fuel\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"model\"}],[{\"columnName\":\"energySource\"}],[{\"columnName\":\"eco_fuel\"}]]" ;
+	km-dev:hasModelLabel "electrical_cars.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"model\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car/Car1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"model\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"model\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"eco_fuel\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel/eco_fuel1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"eco_fuel\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"eco_fuel\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"energySource\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#energySource\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source/Energy_Source1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"energySource\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"energySource\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEcofuel\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEnergySource\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 a rr:TriplesMap .
+
+_:node1dr5hac3px1 km-dev:hasTriplesMap km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 .
+
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px2 rr:tableName "electrical_cars.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasLogicalTable _:node1dr5hac3px2 .
+
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 rr:logicalTable _:node1dr5hac3px2 ;
+	rr:subjectMap _:node1dr5hac3px3 .
+
+_:node1dr5hac3px1 km-dev:hasSubjectMap _:node1dr5hac3px3 .
+
+_:node1dr5hac3px3 km-dev:isPartOfMapping _:node1dr5hac3px1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "eco_fuel1" .
+
+km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> .
+
+_:node1dr5hac3px4 rr:column "eco_fuel" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasObjectMap _:node1dr5hac3px4 .
+
+km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 rr:objectMap _:node1dr5hac3px4 .
+
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 rr:predicateObjectMap km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 .
+
+km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea a rr:TriplesMap .
+
+_:node1dr5hac3px1 km-dev:hasTriplesMap km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px5 rr:tableName "electrical_cars.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasLogicalTable _:node1dr5hac3px5 .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:logicalTable _:node1dr5hac3px5 ;
+	rr:subjectMap _:node1dr5hac3px6 .
+
+_:node1dr5hac3px1 km-dev:hasSubjectMap _:node1dr5hac3px6 .
+
+_:node1dr5hac3px6 km-dev:isPartOfMapping _:node1dr5hac3px1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Car1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer> .
+
+_:node1dr5hac3px7 rr:column "model" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasObjectMap _:node1dr5hac3px7 .
+
+km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 rr:objectMap _:node1dr5hac3px7 .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:predicateObjectMap km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 .
+
+km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 .
+
+km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEcofuel> .
+
+km-dev:RefObjectMap_8baa84f9-f0b2-4191-a0db-27677773f611 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasObjectMap km-dev:RefObjectMap_8baa84f9-f0b2-4191-a0db-27677773f611 .
+
+km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 rr:objectMap km-dev:RefObjectMap_8baa84f9-f0b2-4191-a0db-27677773f611 .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:predicateObjectMap km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 .
+
+km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 .
+
+km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEnergySource> .
+
+km-dev:RefObjectMap_42f0c5a3-3952-4138-ae6c-d2b8c64c83dd a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasObjectMap km-dev:RefObjectMap_42f0c5a3-3952-4138-ae6c-d2b8c64c83dd .
+
+km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 rr:objectMap km-dev:RefObjectMap_42f0c5a3-3952-4138-ae6c-d2b8c64c83dd .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:predicateObjectMap km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 .
+
+km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 .
+
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 a rr:TriplesMap .
+
+_:node1dr5hac3px1 km-dev:hasTriplesMap km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 .
+
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px8 rr:tableName "electrical_cars.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasLogicalTable _:node1dr5hac3px8 .
+
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 rr:logicalTable _:node1dr5hac3px8 ;
+	rr:subjectMap _:node1dr5hac3px9 .
+
+_:node1dr5hac3px1 km-dev:hasSubjectMap _:node1dr5hac3px9 .
+
+_:node1dr5hac3px9 km-dev:isPartOfMapping _:node1dr5hac3px1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Energy_Source1" .
+
+km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#energySource> .
+
+_:node1dr5hac3px10 rr:column "energySource" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasObjectMap _:node1dr5hac3px10 .
+
+km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e rr:objectMap _:node1dr5hac3px10 .
+
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 rr:predicateObjectMap km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e .
+
+km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e .

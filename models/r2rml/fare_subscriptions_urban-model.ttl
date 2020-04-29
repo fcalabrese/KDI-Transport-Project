@@ -1,0 +1,726 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr18njhpx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "fare_subscriptions_urban.csv" ;
+	km-dev:modelPublicationTime "1575221972538"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Abbonamento\"}],[{\"columnName\":\"Mensile Trento\"}],[{\"columnName\":\"Annuale Rovereto\"}],[{\"columnName\":\"Mensile Pergine\"}],[{\"columnName\":\"Annuale Trento\"}],[{\"columnName\":\"Mensile Rovereto\"}],[{\"columnName\":\"Annuale Riva\"}],[{\"columnName\":\"Annuale Pergine\"}],[{\"columnName\":\"Mensile Riva\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Abbonamento\"}],[{\"columnName\":\"Mensile Trento\"}],[{\"columnName\":\"Annuale Rovereto\"}],[{\"columnName\":\"Mensile Pergine\"}],[{\"columnName\":\"Annuale Trento\"}],[{\"columnName\":\"Mensile Rovereto\"}],[{\"columnName\":\"Annuale Riva\"}],[{\"columnName\":\"Annuale Pergine\"}],[{\"columnName\":\"Mensile Riva\"}]]" ;
+	km-dev:hasModelLabel "fare_subscriptions_urban.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Abbonamento\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#type_Transportation_Card\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Abbonamento\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Abbonamento\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Mensile Trento\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Trento\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Trento\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Annuale Trento\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Trento\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Trento\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Mensile Rovereto\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Rovereto\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Rovereto\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Annuale Rovereto\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Rovereto\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Rovereto\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Mensile Pergine\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Pergine\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Pergine\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Annuale Pergine\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Pergine\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Pergine\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Mensile Riva\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Riva\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile Riva\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Annuale Riva\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Riva\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale Riva\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 a rr:TriplesMap .
+
+_:node1dr18njhpx1 km-dev:hasTriplesMap km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx2 rr:tableName "fare_subscriptions_urban.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasLogicalTable _:node1dr18njhpx2 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:logicalTable _:node1dr18njhpx2 ;
+	rr:subjectMap _:node1dr18njhpx3 .
+
+_:node1dr18njhpx1 km-dev:hasSubjectMap _:node1dr18njhpx3 .
+
+_:node1dr18njhpx3 km-dev:isPartOfMapping _:node1dr18njhpx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Transportation_Card1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_28116d46-4dad-49b8-96ca-c163796409a2 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month> .
+
+_:node1dr18njhpx4 rr:column "Mensile Trento" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx4 .
+
+km-dev:PredicateObjectMap_28116d46-4dad-49b8-96ca-c163796409a2 rr:objectMap _:node1dr18njhpx4 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_28116d46-4dad-49b8-96ca-c163796409a2 .
+
+km-dev:PredicateObjectMap_28116d46-4dad-49b8-96ca-c163796409a2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_28116d46-4dad-49b8-96ca-c163796409a2 .
+
+km-dev:PredicateObjectMap_49da84b8-fdbc-4af5-8900-42f5c9c75265 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year> .
+
+_:node1dr18njhpx5 rr:column "Annuale Riva" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx5 .
+
+km-dev:PredicateObjectMap_49da84b8-fdbc-4af5-8900-42f5c9c75265 rr:objectMap _:node1dr18njhpx5 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_49da84b8-fdbc-4af5-8900-42f5c9c75265 .
+
+km-dev:PredicateObjectMap_49da84b8-fdbc-4af5-8900-42f5c9c75265 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_49da84b8-fdbc-4af5-8900-42f5c9c75265 .
+
+km-dev:PredicateObjectMap_0b3c33b6-c6ef-4ca9-8f04-eee8965bad6b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month> .
+
+_:node1dr18njhpx6 rr:column "Mensile Pergine" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx6 .
+
+km-dev:PredicateObjectMap_0b3c33b6-c6ef-4ca9-8f04-eee8965bad6b rr:objectMap _:node1dr18njhpx6 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_0b3c33b6-c6ef-4ca9-8f04-eee8965bad6b .
+
+km-dev:PredicateObjectMap_0b3c33b6-c6ef-4ca9-8f04-eee8965bad6b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0b3c33b6-c6ef-4ca9-8f04-eee8965bad6b .
+
+km-dev:PredicateObjectMap_a2c04fac-22d6-4ba3-9048-29075002802d rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#type_Transportation_Card> .
+
+_:node1dr18njhpx7 rr:column "Abbonamento" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx7 .
+
+km-dev:PredicateObjectMap_a2c04fac-22d6-4ba3-9048-29075002802d rr:objectMap _:node1dr18njhpx7 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_a2c04fac-22d6-4ba3-9048-29075002802d .
+
+km-dev:PredicateObjectMap_a2c04fac-22d6-4ba3-9048-29075002802d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a2c04fac-22d6-4ba3-9048-29075002802d .
+
+km-dev:PredicateObjectMap_a5e821fa-3a52-4472-9a68-2e89b1f6fa94 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year> .
+
+_:node1dr18njhpx8 rr:column "Annuale Rovereto" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx8 .
+
+km-dev:PredicateObjectMap_a5e821fa-3a52-4472-9a68-2e89b1f6fa94 rr:objectMap _:node1dr18njhpx8 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_a5e821fa-3a52-4472-9a68-2e89b1f6fa94 .
+
+km-dev:PredicateObjectMap_a5e821fa-3a52-4472-9a68-2e89b1f6fa94 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a5e821fa-3a52-4472-9a68-2e89b1f6fa94 .
+
+km-dev:PredicateObjectMap_3b408f9e-71f2-4f5f-83cd-3047a464e0bc rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month> .
+
+_:node1dr18njhpx9 rr:column "Mensile Rovereto" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx9 .
+
+km-dev:PredicateObjectMap_3b408f9e-71f2-4f5f-83cd-3047a464e0bc rr:objectMap _:node1dr18njhpx9 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_3b408f9e-71f2-4f5f-83cd-3047a464e0bc .
+
+km-dev:PredicateObjectMap_3b408f9e-71f2-4f5f-83cd-3047a464e0bc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3b408f9e-71f2-4f5f-83cd-3047a464e0bc .
+
+km-dev:PredicateObjectMap_6bcb71eb-0815-43d3-84ae-02a92d777652 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year> .
+
+_:node1dr18njhpx10 rr:column "Annuale Pergine" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx10 .
+
+km-dev:PredicateObjectMap_6bcb71eb-0815-43d3-84ae-02a92d777652 rr:objectMap _:node1dr18njhpx10 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_6bcb71eb-0815-43d3-84ae-02a92d777652 .
+
+km-dev:PredicateObjectMap_6bcb71eb-0815-43d3-84ae-02a92d777652 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6bcb71eb-0815-43d3-84ae-02a92d777652 .
+
+km-dev:PredicateObjectMap_d337efe9-231b-4d86-ad37-a7275fdd5860 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month> .
+
+_:node1dr18njhpx11 rr:column "Mensile Riva" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx11 .
+
+km-dev:PredicateObjectMap_d337efe9-231b-4d86-ad37-a7275fdd5860 rr:objectMap _:node1dr18njhpx11 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_d337efe9-231b-4d86-ad37-a7275fdd5860 .
+
+km-dev:PredicateObjectMap_d337efe9-231b-4d86-ad37-a7275fdd5860 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d337efe9-231b-4d86-ad37-a7275fdd5860 .
+
+km-dev:PredicateObjectMap_14e2b04a-3575-49dc-9cec-8d90b10067e2 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year> .
+
+_:node1dr18njhpx12 rr:column "Annuale Trento" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasObjectMap _:node1dr18njhpx12 .
+
+km-dev:PredicateObjectMap_14e2b04a-3575-49dc-9cec-8d90b10067e2 rr:objectMap _:node1dr18njhpx12 .
+
+km-dev:TriplesMap_66e3896a-992e-41b9-9a83-8a06a1942008 rr:predicateObjectMap km-dev:PredicateObjectMap_14e2b04a-3575-49dc-9cec-8d90b10067e2 .
+
+km-dev:PredicateObjectMap_14e2b04a-3575-49dc-9cec-8d90b10067e2 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr18njhpx1 .
+
+_:node1dr18njhpx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_14e2b04a-3575-49dc-9cec-8d90b10067e2 .

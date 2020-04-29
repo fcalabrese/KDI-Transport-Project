@@ -1,0 +1,905 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr5islgcx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "fuel.csv" ;
+	km-dev:modelPublicationTime "1575366841868"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"fuel:cng\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"fuel:diesel\"}],[{\"columnName\":\"fuel:lpg\"}],[{\"columnName\":\"name\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"latitude\"}],[{\"columnName\":\"Gasoline\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"Electricity\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"Diesel\"}],[{\"columnName\":\"name\"}]]" ;
+	km-dev:hasModelLabel "fuel.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"fuel:diesel\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Diesel\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if(getValue(\\\"fuel:diesel\\\") == 'yes'):\\n    return 1\\nelse:\\n    return 0\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fuel:diesel\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Diesel\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"fuel:lpg\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Gasoline\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if(getValue(\\\"fuel:lpg\\\") == 'yes'):\\n    return 1\\nelse:\\n    return 0\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fuel:lpg\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"fuel:cng\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Electricity\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if(getValue(\\\"fuel:cng\\\") == 'yes'):\\n    return 1\\nelse:\\n    return 0\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fuel:cng\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Electricity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"Column_1\",
+                        \"id\": [{\"columnName\": \"Column_1\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"latitude\",
+                        \"id\": [{\"columnName\": \"latitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"longitude\",
+                        \"id\": [{\"columnName\": \"longitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"address\",
+                        \"id\": [{\"columnName\": \"address\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"name\",
+                        \"id\": [{\"columnName\": \"name\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"brand\",
+                        \"id\": [{\"columnName\": \"brand\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"operator\",
+                        \"id\": [{\"columnName\": \"operator\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"@id\",
+                        \"id\": [{\"columnName\": \"@id\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Diesel\",
+                        \"id\": [{\"columnName\": \"Diesel\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Gasoline\",
+                        \"id\": [{\"columnName\": \"Gasoline\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"fuel:lpg\",
+                        \"id\": [{\"columnName\": \"fuel:lpg\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"fuel:cng\",
+                        \"id\": [{\"columnName\": \"fuel:cng\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"fuel:diesel\",
+                        \"id\": [{\"columnName\": \"fuel:diesel\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"address\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Diesel\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#diesel\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Diesel\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Diesel\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Electricity\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Electricity\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Electricity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Gasoline\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#gasoline\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 a rr:TriplesMap .
+
+_:node1dr5islgcx1 km-dev:hasTriplesMap km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx2 rr:tableName "fuel.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasLogicalTable _:node1dr5islgcx2 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:logicalTable _:node1dr5islgcx2 ;
+	rr:subjectMap _:node1dr5islgcx3 .
+
+_:node1dr5islgcx1 km-dev:hasSubjectMap _:node1dr5islgcx3 .
+
+_:node1dr5islgcx3 km-dev:isPartOfMapping _:node1dr5islgcx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Service_Area1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> .
+
+km-dev:RefObjectMap_f15e2765-75bb-4dac-ae0a-96b98c56e916 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap km-dev:RefObjectMap_f15e2765-75bb-4dac-ae0a-96b98c56e916 .
+
+km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 rr:objectMap km-dev:RefObjectMap_f15e2765-75bb-4dac-ae0a-96b98c56e916 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 .
+
+km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 .
+
+km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#gasoline> .
+
+_:node1dr5islgcx4 rr:column "Gasoline" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx4 .
+
+km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 rr:objectMap _:node1dr5islgcx4 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 .
+
+km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 .
+
+km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> .
+
+_:node1dr5islgcx5 rr:column "name" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx5 .
+
+km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff rr:objectMap _:node1dr5islgcx5 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff .
+
+km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff .
+
+km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity> .
+
+_:node1dr5islgcx6 rr:column "Electricity" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx6 .
+
+km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 rr:objectMap _:node1dr5islgcx6 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 .
+
+km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 .
+
+km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#diesel> .
+
+_:node1dr5islgcx7 rr:column "Diesel" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx7 .
+
+km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 rr:objectMap _:node1dr5islgcx7 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 .
+
+km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 .
+
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 a rr:TriplesMap .
+
+_:node1dr5islgcx1 km-dev:hasTriplesMap km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 .
+
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx8 rr:tableName "fuel.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasLogicalTable _:node1dr5islgcx8 .
+
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:logicalTable _:node1dr5islgcx8 ;
+	rr:subjectMap _:node1dr5islgcx9 .
+
+_:node1dr5islgcx1 km-dev:hasSubjectMap _:node1dr5islgcx9 .
+
+_:node1dr5islgcx9 km-dev:isPartOfMapping _:node1dr5islgcx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Location1" .
+
+km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+
+_:node1dr5islgcx10 rr:column "longitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx10 .
+
+km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e rr:objectMap _:node1dr5islgcx10 .
+
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:predicateObjectMap km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e .
+
+km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e .
+
+km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
+
+_:node1dr5islgcx11 rr:column "latitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx11 .
+
+km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 rr:objectMap _:node1dr5islgcx11 .
+
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:predicateObjectMap km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 .
+
+km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 .
+
+km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+
+_:node1dr5islgcx12 rr:column "address" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx12 .
+
+km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c rr:objectMap _:node1dr5islgcx12 .
+
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:predicateObjectMap km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c .
+
+km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c .

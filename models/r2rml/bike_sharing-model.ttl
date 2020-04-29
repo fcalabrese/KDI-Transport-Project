@@ -1,0 +1,711 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr5gcvp7x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "bike_sharing.csv" ;
+	km-dev:modelPublicationTime "1575364230951"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"name\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"number_of_bikes\"}],[{\"columnName\":\"available\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"electrical\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"name\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"number_of_bikes\"}],[{\"columnName\":\"available\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"electrical\"}]]" ;
+	km-dev:hasModelLabel "bike_sharing.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"address\",
+                        \"id\": [{\"columnName\": \"address\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"latitude\",
+                        \"id\": [{\"columnName\": \"latitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"longitude\",
+                        \"id\": [{\"columnName\": \"longitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"name\",
+                        \"id\": [{\"columnName\": \"name\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"available\",
+                        \"id\": [{\"columnName\": \"available\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"number_of_bikes\",
+                        \"id\": [{\"columnName\": \"number_of_bikes\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"electrical\",
+                        \"id\": [{\"columnName\": \"electrical\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"electrical\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electrical\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electrical\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"address\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"it\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:float\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedBikeStation_name\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"it\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"available\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"available\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"available\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"number_of_bikes\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"number_of_bikes\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"number_of_bikes\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bikeStationHas\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 a rr:TriplesMap .
+
+_:node1dr5gcvp7x1 km-dev:hasTriplesMap km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 .
+
+km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x2 rr:tableName "bike_sharing.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasLogicalTable _:node1dr5gcvp7x2 .
+
+km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 rr:logicalTable _:node1dr5gcvp7x2 ;
+	rr:subjectMap _:node1dr5gcvp7x3 .
+
+_:node1dr5gcvp7x1 km-dev:hasSubjectMap _:node1dr5gcvp7x3 .
+
+_:node1dr5gcvp7x3 km-dev:isPartOfMapping _:node1dr5gcvp7x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Location1" .
+
+km-dev:PredicateObjectMap_c8ab3bc0-8768-42d6-b499-bcde26cfbd75 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+
+_:node1dr5gcvp7x4 rr:column "longitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap _:node1dr5gcvp7x4 .
+
+km-dev:PredicateObjectMap_c8ab3bc0-8768-42d6-b499-bcde26cfbd75 rr:objectMap _:node1dr5gcvp7x4 .
+
+km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 rr:predicateObjectMap km-dev:PredicateObjectMap_c8ab3bc0-8768-42d6-b499-bcde26cfbd75 .
+
+km-dev:PredicateObjectMap_c8ab3bc0-8768-42d6-b499-bcde26cfbd75 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c8ab3bc0-8768-42d6-b499-bcde26cfbd75 .
+
+km-dev:PredicateObjectMap_25452f6d-6369-4ec0-883c-73fab1c74b3b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+
+_:node1dr5gcvp7x5 rr:column "address" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "it" ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap _:node1dr5gcvp7x5 .
+
+km-dev:PredicateObjectMap_25452f6d-6369-4ec0-883c-73fab1c74b3b rr:objectMap _:node1dr5gcvp7x5 .
+
+km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 rr:predicateObjectMap km-dev:PredicateObjectMap_25452f6d-6369-4ec0-883c-73fab1c74b3b .
+
+km-dev:PredicateObjectMap_25452f6d-6369-4ec0-883c-73fab1c74b3b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_25452f6d-6369-4ec0-883c-73fab1c74b3b .
+
+km-dev:PredicateObjectMap_cc7149fc-0e81-4a4b-a76d-0329356c2fe7 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
+
+_:node1dr5gcvp7x6 rr:column "latitude" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap _:node1dr5gcvp7x6 .
+
+km-dev:PredicateObjectMap_cc7149fc-0e81-4a4b-a76d-0329356c2fe7 rr:objectMap _:node1dr5gcvp7x6 .
+
+km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 rr:predicateObjectMap km-dev:PredicateObjectMap_cc7149fc-0e81-4a4b-a76d-0329356c2fe7 .
+
+km-dev:PredicateObjectMap_cc7149fc-0e81-4a4b-a76d-0329356c2fe7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cc7149fc-0e81-4a4b-a76d-0329356c2fe7 .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 a rr:TriplesMap .
+
+_:node1dr5gcvp7x1 km-dev:hasTriplesMap km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x7 rr:tableName "bike_sharing.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasLogicalTable _:node1dr5gcvp7x7 .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 rr:logicalTable _:node1dr5gcvp7x7 ;
+	rr:subjectMap _:node1dr5gcvp7x8 .
+
+_:node1dr5gcvp7x1 km-dev:hasSubjectMap _:node1dr5gcvp7x8 .
+
+_:node1dr5gcvp7x8 km-dev:isPartOfMapping _:node1dr5gcvp7x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Shared_Bike_Station1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_733a0179-e210-4180-ae9a-ce8f90a74811 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedBikeStation_name> .
+
+_:node1dr5gcvp7x9 rr:column "name" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "it" ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap _:node1dr5gcvp7x9 .
+
+km-dev:PredicateObjectMap_733a0179-e210-4180-ae9a-ce8f90a74811 rr:objectMap _:node1dr5gcvp7x9 .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 rr:predicateObjectMap km-dev:PredicateObjectMap_733a0179-e210-4180-ae9a-ce8f90a74811 .
+
+km-dev:PredicateObjectMap_733a0179-e210-4180-ae9a-ce8f90a74811 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_733a0179-e210-4180-ae9a-ce8f90a74811 .
+
+km-dev:PredicateObjectMap_1c86de4d-8b40-4b36-84d5-699e4b400b0b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bikeStationHas> .
+
+km-dev:RefObjectMap_987d366a-f0e9-4603-9e03-1248061f279c a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_8d2f14b2-1721-4920-aa35-02879fae8810 ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap km-dev:RefObjectMap_987d366a-f0e9-4603-9e03-1248061f279c .
+
+km-dev:PredicateObjectMap_1c86de4d-8b40-4b36-84d5-699e4b400b0b rr:objectMap km-dev:RefObjectMap_987d366a-f0e9-4603-9e03-1248061f279c .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 rr:predicateObjectMap km-dev:PredicateObjectMap_1c86de4d-8b40-4b36-84d5-699e4b400b0b .
+
+km-dev:PredicateObjectMap_1c86de4d-8b40-4b36-84d5-699e4b400b0b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1c86de4d-8b40-4b36-84d5-699e4b400b0b .
+
+km-dev:PredicateObjectMap_c0ba74ea-a28a-44a1-a74e-8962034ea3b7 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available> .
+
+_:node1dr5gcvp7x10 rr:column "available" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap _:node1dr5gcvp7x10 .
+
+km-dev:PredicateObjectMap_c0ba74ea-a28a-44a1-a74e-8962034ea3b7 rr:objectMap _:node1dr5gcvp7x10 .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 rr:predicateObjectMap km-dev:PredicateObjectMap_c0ba74ea-a28a-44a1-a74e-8962034ea3b7 .
+
+km-dev:PredicateObjectMap_c0ba74ea-a28a-44a1-a74e-8962034ea3b7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c0ba74ea-a28a-44a1-a74e-8962034ea3b7 .
+
+km-dev:PredicateObjectMap_2f08ab57-8cee-4cd4-b446-1a8d4f3d5fc3 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes> .
+
+_:node1dr5gcvp7x11 rr:column "number_of_bikes" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasObjectMap _:node1dr5gcvp7x11 .
+
+km-dev:PredicateObjectMap_2f08ab57-8cee-4cd4-b446-1a8d4f3d5fc3 rr:objectMap _:node1dr5gcvp7x11 .
+
+km-dev:TriplesMap_de6da381-1a9a-44c5-a3cf-dd09eb2c7141 rr:predicateObjectMap km-dev:PredicateObjectMap_2f08ab57-8cee-4cd4-b446-1a8d4f3d5fc3 .
+
+km-dev:PredicateObjectMap_2f08ab57-8cee-4cd4-b446-1a8d4f3d5fc3 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gcvp7x1 .
+
+_:node1dr5gcvp7x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2f08ab57-8cee-4cd4-b446-1a8d4f3d5fc3 .

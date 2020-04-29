@@ -1,0 +1,4 @@
+This folder contains all the data used during the integration. It is divided into two subfolders: *raw data* contains all the original datasets downloaded/scraped, while *processed data* contains all the final cleaned and merged datasets that have been used for the integration. From the raw data only one dataset is missing: the one describing the streets of Trentino. It was not possible to upload it due to its size. The original link to download the file is the following: https://www.openstreetmap.org/export .
+
+
+Due to the size of the knowledge graph it was not possible to load it directly on GitHub. For this reason, you can download the complete linked data at https://drive.google.com/open?id=1WIbw9GmyVB7VFv3F4LMcAf8jsCC3LZoW . We also provide the RDF/XML version here: https://drive.google.com/file/d/1cVP_MFSDAmWNSmPRxjCMNb1m4H3tFUt_/view

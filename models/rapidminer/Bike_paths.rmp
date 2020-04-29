@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><process version="9.5.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="9.5.001" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve fiemme_fassa" width="90" x="45" y="34">
+        <parameter key="repository_entry" value="//Local Repository/data/fiemme_fassa"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes" width="90" x="179" y="34">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename" width="90" x="313" y="34">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve garda" width="90" x="45" y="136">
+        <parameter key="repository_entry" value="//Local Repository/data/garda"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (2)" width="90" x="179" y="136">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (2)" width="90" x="313" y="136">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace" width="90" x="447" y="136">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Garda_path_"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve giudicarie" width="90" x="45" y="238">
+        <parameter key="repository_entry" value="//Local Repository/data/giudicarie"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (3)" width="90" x="179" y="238">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (3)" width="90" x="313" y="238">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (2)" width="90" x="447" y="238">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Giudicarie_path_"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve ledro" width="90" x="45" y="340">
+        <parameter key="repository_entry" value="//Local Repository/data/ledro"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (4)" width="90" x="179" y="340">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (4)" width="90" x="313" y="340">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (3)" width="90" x="447" y="340">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Ledro_path_"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve Mollaro_Castel_Thun" width="90" x="45" y="442">
+        <parameter key="repository_entry" value="//Local Repository/data/Mollaro_Castel_Thun"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (5)" width="90" x="179" y="442">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (5)" width="90" x="313" y="442">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (4)" width="90" x="447" y="442">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="trk1_"/>
+        <parameter key="replace_by" value="Mollaro_Castel_Thun_path_"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve primiero" width="90" x="45" y="544">
+        <parameter key="repository_entry" value="//Local Repository/data/primiero"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (6)" width="90" x="179" y="544">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (6)" width="90" x="313" y="544">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (5)" width="90" x="447" y="544">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Primiero_path_"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve rendena" width="90" x="45" y="646">
+        <parameter key="repository_entry" value="//Local Repository/data/rendena"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (7)" width="90" x="179" y="646">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (7)" width="90" x="313" y="646">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (6)" width="90" x="447" y="646">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Rendena_path_"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve Sabino_Taio" width="90" x="45" y="748">
+        <parameter key="repository_entry" value="//Local Repository/data/Sabino_Taio"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (8)" width="90" x="179" y="748">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve val_di_non" width="90" x="45" y="850">
+        <parameter key="repository_entry" value="//Local Repository/data/val_di_non"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (9)" width="90" x="179" y="850">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve val_di_sole" width="90" x="45" y="952">
+        <parameter key="repository_entry" value="//Local Repository/data/val_di_sole"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (10)" width="90" x="179" y="952">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve valle_dei_laghi" width="90" x="45" y="1054">
+        <parameter key="repository_entry" value="//Local Repository/data/valle_dei_laghi"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (11)" width="90" x="179" y="1054">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve valle_dell_adige" width="90" x="45" y="1156">
+        <parameter key="repository_entry" value="//Local Repository/data/valle_dell_adige"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (12)" width="90" x="179" y="1156">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (13)" width="90" x="313" y="1156">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="retrieve" compatibility="9.5.001" expanded="true" height="68" name="Retrieve valsugana" width="90" x="45" y="1258">
+        <parameter key="repository_entry" value="//Local Repository/data/valsugana"/>
+      </operator>
+      <operator activated="true" class="select_attributes" compatibility="9.5.001" expanded="true" height="82" name="Select Attributes (13)" width="90" x="179" y="1258">
+        <parameter key="attribute_filter_type" value="subset"/>
+        <parameter key="attribute" value=""/>
+        <parameter key="attributes" value="Description|Elevation|Latitude|Longitude"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="attribute_value"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="time"/>
+        <parameter key="block_type" value="attribute_block"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="value_matrix_row_start"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (14)" width="90" x="313" y="1258">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (8)" width="90" x="313" y="748">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (7)" width="90" x="447" y="748">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="trk1_"/>
+        <parameter key="replace_by" value="Sabino_Talo_path_"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (9)" width="90" x="313" y="850">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (8)" width="90" x="447" y="850">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Val_di_Non_path_"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (10)" width="90" x="313" y="952">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="rename" compatibility="9.5.001" expanded="true" height="82" name="Rename (11)" width="90" x="313" y="1054">
+        <parameter key="old_name" value="Description"/>
+        <parameter key="new_name" value="Name"/>
+        <list key="rename_additional_attributes"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (9)" width="90" x="447" y="1054">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Valle_dei_Laghi_path_"/>
+      </operator>
+      <operator activated="true" class="replace" compatibility="9.5.001" expanded="true" height="82" name="Replace (10)" width="90" x="447" y="34">
+        <parameter key="attribute_filter_type" value="single"/>
+        <parameter key="attribute" value="Name"/>
+        <parameter key="attributes" value="Name"/>
+        <parameter key="use_except_expression" value="false"/>
+        <parameter key="value_type" value="nominal"/>
+        <parameter key="use_value_type_exception" value="false"/>
+        <parameter key="except_value_type" value="file_path"/>
+        <parameter key="block_type" value="single_value"/>
+        <parameter key="use_block_type_exception" value="false"/>
+        <parameter key="except_block_type" value="single_value"/>
+        <parameter key="invert_selection" value="false"/>
+        <parameter key="include_special_attributes" value="false"/>
+        <parameter key="replace_what" value="Position "/>
+        <parameter key="replace_by" value="Fiemme_Fassa_path_"/>
+      </operator>
+      <operator activated="true" class="append" compatibility="9.5.001" expanded="true" height="313" name="Append" width="90" x="782" y="85">
+        <parameter key="datamanagement" value="double_array"/>
+        <parameter key="data_management" value="auto"/>
+        <parameter key="merge_type" value="all"/>
+      </operator>
+      <connect from_op="Retrieve fiemme_fassa" from_port="output" to_op="Select Attributes" to_port="example set input"/>
+      <connect from_op="Select Attributes" from_port="example set output" to_op="Rename" to_port="example set input"/>
+      <connect from_op="Rename" from_port="example set output" to_op="Replace (10)" to_port="example set input"/>
+      <connect from_op="Retrieve garda" from_port="output" to_op="Select Attributes (2)" to_port="example set input"/>
+      <connect from_op="Select Attributes (2)" from_port="example set output" to_op="Rename (2)" to_port="example set input"/>
+      <connect from_op="Rename (2)" from_port="example set output" to_op="Replace" to_port="example set input"/>
+      <connect from_op="Replace" from_port="example set output" to_op="Append" to_port="example set 2"/>
+      <connect from_op="Retrieve giudicarie" from_port="output" to_op="Select Attributes (3)" to_port="example set input"/>
+      <connect from_op="Select Attributes (3)" from_port="example set output" to_op="Rename (3)" to_port="example set input"/>
+      <connect from_op="Rename (3)" from_port="example set output" to_op="Replace (2)" to_port="example set input"/>
+      <connect from_op="Replace (2)" from_port="example set output" to_op="Append" to_port="example set 3"/>
+      <connect from_op="Retrieve ledro" from_port="output" to_op="Select Attributes (4)" to_port="example set input"/>
+      <connect from_op="Select Attributes (4)" from_port="example set output" to_op="Rename (4)" to_port="example set input"/>
+      <connect from_op="Rename (4)" from_port="example set output" to_op="Replace (3)" to_port="example set input"/>
+      <connect from_op="Retrieve Mollaro_Castel_Thun" from_port="output" to_op="Select Attributes (5)" to_port="example set input"/>
+      <connect from_op="Select Attributes (5)" from_port="example set output" to_op="Rename (5)" to_port="example set input"/>
+      <connect from_op="Rename (5)" from_port="example set output" to_op="Replace (4)" to_port="example set input"/>
+      <connect from_op="Replace (4)" from_port="example set output" to_op="Append" to_port="example set 4"/>
+      <connect from_op="Retrieve primiero" from_port="output" to_op="Select Attributes (6)" to_port="example set input"/>
+      <connect from_op="Select Attributes (6)" from_port="example set output" to_op="Rename (6)" to_port="example set input"/>
+      <connect from_op="Rename (6)" from_port="example set output" to_op="Replace (5)" to_port="example set input"/>
+      <connect from_op="Replace (5)" from_port="example set output" to_op="Append" to_port="example set 5"/>
+      <connect from_op="Retrieve rendena" from_port="output" to_op="Select Attributes (7)" to_port="example set input"/>
+      <connect from_op="Select Attributes (7)" from_port="example set output" to_op="Rename (7)" to_port="example set input"/>
+      <connect from_op="Rename (7)" from_port="example set output" to_op="Replace (6)" to_port="example set input"/>
+      <connect from_op="Replace (6)" from_port="example set output" to_op="Append" to_port="example set 6"/>
+      <connect from_op="Retrieve Sabino_Taio" from_port="output" to_op="Select Attributes (8)" to_port="example set input"/>
+      <connect from_op="Select Attributes (8)" from_port="example set output" to_op="Rename (8)" to_port="example set input"/>
+      <connect from_op="Retrieve val_di_non" from_port="output" to_op="Select Attributes (9)" to_port="example set input"/>
+      <connect from_op="Select Attributes (9)" from_port="example set output" to_op="Rename (9)" to_port="example set input"/>
+      <connect from_op="Retrieve val_di_sole" from_port="output" to_op="Select Attributes (10)" to_port="example set input"/>
+      <connect from_op="Select Attributes (10)" from_port="example set output" to_op="Rename (10)" to_port="example set input"/>
+      <connect from_op="Retrieve valle_dei_laghi" from_port="output" to_op="Select Attributes (11)" to_port="example set input"/>
+      <connect from_op="Select Attributes (11)" from_port="example set output" to_op="Rename (11)" to_port="example set input"/>
+      <connect from_op="Retrieve valle_dell_adige" from_port="output" to_op="Select Attributes (12)" to_port="example set input"/>
+      <connect from_op="Select Attributes (12)" from_port="example set output" to_op="Rename (13)" to_port="example set input"/>
+      <connect from_op="Rename (13)" from_port="example set output" to_op="Append" to_port="example set 11"/>
+      <connect from_op="Retrieve valsugana" from_port="output" to_op="Select Attributes (13)" to_port="example set input"/>
+      <connect from_op="Select Attributes (13)" from_port="example set output" to_op="Rename (14)" to_port="example set input"/>
+      <connect from_op="Rename (14)" from_port="example set output" to_op="Append" to_port="example set 12"/>
+      <connect from_op="Rename (8)" from_port="example set output" to_op="Replace (7)" to_port="example set input"/>
+      <connect from_op="Replace (7)" from_port="example set output" to_op="Append" to_port="example set 7"/>
+      <connect from_op="Rename (9)" from_port="example set output" to_op="Replace (8)" to_port="example set input"/>
+      <connect from_op="Replace (8)" from_port="example set output" to_op="Append" to_port="example set 8"/>
+      <connect from_op="Rename (10)" from_port="example set output" to_op="Append" to_port="example set 9"/>
+      <connect from_op="Rename (11)" from_port="example set output" to_op="Replace (9)" to_port="example set input"/>
+      <connect from_op="Replace (9)" from_port="example set output" to_op="Append" to_port="example set 10"/>
+      <connect from_op="Replace (10)" from_port="example set output" to_op="Append" to_port="example set 1"/>
+      <connect from_op="Append" from_port="merged set" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>

@@ -1,0 +1,359 @@
+Concessionario;Codice impianto;Nome impianto;Tariffa (Euro);Apertura Dal Giorno;Apertura Al Giorno;Orario dalle ore ;Orario alle ore ;Variazioni e note
+Soc. Trentino Trasporti Esercizio;B007e;Trento - Sardagna;3;01/01/2014;31/12/2015;07:00;22:30;Residente fuori provincia - servizio continuato
+Soc. Trentino Trasporti Esercizio;B007e;Trento - Sardagna;1,2;01/01/2014;31/12/2015;07:00;22:30;Tariffa trasporto pubblico locale - servizio continuato
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;01/10/2014;31/03/2015;08:00;20:00;giorn di sabato e festivi
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;01/10/2014;23/12/2014;07:30;08:30;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;01/10/2014;23/12/2014;11:30;15:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;01/10/2014;23/12/2014;11:30;15:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;01/10/2014;23/12/2014;17:00;19:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;24/12/2014;06/01/2015;08:00;20:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;07/01/2015;31/03/2015;07:30;08:30;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;07/01/2015;31/03/2015;11:30;15:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;07/01/2015;31/03/2015;11:30;15:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Monte Mezzocorona;B008e;Mezzocorona - Monte;5;07/01/2015;31/03/2015;17:00;19:00;giorni feriali di lunedi, martedç, mecoledç, giovedi e venerdç
+Soc. Fun. Ciampac e Contrin;B014m;Alba - Ciampac;8,8;05/12/2014;31/01/2015;08:30;17:00;
+Soc. Fun. Ciampac e Contrin;B014m;Alba - Ciampac;8,8;01/02/2015;06/04/2015;08:30;17:15;
+S.I.T.C.;B017m;Pecol - Col dei Rossi;7;05/12/2014;12/04/2015;08:30;16:40;Il 1/2/2015 gli orari chiusura verranno prorogati di 30  minuti
+Soc. Fun. Col Margherita;B022m;P. S.Pellegrino - Col Margherita;7,5;29/11/2014;06/04/2015;09:00;16:30;apertura giornaliera prorogata alle 17/17,30 in base all'allungamento della visibilit‡
+Soc. Catinaccio Impianti a Fune;B026m;Vigo di Fassa - Ciampedie;8;05/12/2014;24/01/2015;08:30;16:45;
+Soc. Catinaccio Impianti a Fune;B026m;Vigo di Fassa - Ciampedie;8;25/01/2015;06/04/2015;08:30;17:00;
+S.I.T.C.;B027m;Campitello - Col Rodella ;11;05/12/2014;12/04/2015;08:15;17:00;Il 1/2/2015 gli orari chiusura verranno prorogati di 30  minuti
+S.I.T.C.;B028m;Passo Pordoi - Sass Pordoi;8,5;23/12/2014;12/04/2015;09:00;16:30;
+Imprese e Territorio Soc. Cons. s.r.l.;B029b;Col Verde - Rosetta;7;05/12/2014;06/04/2015;08:30;13:00;
+Imprese e Territorio Soc. Cons. s.r.l.;B029b;Col Verde - Rosetta;7;05/12/2014;06/04/2015;13:40;16:30;
+Soc. Fun. Peio;B030g;Tarlenta - Rifugio Mantova;10;06/12/2014;12/04/2015;09:00;16:00;
+Soc. Fun. Folgarida Marilleva;C012g;Malghet Haut - Monte Spolverino;3,9;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Madonna di Campiglio;C014h;Fortini - Pian del Graffer;8;16/11/2014;30/04/2015;08:30;17:30;
+Soc.Fun. Madonna di Campiglio;C014h;Fortini - Pian del Graffer;8;01/06/2015;30/09/2015;08:30;17:30;
+Soc. Fun. Madonna di Campiglio;C015h;Pian del Graffer - P.so del GrostË;6,5;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Fun. Madonna di Campiglio;C015h;Pian del Graffer - P.so del GrostË;6,5;01/06/2015;30/09/2015;08:30;17:30;
+S.I.T.C.;C019m;Kristiania - Col dei Rossi ;4;05/12/2014;12/04/2015;09:00;16:30;Il 1/2/2015 gli orari chiusura verranno prorogati di 30  minuti
+I.T.A.P.;C020a;Latemar - Passo Pampeago;3,7;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Pinzolo;C021h;Pr‡ Rodont -Doss del Sabion;4;28/11/2014;26/04/2015;08:00;18:00;
+Soc. Fun. Pinzolo;C021h;Pr‡ Rodont -Doss del Sabion;4;30/05/2015;20/09/2015;08:30;18:00;
+Soc. Fun. Folgarida Marilleva;C022g;ContrË - Malga Copai;6,3;29/11/2014;12/04/2015;08:15;16:40;
+Soc. Impianti Falcade Col Margherita;C023m;Passo S.Pellegrino - Gigante;4,4;29/11/2014;06/04/2015;09:00;16:30;apertura giornaliera prorogata alle 17/17,30 in base all'allungamento della visibilit‡
+I.T.A.P.;C024a;Pampeago - Monte Agnello;4,1;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Latemar 2200;C025a;Predazzo - GardonË;6,5;29/11/2014;12/04/2015;08:30;16:45;
+Soc. Latemar 2200;C026a;GardonË - Passo Feudo;4,5;29/11/2015;12/04/2015;08:30;16:45;
+Soc. Valle Bianca;C027e;Prati di Gaggia - Mughi della Paganella;3,8;22/11/2014;31/01/2015;08:30;16:00;
+Soc. Valle Bianca;C027e;Prati di Gaggia - Mughi della Paganella;3,8;01/02/2015;06/04/2015;08:30;16:30;
+Soc. Valle Bianca;C027e;Prati di Gaggia - Mughi della Paganella;3,8;20/12/2014;05/01/2015;;;per gli allenamenti entrer‡ in funzione alle ore 7,00
+Soc. Fun. Ciampac e Contrin;C028m;Ciampac - Sella Brunec;4,3;05/12/2014;31/01/2015;08:30;16:30;
+Soc. Fun. Ciampac e Contrin;C028m;Ciampac - Sella Brunec;4,3;01/02/2015;06/04/2015;08:30;17:30;
+Soc. Fun. Madonna di Campiglio;C029h;Madonna di Campiglio - Monte Spinale;6,2;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Fun. Madonna di Campiglio;C029h;Madonna di Campiglio - Monte Spinale;6,2;01/06/2015;30/09/2015;08:30;17:30;
+S.I.T.C.;C031m;Canazei - Pecol;6;05/12/2014;31/01/2014;08:30;17:00;
+S.I.T.C.;C031m;Canazei - Pecol;6;01/02/2015;12/04/2015;08:30;17:30;
+Soc. Impianti Funiviari Lusia;C032m;Campo - Le Cune;4,3;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Impianti Funiviari Lusia;C033m;Campo - Laste;5,3;29/11/2014;12/04/2015;08:30;16:30
+Soc. Fun. Buffaure;C034m;Pozza - Buffaure;7,5;05/12/2014;06/04/2015;08:30;17:00
+Soc. Carosello Tonale;C035g;Tonale - Valbiolo;4,4;25/10/2014;30/04/2015;08:30;16:45
+Soc. Fun. Madonna di Campiglio;C036h;Calchera di Boch - Rifugio Graffer;5;16/11/2014;30/04/2015;08:30;17:30
+I.T.A.P.;C037a;Residenza - Passo Feudo;3,5;29/11/2014;12/04/2015;08:30;16:30
+Soc. Fun. Alpe Cermis;C038a;Campigol del Pel - Paion del Cermis;4;05/12/2014;12/04/2015;08:30;16:30
+Soc. Fun. Peio;C039g;Pejo Fonti - Tarlenta;6;06/12/2014;12/04/2015;08:30;16:30
+S.I.T.C.;C040m;Pradel - Salei;7,5;05/12/2014;31/01/2015;08:15;16:30
+S.I.T.C.;C040m;Pradel - Salei;7,5;01/02/2015;12/04/2015;08:15;17:00
+Soc. Fun. Madonna di Campiglio;C041h;Madonna di Campiglio - Pradalago;6,2;16/11/2014;30/04/2015;08:30;17:30
+Soc. Fun. Madonna di Campiglio;C041h;Madonna di Campiglio - Pradalago;6,2;01/06/2015;30/09/2015;08:30;17:30
+Soc. Fun. Seggiovie S.Martino;C042b;Frattazza - Tognola;7,5;01/12/2014;12/04/2015;08:00;17:00
+Soc. Paganella 2001;C043e;Santel - Meriz;4;22/11/2014;30/01/2015;08:30;16:00
+Soc. Paganella 2001;C043e;Santel - Meriz;4;31/01/2015;06/04/2015;08:30;16:30
+S.I.T. Bellamonte;C044a;Castelir - Le Fassane;3,9;29/11/2014;31/01/2015;08:30;16:00
+S.I.T. Bellamonte;C044a;Castelir - Le Fassane;3,9;01/02/2015;28/02/2015;08:30;16:15
+S.I.T. Bellamonte;C044a;Castelir - Le Fassane;3,9;01/03/2015;12/04/2015;08:30;16:30;
+Soc. Fun. Madonna di Campiglio;C045h;Patascoss - Pancugolo;4,7;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Carosello Tonale;C046g;Valbiolo - Passo dei Contrabbandieri;3,8;25/10/2014;30/04/2015;08:30;16:30;
+Imprese e Territorio Soc. Cons. s.r.l.;C047b;San Martino - Col Verde;5;05/12/2014;06/04/2015;08:30;16:40;
+Imprese e Territorio Soc. Cons. s.r.l.;C047b;San Martino - Col Verde;5;05/12/2014;06/04/2015;19:30;23:30;soli giorni di giovedi e sabato
+Soc. S.IN.VAL.;C048g;Passo Tonale - Alpe Alta;4;16/11/2014;30/04/2015;08:30;16:45;
+Soc. Fun. Madonna di Campiglio;C049h;Fortini - Pradalago;5,1;16/11/2014;30/04/2015;08:30;17:30;
+S.I.T.C.;C050m;Pian Frataces - Gherdecia;6,5;05/12/2014;31/01/2015;08:45;16:30;
+S.I.T.C.;C050m;Pian Frataces - Gherdecia;6,5;01/02/2015;12/04/2015;08:45;17:00;
+I.T.A.P.;C051a;Tresca - Doss Cappello;2,8;29/11/2014;12/04/2015;08:30;16:30;
+S.I.T. Bellamonte;C052a;Le Fassane - La Morea;4,1;29/11/2014;31/01/2015;08:30;16:00;
+S.I.T. Bellamonte;C052a;Le Fassane - La Morea;4,1;01/02/2015;28/02/2015;08:30;16:15;
+S.I.T. Bellamonte;C052a;Le Fassane - La Morea;4,1;01/03/2015;12/04/2015;08:30;16:30;
+Soc. Impianti Funiviari Lusia;C053m;Valbona - Piavac;4,4;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;C054g;Belvedere - Malghet Haut;6,1;29/11/2014;12/04/2015;08:30;16:40;
+Soc. Fun. Pinzolo;C055h;Malga Grual - Doss del Sabion;3,5;28/11/2014;26/04/2015;08:30;17:00;
+Imprese e Territorio Soc. Cons. s.r.l.;C056b;Malga Ces - Punta Ces;4,5;05/12/2014;06/04/2015;08:15;16:30;
+Soc. Fun. Pinzolo;C057h;Pinzolo - Pr‡ Rodont;7;28/11/2014;26/04/2015;08:00;18:00;
+Soc. Fun. Pinzolo;C057h;Pinzolo - Pr‡ Rodont;7;30/05/2015;20/09/2015;08:30;18:00;
+Soc. Carosello Tonale;C058g;Passo Tonale - Valena;2,7;25/10/2014;30/04/2015;08:30;16:45;
+Soc. Carosello Tonale;C058g;Passo Tonale - Valena;2,7;25/10/2014;30/04/2015;20:30;23:00;
+Soc. Carosello Ski Folgaria;C059l;Serrada - Dosso Martinella;4;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Fun. Alpe Cermis;C060a;Cavalese - Masi di Cavalese;3;05/12/2014;12/04/2015;08:15;16:45;salita
+Soc. Fun. Alpe Cermis;C060a;Cavalese - Masi di Cavalese;3;05/12/2014;12/04/2015;08:15;17:00;discesa
+Soc. Fun. Alpe Cermis;C060a;Cavalese - Masi di Cavalese;3;05/12/2014;12/04/2015;19:30;22:30;soli giorni di mercoledç e venerdi
+Soc. Fun. Alpe Cermis;C061a;Masi di Cavalese - Doss dei Laresi;5;05/12/2014;12/04/2015;08:15;16:45;salita
+Soc. Fun. Alpe Cermis;C061a;Masi di Cavalese - Doss dei Laresi;5;05/12/2014;12/04/2015;08:15;17:00;discesa
+Soc. Fun. Alpe Cermis;C061a;Masi di Cavalese - Doss dei Laresi;5;05/12/2014;12/04/2015;19:30;22:30;soli giorni di mercoledç e venerdi
+Soc. Fun. Alpe Cermis;C062a;Cermis - Paion del Cermis;3,5;05/12/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Ciampac e Contrin;C063m;Orsa - Maggiore;4,8;05/12/2014;31/01/2015;08:45;16:30;
+Soc. Fun. Ciampac e Contrin;C063m;Orsa - Maggiore;4,8;01/02/2015;06/04/2015;08:45;17:00;
+Soc. Fun. Folgarida Marilleva;C064g;Folgarida - Malghet Haut;6,3;29/11/2014;12/04/2015;08:30;16:40;
+Soc. Fun. Madonna di Campiglio;C065h;Piana di Vigo - Pradalago;4,3;16/11/2014;30/04/2015;08:30;17:30;
+S.I.T.C.;C066m;Sass - BecË;4;05/12/2014;31/01/2015;09:00;16:40;
+S.I.T.C.;C066m;Sass - BecË;4;01/02/2015;12/04/2015;09:00;17:10;
+Brentonico Ski societ‡ consortile a r.l.;C067l;Polsa - Montagnola;4;29/11/2014;22/03/2015;09:00;16:30;
+Soc. Fun. Folgarida Marilleva;C069g;Malga Panciana - Sghirlat;2,9;29/11/2014;12/04/2015;08:30;16:30;
+S.I.T.C.;C070m;Norei - Cinque Dita;4;05/12/2014;31/12/2015;08:45;16:30;
+S.I.T.C.;C070m;Norei - Cinque Dita;4;01/02/2015;12/04/2015;08:45;17:00;
+Soc. Catinaccio Impianti a Fune;C071m;Pian Pecei - Pr‡ Martin;4;05/12/2014;24/01/2015;08:30;16:15;
+Soc. Catinaccio Impianti a Fune;C071m;Pian Pecei - Pr‡ Martin;4;25/01/2015;06/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;C072g;Copai - Malga Panciana;6,4;29/11/2014;12/04/2015;08:30;16:40;
+Soc. Trento Funivie;C073e;Malga Mezzavia - Fortino;6;29/11/2014;07/04/2015;08:45;16:45;
+Soc. Fun. Alpe Cermis;C074a;Doss dei Laresi - Cermis;7,5;05/12/2014;12/04/2015;08:30;16:30;salita
+Soc. Fun. Alpe Cermis;C074a;Doss dei Laresi - Cermis;7,5;05/12/2014;12/04/2015;08:30;16:45;discesa
+Soc. Fun. Alpe Cermis;C075a;Campigol del Cermis - Cimon del TÚ dela Trapola;4,5;05/12/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;C076g;Val Panciana - Monte Vigo;4,3;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Paganella 2001;C077e;Meriz - Selletta;4;22/11/2014;30/01/2015;08:30;16:00;
+Soc. Paganella 2001;C077e;Meriz - Selletta;4;31/01/2014;06/04/2015;08:30;16:30;
+Soc. Valle Bianca;C078e;Laghet - Prati di Gaggia;3,8;22/11/2015;06/04/2015;08:30;16:30;
+Soc. Valle Bianca;C078e;Laghet - Prati di Gaggia;3,8;20/12/2014;05/01/2015;;;per gli allenamenti entrer‡ in funzione alle ore 7,00
+Soc. Fun. Madonna di Campiglio;C079h;Rifugio Graffer - Passo GrostË;3,9;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Paganella 2001;C080e;Albi de Mez - Cima Paganella;4;22/11/2014;30/01/2015;08:30;16:00;
+Soc. Paganella 2001;C080e;Albi de Mez - Cima Paganella;4;31/01/2015;06/04/2015;08:30;16:30;
+Soc. Paganella 2001;C082e;Andalo - Doss Pel‡;7,5;22/11/2014;30/01/2015;08:30;16:00;
+Soc. Paganella 2001;C082e;Andalo - Doss Pel‡;7,5;22/11/2014;30/01/2015;08:30;16:30;
+Soc. Fun. Pinzolo;C083h;Puza dai FÚ - Monte Grual;3,5;28/11/2014;26/04/2015;08:30;17:00;
+Soc. Impianti Maso;C084l;Costa - Moreta;3,5;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Catinaccio Impianti a Fune;C086m;Passo San Pellegrino - Costabella;4,5;05/12/2014;24/01/2015;08:30;16:15;
+Soc. Catinaccio Impianti a Fune;C086m;Passo San Pellegrino - Costabella;4,5;25/01/2015;06/04/2015;08:30;16:45;
+Soc. Carosello Tonale;C087g;Malga Valbiolo - Cima Tonale;3;25/10/2014;30/04/2015;08:30;16:30;
+Soc. Fun. Seggiovie S.Martino;C088b;Malga Tognola - Rododendro;3,5;01/12/2014;12/04/2015;08:00;17:00;
+Soc. Fun. Madonna di Campiglio;C089h;Zeledria - Pradalago;3,2;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Fun. Folgarida Marilleva;C090g;AlbarË - Copai;3,6;29/11/2014;12/04/2015;08:30;16:40;
+Soc. Fun. Folgarida Marilleva;C091g;Daolasa - Malghetto di Mastellina;6,8;29/11/2014;12/04/2015;08:30;16:40
+Soc. Fun. Folgarida Marilleva;C092g;Malghetto di Mastellina - Bassetta del Vigo;7,9;29/11/2014;12/04/2015;08:30;16:40
+Soc. Valle Bianca;C093e;Doss Leon - Passo Sant'Antonio;3,8;22/11/2014;31/01/2015;08:30;16:00
+Soc. Valle Bianca;C093e;Doss Leon - Passo Sant'Antonio;3,8;01/02/2015;30/03/2015;08:30;16:30
+Soc. Valle Bianca;C093e;Doss Leon - Passo Sant'Antonio;3,8;01/04/2015;06/04/2015;08:30;16:00
+Soc. Impianti Funiviari Lusia;C094m;Ronchi - Valbona;5,5;29/11/2014;12/04/2015;08:30;16:30
+Soc. Impianti Funiviari Lusia;C095m;Valbona - Le Cune;5,5;29/11/2014;12/04/2015;08:30;16:30
+Soc. Fun. Madonna di Campiglio;C096h;Madonna di Campiglio - Pancugolo;6,2;16/11/2014;30/04/2015;08:30;17:30
+Soc. Fun. Madonna di Campiglio;C096h;Madonna di Campiglio - Pancugolo;6,2;01/06/2015;30/09/2015;08:30;17:30
+S.I.T.C.;C097m;ToË - Col dei Rossi;5,5;05/12/2014;31/01/2015;08:45;16:40
+S.I.T.C.;C097m;ToË - Col dei Rossi;5,5;01/02/2015;12/04/2015;08:45;17:10
+Soc. Carosello Ski Folgaria;C098l;Fondo Piccolo - Plaut;3,5;29/11/2014;19/04/2015;08:30;17:00
+Soc. Latemar Carezza ;C099m;Costalunga - Latemar;3,7;29/11/2014;13/02/2015;08:30;16:35
+Soc. Latemar Carezza ;C099m;Costalunga - Latemar;3,7;14/02/2015;06/04/2015;08:30;16:50
+Soc. Fun. Pinzolo;C100h;Puza dai FÚ - Plaza;2;28/11/2014;26/04/2015;08:00;17:00
+Soc. Fun. Pinzolo;C101h;Plaza - Colarin;2;28/11/2014;26/04/2015;08:00;18:00
+Soc. Fun. Pinzolo;C101h;Plaza - Colarin;2;30/05/2015;20/09/2015;08:30;18:00;
+Soc. Fun. Pinzolo;C102h;Colarin - Patascoss;2;28/11/2014;26/04/2015;08:00;18:00;
+Soc. Fun. Pinzolo;C102h;Colarin - Patascoss;2;30/05/2015;20/09/2015;08:30;18:00;
+Soc. Fun. Pinzolo;C103h;Tulot - Malga Cioca;7;28/11/2014;26/04/2015;08:30;17:00;
+Soc. Carosello Ski Folgaria;C104l;Malga Piovernetta - Termental;3,5;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Carosello Ski Folgaria;C105l;Malga Piovernetta - Monte Pioverna;3,5;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Fun. Madonna di Campiglio;C110h;Malga Boch - Monte Spinale;2,9;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Fun. Molveno Pradel;C111e;Molveno - Pradel;5,2;24/12/2014;06/01/2014;08:30;16:15;
+Soc. Trento Funivie;C112e;Cordela - Montesel;3,8;29/11/2014;07/04/2015;08:45;16:45;
+Soc. Trento Funivie;C112e;Cordela - Montesel;3,8;29/11/2014;07/04/2015;20:00;22:30;solo i giorni di giovedi - sabato
+Soc. Fun. Folgarida Marilleva;C114g;Bassetta - M.te Vigo;3,5;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Carosello Ski Folgaria;M002l;Francolini - Sommo Alto;4;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Fun. Folgarida Marilleva;M009g;Brenzi -Spolverino;3,4;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Valle Bianca;M011e;Laghet - Doss;1,9;22/11/2014;06/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;M012g;Malghet Haut - Campi scuola;2,1;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Carosello Tonale;M016g;Paradiso - Presena;3,3;25/10/2014;30/04/2015;08:30;16:00;
+Soc. Fun. Madonna di Campiglio;M018h;M.ga Montagnoli - M.te Spinale;3,9;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Altipiani Val di Non;M026f;Campi di Golf - M.ga di Mezzavia;4,5;20/12/2014;06/01/2015;08:00;16:15;
+Soc. Altipiani Val di Non;M026f;Campi di Golf - M.ga di Mezzavia;4,5;07/01/2015;17/01/2015;09:30;16:15;solo i giorni di lunedç, martedç, mercoledç, giovedç e  venerdç
+Soc. Altipiani Val di Non;M026f;Campi di Golf - M.ga di Mezzavia;4,5;07/01/2015;17/01/2015;09:00;16:15;solo i giorni sabato e domenica
+Soc. Altipiani Val di Non;M026f;Campi di Golf - M.ga di Mezzavia;4,5;18/01/2015;18/01/2015;10:00;16:15;
+Soc. Altipiani Val di Non;M026f;Campi di Golf - M.ga di Mezzavia;4,5;19/01/2015;27/02/2015;09:30;16:15;solo i giorni di lunedç, martedç, mercoledç, giovedç e  venerdç
+Soc. Altipiani Val di Non;M026f;Campi di Golf - M.ga di Mezzavia;4,5;19/01/2015;15/03/2015;09:00;16:15;solo i giorni sabato e domenica
+Soc. Fun. Folgarida Marilleva;M028g;Lago Malghette - Monte Vigo;4,8;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Trento Funivie;M031e;Vanezze - 3 tre;3,8;29/11/2014;07/04/2015;08:45;16:45;
+Soc. Fun. Fedaia Marmolada;M057m;Fedaia - Pian dei Fiacconi;;;;;;
+Soc. Fun. Pinzolo;M070h;Fossadei - M.ga Cioca;3,5;28/11/2014;26/04/2015;08:30;17:00;
+Soc. Fun. Madonna di Campiglio;M072h;Fontana Fevri - Monte Spinale;4,4;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Fun. Folgarida Marilleva;M076g;M.ga Panciana - Doss della Pesa;4,8;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Nuova Panarotta;M081d;M.ga Montagna Grande - Cima Esi;3,5;06/12/2014;06/04/2015;08:30;16:30;dal 7/1/2015 nei giorni feriali apertura ore 9.00
+Soc. Paganella 2001;M094e;Meriz - M.ga di Fai;3;22/11/2014;30/01/2015;08:30;16:00;
+Soc. Paganella 2001;M094e;Meriz - M.ga di Fai;3;31/01/2015;06/04/2015;08:30;16:30;
+Soc. Fun. Madonna di Campiglio;M118h;Madonna di Campiglio - Patascoss;2,7;16/11/2014;30/04/2015;08:30;23:00;
+Soc. Paganella 2001;M124e;M.ga Zambana - La Selletta;3;22/11/2014;30/01/2015;08:30;16:00;
+Soc. Paganella 2001;M124e;M.ga Zambana - La Selletta;3;31/01/2014;06/04/2015;08:30;16:30;
+Soc. Fun. Madonna di Campiglio;M132h;Calchera di boch - Vagliana;3;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Fun. Ciampac e Contrin;M144m;Roseal;2,8;20/12/2014;31/01/2015;08:45;16:30;
+Soc. Fun. Ciampac e Contrin;M144m;Roseal;2,8;01/02/2015;06/04/2015;08:45;17:00;
+Soc. Seggiovia Dosso della Madonna;M152l;Costa - Dosso della Madonna;2,5;18/12/2014;12/04/2015;08:30;17:00;
+Soc. Impianti Falcade Col Margherita;M153m;Cima Uomo;3,3;29/11/2014;06/04/2015;09:30;16:30;apertura giornaliera prorogata alle 17/17,30 in base all'allungamento della visibilit‡
+Soc. Fun. Madonna di Campiglio;M156h;C.Carlo Magno - M.ga Montagnoli;3;16/11/2014;30/04/2015;08:30;17:30;
+Soc. Catinaccio Impianti a Fune;M158m;Pian Pecei - Ciampedie;3;05/12/2014;06/04/2015;08:30;16:30;
+Soc. Catinaccio Impianti a Fune;M158m;Pian Pecei - Ciampedie;3;25/01/2015;06/04/2015;08:30;16:45;
+Soc. Nuova Panarotta;M159d;Rifugio - Furet;1,9;06/12/2014;06/04/2015;08:30;16:30;dal 7/1/2015 nei giorni feriali apertura ore 9.00
+Imprese e Territorio Soc. Cons. s.r.l.;M160b;S.Martino - M.ga Ces;3;29/11/2014;06/04/2015;08:00;16:45;
+Imprese e Territorio Soc. Cons. s.r.l.;M161b;Mga Ces - M.ga Valcigolera;4;05/12/2014;06/04/2015;08:15;16:30;
+Imprese e Territorio Soc. Cons. s.r.l.;M162b;M.ga Valcigolera - Cima Tognola;4;05/12/2014;06/04/2015;08:30;16:30;
+S.I.T.R.;M165b;Ferrari;2,7;22/11/2014;19/04/2015;09:00;16:30;dopo il 01/02/2015 la chiusura puÚ essere posticipata alle 17
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;06/12/2014;08/12/2014;09:00;16:30;solo i giorni di sabato, domenica e lunedç
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;13/12/2014;14/12/2014;09:00;16:30;solo i giorni di sabato e domenica
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;20/12/2014;24/12/2014;09:00;16:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;26/12/2014;06/01/2015;09:00;16:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;27/12/2014;27/12/2014;20:30;22:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;30/12/2014;30/12/2014;20:30;22:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;02/01/2015;02/01/2015;20:30;22:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;04/01/2015;04/01/2015;20:30;22:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;07/01/2015;14/02/2015;14:00;16:30;solo il giorno di mercoledç
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;07/01/2015;14/02/2015;17:30;22:30;solo i giorni di martedç e venerdç
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;07/01/2015;11/03/2015;09:00;16:30;solo i giorni di sabato e domenica, esclusi giorni 15/02/2015 e 21/02/2015
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;15/02/2015;15/02/2015;08:00;16:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;16/02/2015;20/02/2015;09:00;16:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;17/02/2015;17/02/2015;20:30;22:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;20/02/2015;20/02/2015;20:30;22:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;21/02/2015;21/02/2015;08:00;16:30;
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;21/02/2015;11/03/2015;14:00;16:30;solo il giorno di mercoledç
+Soc. Altipiani Val di Non;M167f;Monte Nock - RuffrË;2,5;21/02/2015;11/03/2015;17:30;22:30;solo i giorni di martedç e venerdç
+Soc. Catinaccio Impianti a Fune;M170m;Vajolet 1;3,5;20/12/2014;24/01/2015;08:30;16:45;
+Soc. Catinaccio Impianti a Fune;M170m;Vajolet 1;3,5;25/01/2015;29/03/2015;08:30;17:00;
+Soc. Catinaccio Impianti a Fune;M171m;Vajolet 2;4;20/12/2014;24/01/2015;08:30;16:15;
+Soc. Catinaccio Impianti a Fune;M171m;Vajolet 2;4;25/01/2015;29/03/2015;08:30;16:30;
+Soc. Fun. Seggiovie S.Martino;M174b;M.ga Tognola - C.ma Tognola;4;01/12/2014;12/04/2015;08:00;17:00;
+Soc. Fun. Folgarida Marilleva;M177g;Val Mastellina - Bassetta del Vigo;3,7;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Buffaure;M178m;Alloch - Pian delle Checene;4,5;05/12/2014;29/03/2015;08:30;17:00;
+Soc. Fun. Buffaure;M178m;Alloch - Pian delle Checene;4,5;26/12/2014;26/12/2014;19:30;22:00;
+Soc. Fun. Buffaure;M178m;Alloch - Pian delle Checene;4,5;30/12/2014;30/12/2014;19:30;22:00;
+Soc. Fun. Buffaure;M178m;Alloch - Pian delle Checene;4,5;31/12/2014;29/03/2015;19:30;22:00;i soli giorni di mercoledç e venerdç
+Soc. Fun. Rella;M180l;Fondo Piccolo - Cargaore;3,3;29/11/2014;08/04/2015;08:30;17:00;
+Soc. Fun. Folgarida Marilleva;M183g;M.ga Panciana - Ometto;2,9;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Seggiovie S.Martino;M186b;Scandola - Tognola;3,5;01/12/2014;12/04/2015;08:00;17:00;
+Soc. Fun. Peio;M188g;Mezoli - Taviela;2,8;06/12/2014;12/04/2015;08:30;16:30;
+Soc. Seggiovie Fondo Piccolo;M189l;Fondo Piccolo - Trugalait;3;01/12/2014;07/04/2015;08:30;17:00
+Soc. Castellazzo;M191b;Passo Rolle - Castellazzo;3;20/12/2014;19/04/2015;09:00;15:30
+S.I.T.R.;M192b;Buca Ferrari - Cima Tognazza;3,3;22/11/2014;31/12/2015;09:00;16:30
+S.I.T.R.;M192b;Buca Ferrari - Cima Tognazza;3,3;01/02/2015;19/04/2015;09:00;17:00
+Soc. Fun. Folgarida Marilleva;M194g;Bassetta del Vigo - Monte Spolverino;2,8;29/11/2014;12/04/2015;08:30;16:30
+Soc. Fun. Seggiovie S.Martino;M195b;Malga Tognola - Tognazza;4;01/12/2014;12/04/2015;08:00;17:00
+S.I.T.C.;M197m;Salei - Rodella;4;05/12/2014;31/01/2015;08:45;16:45
+S.I.T.C.;M197m;Salei - Rodella;4;01/02/2015;12/04/2015;08:45;17:15
+Soc. Turismo Lavarone;M198d;Soneck - Tablat;2,5;29/11/2014;19/04/2015;08:30;17:00
+Soc. Turismo Lavarone;M201d;Bertoldi - Tablat;4;29/11/2014;19/04/2015;08:30;17:00
+S.I.T.R.;M203b;Cimon -Scuola;2,2;22/11/2014;31/01/2015;09:00;16:30
+S.I.T.R.;M203b;Cimon -Scuola;2,2;01/02/2015;19/04/2015;09:00;17:00
+Soc. Trento Funivie;M204e;Vason - Palon;5;29/11/2014;07/04/2015;08:45;16:45
+S.I.T.C.;M205m;Rodella - Des Alpes;3;05/12/2014;31/01/2015;08:45;16:45
+S.I.T.C.;M205m;Rodella - Des Alpes;3;01/02/2015;12/04/2015;08:45;17:15
+Soc. Fun. Folgarida Marilleva;M206g;Malga Copai - Dosso Marilleva;5,2;29/11/2014;12/04/2015;08:30;16:30
+Soc. Catinaccio Impianti a Fune;M207m;Campo Scuola - CiampediË;2,5;05/12/2014;24/01/2015;08:30;16:30;
+Soc. Catinaccio Impianti a Fune;M207m;Campo Scuola - CiampediË;2,5;25/01/2015;06/04/2015;08:30;16:45;
+Brentonico Ski societ‡ consortile a r.l.;M208l;Bucaneve - Postemon;4;29/11/2014;22/03/2015;09:00;16:30;
+Soc. Fun. Lagorai;M209c;Malga Marande - Monte Agaro;2;29/11/2014;06/04/2015;08:00;17:00;
+Soc. Fun. Lagorai;M209c;Malga Marande - Monte Agaro;2;29/11/2014;06/04/2015;18:00;22:30;
+Soc. Impianti Maso;M210l;Malga Ortesino - Sommo Alto;3,5;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Fun. Col Margherita;M211m;Funivia - Al Passo;2;29/11/2014;06/04/2015;09:00;16:30;apertura giornaliera prorogata alle 17/17,30 in base all'allungamento della visibilit‡
+Soc. Carosello Ski Folgaria;M213l;Fondo Grande - Dosso Martinella;4;29/11/2014;06/04/2015;08:30;17:00;
+Soc. Carosello Ski Folgaria;M214l;Fondo Grande - Cima Sommo Alto;4;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Latemar 2200;M215a;Campo Scuola - GardonË;1,5;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Buffaure;M216m;Buffaure - Col de Valvacin;4,5;05/12/2014;06/04/2015;08:30;17:00;
+Imprese e Territorio Soc. Cons. s.r.l.;M217b;Malga Ces - Valbonetta;3,5;29/11/2014;06/04/2015;08:00;16:45;
+Soc. Paganella 2001;M218e;Rindole - Doss de Lava;2;22/11/2014;30/01/2015;08:30;16:00;
+Soc. Paganella 2001;M218e;Rindole - Doss de Lava;2;31/01/2015;06/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;M219g;Ottava - Monti Alti;2,4;29/11/2014;12/04/2015;17:30;23:00;
+Soc. Fun. Rella;M220l;Fondo Piccolo - Cengio Rosso;2,9;29/11/2014;08/04/2015;08:30;17:00;
+Soc. Catinaccio Impianti a Fune;M222m;Passo San Pellegrino - Campigol;3;05/12/2014;24/01/2015;08:30;16:15;
+Soc. Catinaccio Impianti a Fune;M222m;Passo San Pellegrino - Campigol;3;25/01/2015;06/04/2015;08:30;16:45;
+Soc. Fun. Buffaure;M223m;Pala - del Geigher;3,5;05/12/2014;06/04/2015;08:30;17:00;
+Soc. Fun. Buffaure;M224m;Buffaure - Buffaure di sotto;3,3;05/12/2014;06/04/2015;08:30;17:00;
+Soc. Turismo Lavarone;M226d;Malga Laghetto - Monte Ust - Sonek;4,5;29/11/2014;19/04/2015;08:30;17:00;
+S.I.T.C.;M227m;Gherdeccia - Belvedere;3;05/12/2014;31/01/2015;08:45;16:30;
+S.I.T.C.;M227m;Gherdeccia - Belvedere;3;01/02/2015;12/04/2015;08:45;17:00;
+S.I.T.C.;M228m;Ciavazes - Grohman;3;05/12/2014;31/01/2015;08:45;16:40;
+S.I.T.C.;M228m;Ciavazes - Grohman;3;01/02/2015;12/04/2015;08:45;17:10;
+Soc. Seggiovie Fondo Piccolo;M229l;Fondo Piccolo - Cima Spill;3,2;01/12/2014;07/04/2015;08:30;17:00;
+Soc. Valle Bianca;M230e;Prati di Gaggia - Teresat;2;22/11/2014;31/01/2015;08:30;16:00;
+Soc. Valle Bianca;M230e;Prati di Gaggia - Teresat;2;01/02/2015;30/03/2015;08:30;16:30;
+Soc. Valle Bianca;M230e;Prati di Gaggia - Teresat;2;01/04/2015;06/04/2015;08:30;16:00;
+Soc. Nuova Panarotta;M231d;Rigolor - Cima Panarotta;4,8;06/12/2014;06/04/2015;08:30;16:30;dal 7/1/2015 nei giorni feriali apertura ore 9.00
+Soc. Valle Bianca;M232e;Le Salare - Conca d'Argento;3,4;22/11/2014;06/04/2015;08:30;16:00;
+Soc. Valle Bianca;M232e;Le Salare - Conca d'Argento;3,4;01/02/2015;30/03/2015;08:30;16:30;
+Soc. Valle Bianca;M232e;Le Salare - Conca d'Argento;3,4;01/04/2014;06/04/2015;08:30;16:00
+Soc. Fun. Molveno Pradel;M235e;Pradel - Croz dell'Altissimo;3;24/12/2014;06/01/2015;08:45;16:45
+Soc. Fun. Peio;M236g;Busa Stavelin - Doss del Blanco;2,6;06/12/2014;12/04/2015;08:30;16:30
+Soc. Fun. Pinzolo;M237h;Grual - Monte Grual;2,3;28/11/2014;26/04/2015;08:30;17:00
+Soc. Turismo Lavarone;M239d;Malga Laghetto - Monte Cucco - Passo Vezzena;6;29/11/2014;19/04/2015;08:30;17:00
+Soc. Fun. Lagorai;M241c;LaresË - Monte Agaro;2;29/11/2014;06/04/2015;08:00;17:00
+Soc. Paganella 2001;M242e;Selletta - Cima Paganella;3;22/11/2014;30/01/2015;08:30;16:00
+Soc. Paganella 2001;M242e;Selletta - Cima Paganella;3;31/01/2015;06/04/2015;08:30;16:30
+Soc. Fun. Peio;M245g;Busa Stavelin - Doss dei Cembri;4,5;06/12/2014;12/04/2015;08:30;16:30
+Soc. Fun. Lagorai;M246c;Valfontane - Monte Agaro;2;29/11/2014;06/04/2015;08:00;17:00
+A. T. F. Malcesine - Monte Baldo;M247l;Pr‡ Alpesina - Monte Baldo;;;;;
+Soc. Fun. Pinzolo;M248h;Malga Cioca - Malga Grual;3,5;28/11/2014;26/04/2015;08:30;17:00
+Brentonico Ski societ‡ consortile a r.l.;M249l;Polsa - Postemon;4;29/11/2014;22/03/2015;09:00;16:30
+Soc. Fun. Madonna di Campiglio;M253h;Plan - Pancugolo;3,1;16/11/2014;30/04/2015;08:30;17:30
+Soc. Turismo Lavarone;S024d;Malga Rivetta;2,5;29/11/2014;19/04/2015;08:30;17:00
+Brentonico Ski societ‡ consortile a r.l.;S029l;S.Valentino;2,5;29/11/2014;22/03/2015;09:00;16:30
+Soc. Fun. Madonna di Campiglio;S054h;Dei Larici;1,7;16/11/2014;30/04/2015;08:30;17:00;
+Soc. Carosello Tonale;S071gDx;P.so Presena Dx;2,7;25/10/2014;30/04/2015;08:30;16:00;
+Soc. Carosello Tonale;S071gSx;P.so Presena Sx;2,7;25/10/2014;30/04/2015;08:30;16:00;
+Soc. Turismo Lavarone;S072d;Campo Scuola - Rivetta 2¯;1,5;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Fun. Folgarida Marilleva;S075g Dx;Campo Scuola Dx;1,7;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;S075g Sx;Campo Scuola Sx;1,7;29/11/2014;12/04/2015;08:30;16:30;
+Associazione Pro Loco Bolbeno;S076h;Coste di Bolbeno;3,5;01/12/2014;23/12/2014;13:00;16:30;solo i giorni di lunedç, martedç, mercoledç, giovedç e  venerdç
+Associazione Pro Loco Bolbeno;S076h;Coste di Bolbeno;3,5;01/12/2014;23/12/2014;09:00;16:30;solo i giorni di sabato e domenica
+Associazione Pro Loco Bolbeno;S076h;Coste di Bolbeno;3,5;24/12/2014;06/01/2015;09:00;16:30;
+Associazione Pro Loco Bolbeno;S076h;Coste di Bolbeno;3,5;07/01/2015;15/03/2015;13:00;16:30;solo i giorni di lunedç, martedç, mercoledç, giovedç e  venerdç
+Associazione Pro Loco Bolbeno;S076h;Coste di Bolbeno;3,5;07/01/2015;15/03/2015;09:00;16:30;solo i giorni di sabato e domenica
+Soc. Impianti Falcade Col Margherita;S094m;Chiesetta 2;2,4;29/11/2014;06/04/2015;09:30;16:30;apertura giornaliera prorogata alle 17/17,30 in base all'allungamento della visibilit‡
+Soc. Fun. Folgarida Marilleva;S095g;Biancaneve;1,7;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Fun. Folgarida Marilleva;S095g;Biancaneve;1,7;29/11/2014;12/04/2015;17:30;23:00;
+Soc. Impianti Passo Cereda;S117b;Passo Cereda;;;;;;
+Soc. Fun. Seggiovie S.Martino;S129b;Cigolera;2,7;01/12/2014;12/04/2015;08:00;17:00;
+Soc. Sciovia Pr‡ delle Nasse;S150bDx;Pr‡ delle Nasse Dx;1,2;05/12/2014;06/04/2015;09:00;17:00;
+Soc. Sciovia Pr‡ delle Nasse;S150bSx;Pr‡ delle Nasse Sx;1,2;05/12/2014;06/04/2015;09:00;17:00;
+Soc. Catinaccio Impianti a Fune;S164m;Capanna Margherita;2,5;05/12/2014;24/01/2015;08:30;16:15;
+Soc. Catinaccio Impianti a Fune;S164m;Capanna Margherita;2,5;25/01/2015;06/04/2015;08:30;16:45;
+Soc. Avisio S.a.s.;S173m;Avisio;;;;;;
+Soc. Impianti Falcade Col Margherita;S181m;Chiesetta 1;2,4;29/11/2014;06/04/2015;09:30;16:30;apertura giornaliera prorogata alle 17/17,30 in base all'allungamento della visibilit‡
+Soc. Fun. Buffaure;S186m;Pera;2,8;05/12/2014;25/03/2015;08:30;17:00;
+Soc. Col de Lin;S198m;Col de Lin;2,5;21/12/2014;26/12/2014;09:00;13:00;
+Soc. Col de Lin;S198m;Col de Lin;2,5;21/12/2014;26/12/2014;14:00;16:30;
+Soc. Col de Lin;S198m;Col de Lin;2,5;27/12/2014;04/01/2015;09:00;16:30;
+Soc. Col de Lin;S198m;Col de Lin;2,5;05/01/2015;01/02/2015;09:00;13:00;
+Soc. Col de Lin;S198m;Col de Lin;2,5;05/01/2015;01/02/2015;14:00;16:30;
+Soc. Col de Lin;S198m;Col de Lin;2,5;02/02/2015;22/03/2015;09:00;13:00;
+Soc. Col de Lin;S198m;Col de Lin;2,5;02/02/2015;22/03/2015;14:00;17:00;
+Soc. Fun. Folgarida Marilleva;S208g;Doss della Pesa;1,7;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Essedi;S226a;Nuova M.ga Varena;2;21/12/2014;12/04/2015;09:00;16:30;
+I.T.A.P.;S228a;P.so Pampeago - Pala di Santa Sx;2,8;29/11/2014;12/04/2015;09:00;16:00;
+Soc. Fun. Seggiovie S.Martino;S230b;Baby Tognola;1,5;01/12/2014;12/04/2015;08:00;17:00;
+Soc. Fun. Buffaure;S234m;Baby Buffaure;2,5;05/12/2014;06/04/2014;08:30;17:00;
+Soc. Fun. Ciampac e Contrin;S236m;Delle Baite;2;05/12/2014;31/01/2015;08:30;16:30;
+Soc. Fun. Ciampac e Contrin;S236m;Delle Baite;2;01/02/2015;06/04/2015;08:30;17:00;
+Soc. Fun. Ciampac e Contrin;S237m;Sasso di Rocca;2,4;20/12/2014;31/01/2015;08:45;16:30;
+Soc. Fun. Ciampac e Contrin;S237m;Sasso di Rocca;2,4;01/02/2015;06/04/2015;08:45;17:00;
+Brentonico Ski societ‡ consortile a r.l.;S281l;Momo;2;29/11/2014;22/03/2015;09:00;16:30;
+Roberto Boso;S288c;Malga Coazzo;1,7;20/12/2014;11/01/2015;09:00;16:30;
+Roberto Boso;S288c;Malga Coazzo;1,7;17/01/2014;15/03/2015;09:00;16:30;
+Soc. Carosello Ski Folgaria;S300l;Passo Coe - Cima Plaut;2;29/11/2014;19/04/2015;08:30;17:00;
+Andreatta Raffaele;S304d;Pradisci;1,2;21/12/2014;08/03/2015;09:00;16:00;
+Andreatta Raffaele;S304d;Pradisci;1,2;21/12/2014;08/03/2015;18:00;20:00;
+S.I.T.C.;S310m;Gonzaga;2;05/12/2014;12/04/2015;08:45;16:30;Il 1/2/2015 gli orari chiusura verranno prorogati di 30  minuti
+Soc. Fun. Folgarida Marilleva;S312g;Casina - Monti Alti;1,7;29/11/2014;12/04/2015;08:30;16:30;
+Soc. IESSETI;S315g;Biancaneve - Campi alle Pozze;2;06/12/2014;31/03/2015;08:30;16:30;
+Soc. IESSETI;S315g;Biancaneve - Campi alle Pozze;2;06/12/2014;31/03/2015;20:30;22:30;
+Soc. Castellazzo;S316b;Rolle;2;20/12/2012;19/04/2015;09:00;15:30;
+PRI.ME;S317m;Friedrich August - Gabia;1,5;06/12/2014;31/01/2015;08:30;16:30;
+PRI.ME;S317m;Friedrich August - Gabia;1,5;01/02/2015;11/04/2015;08:30;17:00;
+Soc. Fun. Alpe Cermis;S320a;Campo Scuola - Cermis;1,3;05/12/2014;12/04/2015;08:30;16:30;
+Soc. Impianti Funiviari Lusia ;S321m;Nuovo Campo Scuola - Valbona;1,5;29/11/2014;12/04/2015;08:30;16:30;
+Soc. Carosello Ski Folgaria;S323l;Campo Scuola - Fondo Grande;1,5;29/11/2014;19/04/2015;08:30;17:00;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;20/12/2014;24/12/2014;09:30;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;26/12/2014;06/01/2015;09:30;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;07/01/2015;13/02/2015;10:00;16:30;solo i giorni di lunedç, martedç, mercoledç, giovedç e  venerdç
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;07/01/2015;15/03/2015;09:30;16:30;solo i giorni di sabato e domenica, esclusi i giorni 18/01/2015, 25/01/2015, 08/02/2015 e 22/02/2015
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;16/02/2015;20/02/2015;09:30;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;23/02/2015;27/02/2015;10:00;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;18/01/2015;18/01/2015;08:00;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;25/01/2015;25/01/2015;08:00;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;08/02/2015;08/02/2015;08:00;16:30;
+Soc. Altipiani Val di Non;S327f;Ciasazza;2,3;22/02/2015;22/02/2015;08:00;16:30
+Soc. Latemar Carezza;S332m;Campo Scuola - Latemar 3¯;1,5;29/11/2014;13/02/2015;08:30;16:40
+Soc. Latemar Carezza;S332m;Campo Scuola - Latemar 3¯;1,5;14/02/2015;06/04/2015;08:30;16:55
+Soc. Slittinovia Costa;V001l;Costa;1,5;01/12/2014;31/03/2015;08:30;12:30
+Soc. Slittinovia Costa;V001l;Costa;1,5;01/12/2014;31/03/2015;14:00;17:00
+Soc. Fun. Rella;V003l;Fondo Piccolo 6¯;1,4;29/11/2014;08/04/2015;08:30;17:00
+Soc. Cisk;V004d;Bertoldi;1,5;08/12/2014;07/04/2015;09:30;17:00

@@ -1,0 +1,55 @@
+"address","name","available","number_of_bikes","latitude","longitude","electrical"
+"Piazza Grazioli - Lavis","Grazioli - Lavis",3,10,46.139732902099794,11.111516155225331,0
+"Piazza della Croce - Pressano","Pressano - Lavis",2,7,46.15368174037716,11.106601229430453,0
+"Via Stazione - Lavis","Stazione RFI - Lavis",3,10,46.148180371138814,11.096753997622727,0
+"Piazza San Gottardo","Borgata - Mezzocorona",1,12,46.21475054941156,11.118409916007977,0
+"Via Cavalleggeri, 19","Cavalleggeri - Mezzocorona",1,12,46.215938768425005,11.119989353442406,0
+"Piazza Trento","Stazione TN-MALE' - Mezzocorona",5,18,46.20734740002011,11.128130419326794,0
+"via Cavalleggeri Udine 1","Fiera - Mezzolombardo",1,12,46.21606936512313,11.087786176482382,0
+"Via Carducci","Ospedale San Giovanni - Mezzolombardo",1,12,46.21259623820249,11.094625366934224,0
+"Via San Francesco, 4","Stazione TN-MALE' - Mezzolombardo",2,5,46.2134060415138,11.093330302516165,0
+"Stazione / via Dante Alighieri 69","Centro Intermodale - Pergine Valsugana",0,6,46.06283953962371,11.232342992868098,0
+"Via Oltrefersina 153","Madrano - Pergine Valsugana",0,0,46.0838504717494,11.219184817335531,0
+"Via Tegazzo fr. civ. 10","Tegazzo - Pergine Valsugana",0,0,46.06131044875352,11.243516084620978,0
+"Via Antonio Balista 10","Balista - Rovereto",4,9,45.896175282432274,11.03036572611154,0
+"Via Perosi / Via Puccini","Brione - Rovereto",4,6,45.90421911950808,11.044299836454002,0
+"P.za Guella / Via Montello","Lizzana - Rovereto",8,9,45.8675281353871,11.031902417860465,0
+"Via 2 novembre / via Alveo - Scuola","Marco - Rovereto",1,6,45.84133938920707,11.008448922615116,0
+"Via Bettini Museo Mart","Mart - Rovereto",1,6,45.89383120606002,11.043776690807363,0
+"Via Calcinari fr. civ. 11","Municipio - Rovereto",0,6,45.88700893072052,11.04421812261512,0
+"Via Noriglio / ex scuola D. Chiesa","Noriglio - Rovereto",2,8,45.88365364364294,11.070399481792492,0
+"Via del Garda / Via dell’Industria","Orvea - Rovereto",4,12,45.87202945143379,11.020309774135626,0
+"C.so Verona Park Ospedale Nuovo","Ospedale - Rovereto",0,12,45.88226500641319,11.040281016146878,0
+"P.za Rosmini 1","P. Rosmini - Rovereto",1,6,45.89102037579931,11.043363036887968,0
+,"Piscina - Rovereto",0,0,45.8844444,11.03361111111111,0
+"Via Palestrina 3","Quercia - Rovereto",3,6,45.90050916437712,11.036815184130887,0
+"Via Vittoria / Via Unione","Sacco - Rovereto",4,11,45.88477528345004,11.023286167216156,0
+"P.le Orsi - Scuola","Stazione FF.SS. - Rovereto",3,10,45.89125332494616,11.03489086508182,0
+"Stazione Mori","Stazione Mori - Rovereto",2,11,45.861171706692836,11.001933217048647,0
+"Via Manzoni / Via Paoli","Via Paoli - Rovereto",0,12,45.89177380040726,11.039904616532908,0
+"Piazzetta Scrinzi","Villa Lagarina - Rovereto",3,12,45.91594639958107,11.031688259394059,0
+"Via Caproni Park Laghiol - Luxottica","Zona Industriale - Rovereto",0,5,45.86630335827336,11.015673193887324,0
+"Via Lidorno / Aeroporto Caproni","Aeroporto - Trento",1,8,46.01983619754026,11.127080654939277,0
+"Via De Gasperi - Lato Trento Frutta","Azienda Sanitaria - Trento",4,16,46.044433415996814,11.12804971230321,0
+"Via Bezzi / Via Vittorio Veneto","Bezzi - Trento",1,9,46.058020904033015,11.119315767528406,0
+"Via Alfieri / Via Torre Vanga","Biblioteca - Trento",8,24,46.07043395910254,11.121399842327946,0
+"Via Guardini fr. civ. 75","Bren Center - Trento",0,17,46.094653868146885,11.117693389024225,0
+"Via S. Croce 78","Centro Santa Chiara - Trento",0,16,46.06345393738132,11.12375366752849,0
+"via Madruzzo / via Rosmini","Cimitero - Trento",2,9,46.063653753791996,11.119203004368615,0
+"Via IV Novembre / Piscina","Gardolo - Trento",4,6,46.10407094472173,11.112932473016372,0
+,"Lidl - Trento",0,0,46.0836111,11.119444444444445,0
+"Via Lidorno / Park Trento Sud","Lidorno - Trento",3,12,46.03316279422745,11.126252122229062,0
+"Corso del Lavoro e della Scienza","Muse - Trento",4,12,46.06137765005302,11.116027144580812,0
+"P.za della Mostra 30","Piazza della Mostra - Trento",0,12,46.071784324082046,11.125761136176266,0
+"P.le di Centa / Via Vannetti","Piazza di Centa - Trento",1,12,46.07538723420181,11.12382177686004,0
+"Via Grazioli / P.za Venezia","Piazza Venezia - Trento",1,21,46.06753791402558,11.126987115869156,0
+"Via Fogazzaro / Via Gocciadoro","Piscina - Trento",6,12,46.05627509524844,11.13094278895494,0
+"Via Pozzo / Via Torre Vanga","Stazione Autocorriere - Trento",2,21,46.07023563810641,11.119849430688419,0
+"Via Gocciadoro - Staz. S. Chiara","Stazione FFSS - Ospedale - Trento",0,12,46.054586705531555,11.135349258821861,0
+"Via Pranzelores / Via Giuseppe Gilli","Top Center - Trento",1,24,46.09010372321067,11.118583717279193,0
+"Via Rosmini 50 - Università","Università - Trento",0,18,46.06632943181332,11.119020308598351,0
+"piazza Dante / via Vannetti","Vannetti - Trento",3,6,46.072996732945235,11.121911281089751,0
+,"Zuffo 1 - Trento",0,0,46.075,11.109444444444444,0
+,"Zuffo 2 - Trento",0,0,46.075,11.11,0
+"Via S.F. Biasi c/o Fond. Mach","Mach - San Michele all Adige",0,12,46.1914402574372,11.134761607687324,0
+"Via San Francesco Biasi 1","Municipio - San Michele all Adige",2,11,46.19211611459747,11.132833099405616,0

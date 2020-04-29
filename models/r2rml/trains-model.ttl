@@ -1,0 +1,803 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr844soqx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "trains.csv" ;
+	km-dev:modelPublicationTime "1575452046106"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"first_arrival\"}],[{\"columnName\":\"trainId\"}],[{\"columnName\":\"wi-fi\"}],[{\"columnName\":\"electric_plug\"}],[{\"columnName\":\"trip_time\"}],[{\"columnName\":\"last_departure\"}],[{\"columnName\":\"eco_fuel\"}],[{\"columnName\":\"energy_source\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"first_arrival\"}],[{\"columnName\":\"trainId\"}],[{\"columnName\":\"wi-fi\"}],[{\"columnName\":\"electric_plug\"}],[{\"columnName\":\"trip_time\"}],[{\"columnName\":\"last_departure\"}],[{\"columnName\":\"eco_fuel\"}],[{\"columnName\":\"energy_source\"}]]" ;
+	km-dev:hasModelLabel "trains.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trainId\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train/Train1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trainId\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trainId\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"first_arrival\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#first_departure\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train/Train1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"first_arrival\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"first_arrival\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"last_departure\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#last_departure\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train/Train1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"last_departure\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"last_departure\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trip_time\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#trip_time\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train/Train1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_time\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_time\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"electric_plug\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric_plug\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train/Train1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electric_plug\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electric_plug\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"wi-fi\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#wi-fi\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train/Train1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wi-fi\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"wi-fi\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"energy_source\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#energySource\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source/Energy_Source1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"en\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"energy_source\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"energy_source\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"eco_fuel\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel/eco_fuel1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"eco_fuel\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"eco_fuel\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#train_hasEcofuel\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#train_hasEnergySource\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 a rr:TriplesMap .
+
+_:node1dr844soqx1 km-dev:hasTriplesMap km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx2 rr:tableName "trains.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasLogicalTable _:node1dr844soqx2 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:logicalTable _:node1dr844soqx2 ;
+	rr:subjectMap _:node1dr844soqx3 .
+
+_:node1dr844soqx1 km-dev:hasSubjectMap _:node1dr844soqx3 .
+
+_:node1dr844soqx3 km-dev:isPartOfMapping _:node1dr844soqx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train> ;
+	rr:template "{trainId}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_253c30ca-27ff-4f9c-9fdf-41d802c17d68 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#trip_time> .
+
+_:node1dr844soqx4 rr:column "trip_time" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx4 .
+
+km-dev:PredicateObjectMap_253c30ca-27ff-4f9c-9fdf-41d802c17d68 rr:objectMap _:node1dr844soqx4 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_253c30ca-27ff-4f9c-9fdf-41d802c17d68 .
+
+km-dev:PredicateObjectMap_253c30ca-27ff-4f9c-9fdf-41d802c17d68 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_253c30ca-27ff-4f9c-9fdf-41d802c17d68 .
+
+km-dev:PredicateObjectMap_81e141ed-1d12-49e8-98f4-65aab6ecdc8d rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#first_departure> .
+
+_:node1dr844soqx5 rr:column "first_arrival" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx5 .
+
+km-dev:PredicateObjectMap_81e141ed-1d12-49e8-98f4-65aab6ecdc8d rr:objectMap _:node1dr844soqx5 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_81e141ed-1d12-49e8-98f4-65aab6ecdc8d .
+
+km-dev:PredicateObjectMap_81e141ed-1d12-49e8-98f4-65aab6ecdc8d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_81e141ed-1d12-49e8-98f4-65aab6ecdc8d .
+
+km-dev:PredicateObjectMap_51305bbf-948f-42a8-b497-255d39798b4b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#last_departure> .
+
+_:node1dr844soqx6 rr:column "last_departure" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx6 .
+
+km-dev:PredicateObjectMap_51305bbf-948f-42a8-b497-255d39798b4b rr:objectMap _:node1dr844soqx6 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_51305bbf-948f-42a8-b497-255d39798b4b .
+
+km-dev:PredicateObjectMap_51305bbf-948f-42a8-b497-255d39798b4b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_51305bbf-948f-42a8-b497-255d39798b4b .
+
+km-dev:PredicateObjectMap_926a21cf-997d-46cd-ae4f-9aee1b2e6da0 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric_plug> .
+
+_:node1dr844soqx7 rr:column "electric_plug" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx7 .
+
+km-dev:PredicateObjectMap_926a21cf-997d-46cd-ae4f-9aee1b2e6da0 rr:objectMap _:node1dr844soqx7 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_926a21cf-997d-46cd-ae4f-9aee1b2e6da0 .
+
+km-dev:PredicateObjectMap_926a21cf-997d-46cd-ae4f-9aee1b2e6da0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_926a21cf-997d-46cd-ae4f-9aee1b2e6da0 .
+
+km-dev:PredicateObjectMap_1ab32ca0-7a84-4a33-91f9-0d1a9ef32c5f rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#train_hasEcofuel> .
+
+km-dev:RefObjectMap_c5075bde-f872-44ff-adda-5b0e2d09fcea a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_db871812-24ce-49a4-a18e-e40300c9c196 ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap km-dev:RefObjectMap_c5075bde-f872-44ff-adda-5b0e2d09fcea .
+
+km-dev:PredicateObjectMap_1ab32ca0-7a84-4a33-91f9-0d1a9ef32c5f rr:objectMap km-dev:RefObjectMap_c5075bde-f872-44ff-adda-5b0e2d09fcea .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_1ab32ca0-7a84-4a33-91f9-0d1a9ef32c5f .
+
+km-dev:PredicateObjectMap_1ab32ca0-7a84-4a33-91f9-0d1a9ef32c5f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1ab32ca0-7a84-4a33-91f9-0d1a9ef32c5f .
+
+km-dev:PredicateObjectMap_277b13ef-eeed-499b-8bcb-d03b8f3d29af rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#train_hasEnergySource> .
+
+km-dev:RefObjectMap_9fb50891-2fc4-49cd-a72a-0752d30cdd5e a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_4d0aff9e-7051-48b3-b83f-52b7b1e63650 ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap km-dev:RefObjectMap_9fb50891-2fc4-49cd-a72a-0752d30cdd5e .
+
+km-dev:PredicateObjectMap_277b13ef-eeed-499b-8bcb-d03b8f3d29af rr:objectMap km-dev:RefObjectMap_9fb50891-2fc4-49cd-a72a-0752d30cdd5e .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_277b13ef-eeed-499b-8bcb-d03b8f3d29af .
+
+km-dev:PredicateObjectMap_277b13ef-eeed-499b-8bcb-d03b8f3d29af a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_277b13ef-eeed-499b-8bcb-d03b8f3d29af .
+
+km-dev:PredicateObjectMap_780286ac-f1fb-43c6-a469-86004f71a15c rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#wi-fi> .
+
+_:node1dr844soqx8 rr:column "wi-fi" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx8 .
+
+km-dev:PredicateObjectMap_780286ac-f1fb-43c6-a469-86004f71a15c rr:objectMap _:node1dr844soqx8 .
+
+km-dev:TriplesMap_b69b33ad-3e48-4efb-a807-8556a13b5798 rr:predicateObjectMap km-dev:PredicateObjectMap_780286ac-f1fb-43c6-a469-86004f71a15c .
+
+km-dev:PredicateObjectMap_780286ac-f1fb-43c6-a469-86004f71a15c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_780286ac-f1fb-43c6-a469-86004f71a15c .
+
+km-dev:TriplesMap_db871812-24ce-49a4-a18e-e40300c9c196 a rr:TriplesMap .
+
+_:node1dr844soqx1 km-dev:hasTriplesMap km-dev:TriplesMap_db871812-24ce-49a4-a18e-e40300c9c196 .
+
+km-dev:TriplesMap_db871812-24ce-49a4-a18e-e40300c9c196 km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx9 rr:tableName "trains.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasLogicalTable _:node1dr844soqx9 .
+
+km-dev:TriplesMap_db871812-24ce-49a4-a18e-e40300c9c196 rr:logicalTable _:node1dr844soqx9 ;
+	rr:subjectMap _:node1dr844soqx10 .
+
+_:node1dr844soqx1 km-dev:hasSubjectMap _:node1dr844soqx10 .
+
+_:node1dr844soqx10 km-dev:isPartOfMapping _:node1dr844soqx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "eco_fuel1" .
+
+km-dev:PredicateObjectMap_a7094a92-ca1f-4416-80c6-be0d126767c6 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> .
+
+_:node1dr844soqx11 rr:column "eco_fuel" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx11 .
+
+km-dev:PredicateObjectMap_a7094a92-ca1f-4416-80c6-be0d126767c6 rr:objectMap _:node1dr844soqx11 .
+
+km-dev:TriplesMap_db871812-24ce-49a4-a18e-e40300c9c196 rr:predicateObjectMap km-dev:PredicateObjectMap_a7094a92-ca1f-4416-80c6-be0d126767c6 .
+
+km-dev:PredicateObjectMap_a7094a92-ca1f-4416-80c6-be0d126767c6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a7094a92-ca1f-4416-80c6-be0d126767c6 .
+
+km-dev:TriplesMap_4d0aff9e-7051-48b3-b83f-52b7b1e63650 a rr:TriplesMap .
+
+_:node1dr844soqx1 km-dev:hasTriplesMap km-dev:TriplesMap_4d0aff9e-7051-48b3-b83f-52b7b1e63650 .
+
+km-dev:TriplesMap_4d0aff9e-7051-48b3-b83f-52b7b1e63650 km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx12 rr:tableName "trains.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasLogicalTable _:node1dr844soqx12 .
+
+km-dev:TriplesMap_4d0aff9e-7051-48b3-b83f-52b7b1e63650 rr:logicalTable _:node1dr844soqx12 ;
+	rr:subjectMap _:node1dr844soqx13 .
+
+_:node1dr844soqx1 km-dev:hasSubjectMap _:node1dr844soqx13 .
+
+_:node1dr844soqx13 km-dev:isPartOfMapping _:node1dr844soqx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Energy_Source1" .
+
+km-dev:PredicateObjectMap_f04e3c1e-0c32-473c-8215-790bc60c7864 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#energySource> .
+
+_:node1dr844soqx14 rr:column "energy_source" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "en" ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasObjectMap _:node1dr844soqx14 .
+
+km-dev:PredicateObjectMap_f04e3c1e-0c32-473c-8215-790bc60c7864 rr:objectMap _:node1dr844soqx14 .
+
+km-dev:TriplesMap_4d0aff9e-7051-48b3-b83f-52b7b1e63650 rr:predicateObjectMap km-dev:PredicateObjectMap_f04e3c1e-0c32-473c-8215-790bc60c7864 .
+
+km-dev:PredicateObjectMap_f04e3c1e-0c32-473c-8215-790bc60c7864 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr844soqx1 .
+
+_:node1dr844soqx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f04e3c1e-0c32-473c-8215-790bc60c7864 .

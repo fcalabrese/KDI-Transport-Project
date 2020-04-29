@@ -1,0 +1,46 @@
+Denominazione impianto,Codice S.I.F.,Comune,Esercente,Data Primo collaudo,Data Ultimo Collaudo,Lunghezza Inclinata (m),Dislivello (m),Stazione di Valle (m.s.l.m.),Tipo veicolo,Portata Max (Pers/h),Opere Paravalanghe ,Tipo,Note,Numero Traini
+Costa,V001l,Folgaria,Soc.Slittinovia Costa,31125,39065,302,31,1245,biposto,986,#,Slittinovia,,47
+Fondo Piccolo 6Â°,V003l,Folgaria,Soc.Fun. Rella,31092,38303,175,17,1471,biposto,1000,si,Slittinovia,,30
+Bertoldi,V004d,Lavarone,Soc. Cisk,32121,40158,169,18,1170,biposto,990,#,Slittinovia,,27
+Malga Rivetta,S024d,Lavarone,Soc. Turismo Lavarone,38342,41977,"630,3","163,3",1353,monoposto,820,#,,,95
+S.Valentino,S029l,Brentonico,Brentonico Ski societÃ  consortile a r.l.,31391,39433,931,187,1320,biposto,1200,#,,,112
+Dei Larici,S054h,Pinzolo,Soc.Fun. Madonna di Campiglio,39786,39786,388,80,2011,monoposto,720,#,,,56
+Sombiaccia,S062h,Spiazzo,Associazione Pro Loco Spiazzo,32555,40542,304,66,643,monoposto,502,#,,,31
+P.so Presena Dx,S071gDx,Vermiglio,Soc. Carosello Tonale,30728,41858,871,274,2729,biposto,1200,Sorv. C.L.V.,,Sciovia da ghiacciaio,92
+P.so Presena Sx,S071gSx,Vermiglio,Soc. Carosello Tonale,30867,41858,871,274,2729,biposto,1200,Sorv. C.L.V.,,Sciovia da ghiacciaio,92
+Campo Scuola - Rivetta 2Â°,S072d,Lavarone,Soc. Turismo Lavarone,36152,39793,"172,75",39,1364,monoposto,344,#,,,22
+Campo Scuola Dx,S075g Dx,Dimaro,Soc.Fun. Folgarida Marilleva,40507,40507,305,51,1878,monoposto,720,#,,,50
+Campo Scuola Sx,S075g Sx,Dimaro,Soc.Fun. Folgarida Marilleva,40507,40507,305,51,1878,monoposto,720,#,,,50
+Coste di Bolbeno,S076h,Bolbeno,Associazione Pro Loco Bolbeno,32139,40165,439,"97,11",590,monoposto,711,#,,Effettua servizio notturno,63
+Chiesetta 2,S094m,Soraga,Soc. Impianti Falcade Col Margherita,26690,41249,743,110,1917,monoposto,900,#,,,124
+Biancaneve,S095g,Dimaro,Soc.Fun. Folgarida Marilleva,33222,40513,332,60,1442,monoposto,720,#,,Effettua servizio notturno,54
+Passo Cereda,S117b,Tonadico,Soc.Impianti Passo Cereda,37985,41631,405,74,1379,monoposto,534,#,,,51
+Cigolera,S129b,Siror,Soc.Fun. Seggiovie S.Martino,31421,39436,787,217,1921,monoposto,716,#,,,99
+PrÃ  delle Nasse Dx,S150bDx,Siror,Soc.Sciovia PrÃ  delle Nasse,40514,40514,230,24,1461,monoposto,720,#,,,38
+PrÃ  delle Nasse Sx,S150bSx,Siror,Soc.Sciovia PrÃ  delle Nasse,40514,40514,230,24,1461,monoposto,720,#,,,38
+Capanna Margherita,S164m,Moena,Soc.Catinaccio Impianti a Fune,33966,41242,407,66,1887,monoposto,897,#,,,69
+Avisio,S173m,Canazei,Soc. Avisio S.a.s.,37614,41240,"169,55","34,5","1441,5",monoposto,720,#,,Effettua servizio notturno,29
+Chiesetta 1Â°,S181m,Soraga,Soc. Impianti Falcade Col Margherita,24939,40882,741,"109,93",1902,monoposto,700,#,,,104
+Pera,S186m,Pozza di Fassa,Soc.Fun. Buffaure,25582,40884,244,54,1347,monoposto,720,#,,,47
+Col de Lin,S198m,Campitello di Fassa,Soc. Col de Lin,29615,41265,278,61,1417,monoposto,720,#,,,45
+Doss della Pesa,S208g,Mezzana,Soc.Fun. Folgarida Marilleva,37959,41612,368,86,2043,monoposto,720,#,,,60
+Nuova M.ga Varena,S226a,Varena,Soc. Essedi,39475,39475,"563,87","73,4","1769,8",monoposto,600,#,,,84
+P.so Pampeago - Pala di Santa Sx,S228a,Tesero,I.T.A.P.,30371,39060,"913,25","190,5",2211,monoposto,720,#,,,115
+Baby Tognola,S230b,Siror,Soc.Fun. Seggiovie S.Martino,38700,38700,"227,19",26,2170,monoposto,715,#,,,36
+Baby Buffaure,S234m,Pozza di Fassa,Soc.Fun. Buffaure,25944,41239,"183,78","21,5",2040,monoposto,600,#,,,24
+Delle Baite,S236m,Canazei,Soc.Fun. Ciampac e Contrin,39052,39052,"462,74","55,2","2153,4",monoposto,720,si,,,77
+Sasso di Rocca,S237m,Canazei,Soc.Fun. Ciampac e Contrin,39801,39801,616,134,2201,monoposto,720,si,,,86
+Momo,S281l,Brentonico,Brentonico Ski societÃ  consortile a r.l.,29950,41613,572,159,1422,monoposto,891,#,,,90
+Malga Coazzo,S288c,Castello Tesino,Roberto Boso,30315,41626,400,84,1593,monoposto,720,#,,,65
+Passo Coe - Cima Plaut,S300l,Folgaria,Soc.Carosello Ski Folgaria,32882,41604,577,95,1618,monoposto,900,#,,,102
+Pradisci,S304d,Bedollo,Andreatta Raffaele,34037,41627,174,31,1029,monoposto,600,#,Manovia,Effettua servizio notturno,38
+Gonzaga,S310m,Canazei,S.I.T.C.,35782,39427,"454,63","81,55","2109,45",monoposto,900,#,,,74
+Casina - Monti Alti,S312g,Dimaro,Soc.Fun. Folgarida Marilleva,35782,39423,"302,85","52,82","1441,48",monoposto,720,#,,,49
+Biancaneve - Campi alle Pozze,S315g,Pejo,Soc.IESSETI,36139,39779,377,"76,96","1181,84",monoposto,720,#,,Effettua servizio notturno,60
+Rolle,S316b,Siror,Soc. Castellazzo,36127,39771,683,103,1909,monoposto,900,#,,,57
+Friedrich August - Gabia,S317m,Campitello di Fassa,PRI.ME,36182,39785,192,42,2282,monoposto,550,#,,,33
+Campo Scuola - Cermis,S320a,Cavalese,Soc.Fun. Alpe Cermis,36881,40514,185,25,1995,monoposto,696,#,,,32
+Nuovo Campo Scuola - Valbona,S321m,Moena,Soc.Impianti Funiviari Lusia ,35061,38684,"168,68","33,59",1835,monoposto,720,#,,,27
+Campo Scuola - Fondo Grande,S323l,Folgaria,Soc.Carosello Ski Folgaria,37596,41241,"273,32",45,1350,monoposto,700,si,,,48
+Ciasazza,S327f,Coredo,Soc. Altipiani Val di Non,38337,41990,697,136,1261,monoposto,720,#,,Effettua servizio notturno,112
+Campo Scuola - Latemar 3Â°,S332m,Vigo di Fassa,Soc. Latemar Carezza,39804,39804,547,80,1764,monoposto,720,#,,,79

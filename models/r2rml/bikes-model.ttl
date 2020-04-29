@@ -1,0 +1,195 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr84mic9x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "bikes.csv" ;
+	km-dev:modelPublicationTime "1575452625289"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"electric_support\"}],[{\"columnName\":\"manifacturer\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"electric_support\"}],[{\"columnName\":\"manifacturer\"}]]" ;
+	km-dev:hasModelLabel "bikes.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"manifacturer\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike/Bike1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"manifacturer\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"manifacturer\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"electric_support\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric_support\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike/Bike1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:boolean\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electric_support\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electric_support\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_2f50b0ed-94fe-4504-9ab0-f68a6e117ecc a rr:TriplesMap .
+
+_:node1dr84mic9x1 km-dev:hasTriplesMap km-dev:TriplesMap_2f50b0ed-94fe-4504-9ab0-f68a6e117ecc .
+
+km-dev:TriplesMap_2f50b0ed-94fe-4504-9ab0-f68a6e117ecc km-dev:isPartOfMapping _:node1dr84mic9x1 .
+
+_:node1dr84mic9x2 rr:tableName "bikes.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr84mic9x1 .
+
+_:node1dr84mic9x1 km-dev:hasLogicalTable _:node1dr84mic9x2 .
+
+km-dev:TriplesMap_2f50b0ed-94fe-4504-9ab0-f68a6e117ecc rr:logicalTable _:node1dr84mic9x2 ;
+	rr:subjectMap _:node1dr84mic9x3 .
+
+_:node1dr84mic9x1 km-dev:hasSubjectMap _:node1dr84mic9x3 .
+
+_:node1dr84mic9x3 km-dev:isPartOfMapping _:node1dr84mic9x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Bike1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_e4851736-f95d-423d-9215-7dee9ea8d25a rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric_support> .
+
+_:node1dr84mic9x4 rr:column "electric_support" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr84mic9x1 .
+
+_:node1dr84mic9x1 km-dev:hasObjectMap _:node1dr84mic9x4 .
+
+km-dev:PredicateObjectMap_e4851736-f95d-423d-9215-7dee9ea8d25a rr:objectMap _:node1dr84mic9x4 .
+
+km-dev:TriplesMap_2f50b0ed-94fe-4504-9ab0-f68a6e117ecc rr:predicateObjectMap km-dev:PredicateObjectMap_e4851736-f95d-423d-9215-7dee9ea8d25a .
+
+km-dev:PredicateObjectMap_e4851736-f95d-423d-9215-7dee9ea8d25a a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr84mic9x1 .
+
+_:node1dr84mic9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e4851736-f95d-423d-9215-7dee9ea8d25a .
+
+km-dev:PredicateObjectMap_4fc067be-2386-4630-a406-b379194e8f1b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer> .
+
+_:node1dr84mic9x5 rr:column "manifacturer" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr84mic9x1 .
+
+_:node1dr84mic9x1 km-dev:hasObjectMap _:node1dr84mic9x5 .
+
+km-dev:PredicateObjectMap_4fc067be-2386-4630-a406-b379194e8f1b rr:objectMap _:node1dr84mic9x5 .
+
+km-dev:TriplesMap_2f50b0ed-94fe-4504-9ab0-f68a6e117ecc rr:predicateObjectMap km-dev:PredicateObjectMap_4fc067be-2386-4630-a406-b379194e8f1b .
+
+km-dev:PredicateObjectMap_4fc067be-2386-4630-a406-b379194e8f1b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr84mic9x1 .
+
+_:node1dr84mic9x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4fc067be-2386-4630-a406-b379194e8f1b .

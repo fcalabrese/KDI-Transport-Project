@@ -1,0 +1,558 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr331a7rx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "car_sharing.csv" ;
+	km-dev:modelPublicationTime "1575283108091"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Y\"}],[{\"columnName\":\"X\"}],[{\"columnName\":\"via\"}],[{\"columnName\":\"nomepos\"}],[{\"columnName\":\"auto\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Y\"}],[{\"columnName\":\"X\"}],[{\"columnName\":\"via\"}],[{\"columnName\":\"nomepos\"}],[{\"columnName\":\"auto\"}]]" ;
+	km-dev:hasModelLabel "car_sharing.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"X\",
+                        \"id\": [{\"columnName\": \"X\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"Y\",
+                        \"id\": [{\"columnName\": \"Y\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"via\",
+                        \"id\": [{\"columnName\": \"via\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"nomepos\",
+                        \"id\": [{\"columnName\": \"nomepos\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"auto\",
+                        \"id\": [{\"columnName\": \"auto\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"nomepos\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name_carStation\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station/Shared_Car_Station1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"nomepos\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"nomepos\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"auto\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#numberCars\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station/Shared_Car_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"auto\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"auto\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"X\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"X\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"X\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Y\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Y\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Y\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"via\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"via\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"via\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#carStationHasLocation\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 a rr:TriplesMap .
+
+_:node1dr331a7rx1 km-dev:hasTriplesMap km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 .
+
+km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx2 rr:tableName "car_sharing.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasLogicalTable _:node1dr331a7rx2 .
+
+km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 rr:logicalTable _:node1dr331a7rx2 ;
+	rr:subjectMap _:node1dr331a7rx3 .
+
+_:node1dr331a7rx1 km-dev:hasSubjectMap _:node1dr331a7rx3 .
+
+_:node1dr331a7rx3 km-dev:isPartOfMapping _:node1dr331a7rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Shared_Car_Station1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_c24b4fdb-2729-41b1-b7b0-77bc7f6e34f5 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name_carStation> .
+
+_:node1dr331a7rx4 rr:column "nomepos" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasObjectMap _:node1dr331a7rx4 .
+
+km-dev:PredicateObjectMap_c24b4fdb-2729-41b1-b7b0-77bc7f6e34f5 rr:objectMap _:node1dr331a7rx4 .
+
+km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 rr:predicateObjectMap km-dev:PredicateObjectMap_c24b4fdb-2729-41b1-b7b0-77bc7f6e34f5 .
+
+km-dev:PredicateObjectMap_c24b4fdb-2729-41b1-b7b0-77bc7f6e34f5 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c24b4fdb-2729-41b1-b7b0-77bc7f6e34f5 .
+
+km-dev:PredicateObjectMap_b437328c-a7d0-41b9-a125-514443a33828 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#numberCars> .
+
+_:node1dr331a7rx5 rr:column "auto" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasObjectMap _:node1dr331a7rx5 .
+
+km-dev:PredicateObjectMap_b437328c-a7d0-41b9-a125-514443a33828 rr:objectMap _:node1dr331a7rx5 .
+
+km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 rr:predicateObjectMap km-dev:PredicateObjectMap_b437328c-a7d0-41b9-a125-514443a33828 .
+
+km-dev:PredicateObjectMap_b437328c-a7d0-41b9-a125-514443a33828 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b437328c-a7d0-41b9-a125-514443a33828 .
+
+km-dev:PredicateObjectMap_24d57b1f-aa54-436c-a1c9-c3063ffe0fb7 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#carStationHasLocation> .
+
+km-dev:RefObjectMap_100d0179-6aab-4fe2-9da7-cfcfe82d4ee6 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasObjectMap km-dev:RefObjectMap_100d0179-6aab-4fe2-9da7-cfcfe82d4ee6 .
+
+km-dev:PredicateObjectMap_24d57b1f-aa54-436c-a1c9-c3063ffe0fb7 rr:objectMap km-dev:RefObjectMap_100d0179-6aab-4fe2-9da7-cfcfe82d4ee6 .
+
+km-dev:TriplesMap_5164d0e4-060b-432a-a052-e5f16a2dc940 rr:predicateObjectMap km-dev:PredicateObjectMap_24d57b1f-aa54-436c-a1c9-c3063ffe0fb7 .
+
+km-dev:PredicateObjectMap_24d57b1f-aa54-436c-a1c9-c3063ffe0fb7 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_24d57b1f-aa54-436c-a1c9-c3063ffe0fb7 .
+
+km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 a rr:TriplesMap .
+
+_:node1dr331a7rx1 km-dev:hasTriplesMap km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 .
+
+km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx6 rr:tableName "car_sharing.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasLogicalTable _:node1dr331a7rx6 .
+
+km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 rr:logicalTable _:node1dr331a7rx6 ;
+	rr:subjectMap _:node1dr331a7rx7 .
+
+_:node1dr331a7rx1 km-dev:hasSubjectMap _:node1dr331a7rx7 .
+
+_:node1dr331a7rx7 km-dev:isPartOfMapping _:node1dr331a7rx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Location1" .
+
+km-dev:PredicateObjectMap_e6ef8f95-e9aa-4679-bf0a-e54c3abb5e8d rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
+
+_:node1dr331a7rx8 rr:column "X" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasObjectMap _:node1dr331a7rx8 .
+
+km-dev:PredicateObjectMap_e6ef8f95-e9aa-4679-bf0a-e54c3abb5e8d rr:objectMap _:node1dr331a7rx8 .
+
+km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 rr:predicateObjectMap km-dev:PredicateObjectMap_e6ef8f95-e9aa-4679-bf0a-e54c3abb5e8d .
+
+km-dev:PredicateObjectMap_e6ef8f95-e9aa-4679-bf0a-e54c3abb5e8d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e6ef8f95-e9aa-4679-bf0a-e54c3abb5e8d .
+
+km-dev:PredicateObjectMap_25ca95aa-1229-4b9a-b0ba-dccff5e14074 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+
+_:node1dr331a7rx9 rr:column "Y" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasObjectMap _:node1dr331a7rx9 .
+
+km-dev:PredicateObjectMap_25ca95aa-1229-4b9a-b0ba-dccff5e14074 rr:objectMap _:node1dr331a7rx9 .
+
+km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 rr:predicateObjectMap km-dev:PredicateObjectMap_25ca95aa-1229-4b9a-b0ba-dccff5e14074 .
+
+km-dev:PredicateObjectMap_25ca95aa-1229-4b9a-b0ba-dccff5e14074 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_25ca95aa-1229-4b9a-b0ba-dccff5e14074 .
+
+km-dev:PredicateObjectMap_35cccfee-93c8-4b67-a997-f653dd10e3eb rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+
+_:node1dr331a7rx10 rr:column "via" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasObjectMap _:node1dr331a7rx10 .
+
+km-dev:PredicateObjectMap_35cccfee-93c8-4b67-a997-f653dd10e3eb rr:objectMap _:node1dr331a7rx10 .
+
+km-dev:TriplesMap_e3e5887c-2dbe-4d8c-a83b-a9e0f3632378 rr:predicateObjectMap km-dev:PredicateObjectMap_35cccfee-93c8-4b67-a997-f653dd10e3eb .
+
+km-dev:PredicateObjectMap_35cccfee-93c8-4b67-a997-f653dd10e3eb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr331a7rx1 .
+
+_:node1dr331a7rx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_35cccfee-93c8-4b67-a997-f653dd10e3eb .

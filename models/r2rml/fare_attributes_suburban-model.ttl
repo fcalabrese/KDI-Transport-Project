@@ -1,0 +1,488 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr17q8pvx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "fare_attributes_suburban.csv" ;
+	km-dev:modelPublicationTime "1575221011264"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"PRICE_TICKET\"}],[{\"columnName\":\"PRICE_CARD\"}],[{\"columnName\":\"FARE_DESC\"}],[{\"columnName\":\"TRANSFER_DURATION\"}],[{\"columnName\":\"PRICE_ONLINE\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"PRICE_TICKET\"}],[{\"columnName\":\"PRICE_CARD\"}],[{\"columnName\":\"FARE_DESC\"}],[{\"columnName\":\"TRANSFER_DURATION\"}],[{\"columnName\":\"PRICE_ONLINE\"}]]" ;
+	km-dev:hasModelLabel "fare_attributes_suburban.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"FARE_DESC\",
+                        \"id\": [{\"columnName\": \"FARE_DESC\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"PRICE_TICKET\",
+                        \"id\": [{\"columnName\": \"PRICE_TICKET\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"PRICE_CARD\",
+                        \"id\": [{\"columnName\": \"PRICE_CARD\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"PRICE_ONLINE\",
+                        \"id\": [{\"columnName\": \"PRICE_ONLINE\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"TRANSFER_DURATION\",
+                        \"id\": [{\"columnName\": \"TRANSFER_DURATION\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"CURRENCY_TYPE\",
+                        \"id\": [{\"columnName\": \"CURRENCY_TYPE\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"FARE_DESC\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_type\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket/Ticket1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FARE_DESC\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"FARE_DESC\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"PRICE_TICKET\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_price_inloco\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket/Ticket1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PRICE_TICKET\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PRICE_TICKET\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"PRICE_CARD\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_card\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket/Ticket1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PRICE_CARD\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PRICE_CARD\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"PRICE_ONLINE\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_price_online\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket/Ticket1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PRICE_ONLINE\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"PRICE_ONLINE\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"TRANSFER_DURATION\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#duration_ticket\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket/Ticket1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TRANSFER_DURATION\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"TRANSFER_DURATION\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca a rr:TriplesMap .
+
+_:node1dr17q8pvx1 km-dev:hasTriplesMap km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx2 rr:tableName "fare_attributes_suburban.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasLogicalTable _:node1dr17q8pvx2 .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca rr:logicalTable _:node1dr17q8pvx2 ;
+	rr:subjectMap _:node1dr17q8pvx3 .
+
+_:node1dr17q8pvx1 km-dev:hasSubjectMap _:node1dr17q8pvx3 .
+
+_:node1dr17q8pvx3 km-dev:isPartOfMapping _:node1dr17q8pvx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Ticket1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_2b16f77f-f8d9-4a69-9e37-58f85b6a5568 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_card> .
+
+_:node1dr17q8pvx4 rr:column "PRICE_CARD" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasObjectMap _:node1dr17q8pvx4 .
+
+km-dev:PredicateObjectMap_2b16f77f-f8d9-4a69-9e37-58f85b6a5568 rr:objectMap _:node1dr17q8pvx4 .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca rr:predicateObjectMap km-dev:PredicateObjectMap_2b16f77f-f8d9-4a69-9e37-58f85b6a5568 .
+
+km-dev:PredicateObjectMap_2b16f77f-f8d9-4a69-9e37-58f85b6a5568 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2b16f77f-f8d9-4a69-9e37-58f85b6a5568 .
+
+km-dev:PredicateObjectMap_ded7e036-693e-4f37-8205-0b969fdc7025 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_type> .
+
+_:node1dr17q8pvx5 rr:column "FARE_DESC" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasObjectMap _:node1dr17q8pvx5 .
+
+km-dev:PredicateObjectMap_ded7e036-693e-4f37-8205-0b969fdc7025 rr:objectMap _:node1dr17q8pvx5 .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca rr:predicateObjectMap km-dev:PredicateObjectMap_ded7e036-693e-4f37-8205-0b969fdc7025 .
+
+km-dev:PredicateObjectMap_ded7e036-693e-4f37-8205-0b969fdc7025 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_ded7e036-693e-4f37-8205-0b969fdc7025 .
+
+km-dev:PredicateObjectMap_2d32e0e4-1ffe-47dd-b1a6-7d74d7f299fc rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#duration_ticket> .
+
+_:node1dr17q8pvx6 rr:column "TRANSFER_DURATION" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasObjectMap _:node1dr17q8pvx6 .
+
+km-dev:PredicateObjectMap_2d32e0e4-1ffe-47dd-b1a6-7d74d7f299fc rr:objectMap _:node1dr17q8pvx6 .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca rr:predicateObjectMap km-dev:PredicateObjectMap_2d32e0e4-1ffe-47dd-b1a6-7d74d7f299fc .
+
+km-dev:PredicateObjectMap_2d32e0e4-1ffe-47dd-b1a6-7d74d7f299fc a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_2d32e0e4-1ffe-47dd-b1a6-7d74d7f299fc .
+
+km-dev:PredicateObjectMap_cc6862cd-0ce3-4002-8bdf-1f768f259111 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_price_online> .
+
+_:node1dr17q8pvx7 rr:column "PRICE_ONLINE" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasObjectMap _:node1dr17q8pvx7 .
+
+km-dev:PredicateObjectMap_cc6862cd-0ce3-4002-8bdf-1f768f259111 rr:objectMap _:node1dr17q8pvx7 .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca rr:predicateObjectMap km-dev:PredicateObjectMap_cc6862cd-0ce3-4002-8bdf-1f768f259111 .
+
+km-dev:PredicateObjectMap_cc6862cd-0ce3-4002-8bdf-1f768f259111 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_cc6862cd-0ce3-4002-8bdf-1f768f259111 .
+
+km-dev:PredicateObjectMap_6164175c-a4ff-44c8-9fd1-909424600c5c rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_price_inloco> .
+
+_:node1dr17q8pvx8 rr:column "PRICE_TICKET" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasObjectMap _:node1dr17q8pvx8 .
+
+km-dev:PredicateObjectMap_6164175c-a4ff-44c8-9fd1-909424600c5c rr:objectMap _:node1dr17q8pvx8 .
+
+km-dev:TriplesMap_d2f1fee4-89cd-46d0-9501-dc5181f7faca rr:predicateObjectMap km-dev:PredicateObjectMap_6164175c-a4ff-44c8-9fd1-909424600c5c .
+
+km-dev:PredicateObjectMap_6164175c-a4ff-44c8-9fd1-909424600c5c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr17q8pvx1 .
+
+_:node1dr17q8pvx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6164175c-a4ff-44c8-9fd1-909424600c5c .

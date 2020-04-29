@@ -1,0 +1,91 @@
+Denominazione impianto,Codice S.I.F.,Comune,Esercente,Data Primo collaudo,Data Ultimo Collaudo,Lunghezza Inclinata (m),Dislivello (m),Stazione di Valle (m.s.l.m.),Tipo veicolo,CapacitÃ  Veicolo (Pers.),Portata Max (Pers/h),Opere Paravalanghe ,Servizio,Veicoli in linea
+Malghet Haut - Monte Spolverino,C012g,Dimaro,Soc.Fun. Folgarida Marilleva,38308,38308,1200,244,1851,seggiola chiusa,4,2200,si,,74
+Fortini - Pian del Graffer,C014h,Pinzolo - Ragoli,Soc.Fun. Madonna di Campiglio,32120,39401,"3320,45","433,5","1651,5",cabina,6,2168,si,Effettua servizio estivo,138
+Pian del Graffer - P.so del GrostÃ¨,C015h,Ragoli,Soc.Fun. Madonna di Campiglio,32120,39402,"2278,95","359,5",2085,cabina,6,2168,C.L.V.,Effettua servizio estivo,90
+Kristiania - Col dei Rossi ,C019m,Canazei,S.I.T.C.,32494,39772,1319,307,2059,seggiola chiusa,4,2232,#,,100
+Latemar - Passo Pampeago,C020a,Tesero - Nova Ponente,I.T.A.P.,32472,39766,1070,255,1757,seggiola,4,2400,si,Effettua servizio estivo,94
+PrÃ  Rodont -Doss del Sabion,C021h,Pinzolo,Soc.Fun. Pinzolo,32499,39759,"1708,99","597,3","1499,7",seggiola,4,1800,si,Effettua servizio promiscuo ed estivo,86
+ContrÃ¨ - Malga Copai,C022g,Mezzana,Soc.Fun. Folgarida Marilleva,32857,40513,"1510,19",544,"929,56",cabina,12,2000,#,Effettua servizio estivo,28
+Passo S.Pellegrino - Gigante,C023m,Soraga,Soc. Impianti Falcade Col Margherita,32857,40129,1559,343,1914,seggiola,4,2400,#,Effettua servizio estivo,128
+Pampeago - Monte Agnello,C024a,Tesero,I.T.A.P.,33205,40469,1123,416,1758,seggiola,4,2300,si,Effettua servizio promiscuo,91
+Predazzo - GardonÃ¨,C025a,Predazzo,Soc. Latemar 2200,35034,35034,2465,603,1047,cabina,12,2400,si,Effettua servizio estivo,55
+GardonÃ¨ - Passo Feudo,C026a,Predazzo,Soc. Latemar 2200,35020,35020,1721,532,1636,seggiola chiusa,4,2000,si,Effettua servizio promiscuo ed estivo,106
+Prati di Gaggia - Mughi della Paganella,C027e,Andalo,Soc. Valle Bianca,33959,41222,1797,438,1333,seggiola chiusa,4,1500,si,Effettua servizio promiscuo,88
+Ciampac - Sella Brunec,C028m,Canazei,Soc.Fun. Ciampac e Contrin,33226,40506,1424,290,2143,seggiola,4,1720,si,Effettua servizio estivo,85
+Madonna di Campiglio - Monte Spinale,C029h,Pinzolo - Ragoli,Soc.Fun. Madonna di Campiglio,33938,41235,1606,588,1514,cabina,12,3000,si,"Effettua servizio promiscuo, estivo, notturno",46
+Canazei - Pecol,C031m,Canazei,S.I.T.C.,33940,40877,1367,481,1452,cabina,12,2400,si + M.G.,Effettua servizio promiscuo ed estivo,37
+Campo - Le Cune,C032m,Moena,Soc. Impianti Funiviari Lusia,35395,35395,1457,358,1855,seggiola chiusa,4,2000,si,,81
+Campo - Laste,C033m,Moena,Soc. Impianti Funiviari Lusia,34687,41957,2162,485,1855,seggiola chiusa,4,2200,#,,133
+Pozza - Buffaure,C034m,Pozza di Fassa,Soc.Fun. Buffaure,35377,38670,2057,722,1344,cabina,6,1500,si,Effettua servizio promiscuo ed estivo,66
+Tonale - Valbiolo,C035g,Vermiglio,Soc. Carosello Tonale,34306,41586,2125,332,1906,seggiola chiusa,4,2400,si,,144
+Calchera di Boch - Rifugio Graffer,C036h,Ragoli,Soc.Fun. Madonna di Campiglio,36110,36110,2307,384,1904,seggiola chiusa,4,1600,si,,92
+Residenza - Passo Feudo,C037a,Tesero,I.T.A.P.,35013,35013,802,294,1546,seggiola,4,2400,si,Effettua servizio promiscuo ed estivo,69
+Campigol del Pel - Paion del Cermis,C038a,Cavalese,Soc.Fun. Alpe Cermis,34668,41967,1213,333,1896,seggiola,4,2400,si,Effettua servizio promiscuo,99
+Pejo Fonti - Tarlenta,C039g,Pejo,Soc.Fun. Pejo,34684,41974,1653,592,1408,cabina,6,1400,si,Effettua servizio promiscuo ed estivo,40
+Pradel - Salei,C040m,Canazei,S.I.T.C.,35412,35412,2450,504,1724,cabina,9,2000,si,Effettua servizio promiscuo,62
+Madonna di Campiglio - Pradalago,C041h,Pinzolo,Soc.Fun. Madonna di Campiglio,35032,35032,1843,560,1535,cabina,12,3000,si,Effettua servizio promiscuo ed estivo,52
+Frattazza - Tognola,C042b,Siror,Soc.Fun. Seggiovie S.Martino,35779,35779,2304,733,1406,cabina,15,2500,si,Effettua servizio promiscuo ed estivo,42
+Santel - Meriz,C043e,Fai,Soc. Paganella 2001,35428,35428,1342,389,1034,seggiola chiusa,4,1946,si,Effettua servizio promiscuo ed estivo,89
+Castelir - Le Fassane,C044a,Predazzo,S.I.T. Bellamonte,35055,35055,"1167,19","198,84","1552,8",seggiola,4,2200,#,Effettua servizio estivo e promiscuo,80
+Patascoss - Pancugolo,C045h,Pinzolo,Soc.Fun. Madonna di Campiglio,35397,35397,1771,449,1706,seggiola chiusa,4,1800,si,,74
+Valbiolo - Passo dei Contrabbandieri,C046g,Vermiglio,Soc. Carosello Tonale,35376,35376,1398,365,2212,seggiola chiusa,4,1800,si,,69
+San Martino - Col Verde,C047b,Siror,Imprese e Territorio Soc. Cons. s.r.l.,35993,36118,1963,444,1462,cabina,8,1500,C.L.V. + si,"Effettua servizio promiscuo, estivo, notturno",38
+Passo Tonale - Alpe Alta,C048g,Vermiglio,Soc. S.IN.VAL.,36865,37930,1320,349,1892,seggiola chiusa,4,2400,#,,88
+Fortini - Pradalago,C049h,Pinzolo,Soc.Fun. Madonna di Campiglio,36845,40519,2301,446,1655,seggiola chiusa,4,2150,#,,138
+Pian Frataces - Gherdecia,C050m,Canazei,S.I.T.C.,36130,36130,"1964,56","476,9",1726,cabina,8,2000,#,Effettua servizio promiscuo,65
+Tresca - Doss Cappello,C051a,Tesero,I.T.A.P.,36112,36517,"1439,43","349,2","1836,3",seggiola chiusa,4,1756,si,,79
+Le Fassane - La Morea,C052a,Predazzo,S.I.T. Bellamonte,36132,37944,1447,"225,8",1741,seggiola,4,2200,#,Effettua servizio promiscuo ed estivo,100
+Valbona - Piavac,C053m,Moena,Soc. Impianti Funiviari Lusia,36487,36487,1375,440,"1769,7",seggiola chiusa,4,2180,si,,84
+Belvedere - Malghet Haut,C054g,Dimaro,Soc.Fun. Folgarida Marilleva,36146,36146,"1555,43","494,3",1360,cabina,6,2000,si,Effettua servizio promiscuo ed estivo,58
+Malga Grual - Doss del Sabion,C055h,Pinzolo,Soc.Fun. Pinzolo,36517,36517,1312,316,1783,seggiola,4,1800,si,,73
+Malga Ces - Punta Ces,C056b,Siror,Imprese e Territorio Soc. Cons. s.r.l.,36139,36139,"1585,36","623,9","1604,1",seggiola chiusa,4,1800,si,Effettua servizio promiscuo ed estivo,76
+Pinzolo - PrÃ  Rodont,C057h,Pinzolo,Soc.Fun. Pinzolo,36124,36124,"1757,15",717,787,cabina,6,2190,si,Effettua servizio promiscuo ed estivo,72
+Passo Tonale - Valena,C058g,Vermiglio,Soc. Carosello Tonale,37593,37593,691,123,1896,seggiola chiusa,4,2195,#,Effettua servizio notturno,43
+Serrada - Dosso Martinella,C059l,Folgaria,Soc. Carosello Ski Folgaria,36133,36133,1464,338,1272,seggiola,4,2200,#,Effettua servizio promiscuo ed estivo,112
+Cavalese - Masi di Cavalese,C060a,Cavalese,Soc.Fun. Alpe Cermis,36181,36181,"565,35","112,9","859,6",cabina,8,2000,#,"Effettua servizio promiscuo, estivo, notturno",18
+Masi di Cavalese - Doss dei Laresi,C061a,Cavalese,Soc.Fun. Alpe Cermis,36181,36181,"2173,03","417,52","859,6",cabina,8,2000,#,"Effettua servizio promiscuo, estivo, notturno",61
+Cermis - Paion del Cermis,C062a,Cavalese,Soc.Fun. Alpe Cermis,36507,36507,"944,93","216,84","2012,9",seggiola,4,2000,#,Effettua servizio promiscuo ed estivo,74
+Orsa - Maggiore,C063m,Pozza di Fassa,Soc.Fun. Ciampac e Contrin,38321,38321,"1891,27",312,2107,seggiola chiusa,4,1800,Mis. Ges.,,96
+Folgarida - Malghet Haut,C064g,Dimaro,Soc.Fun. Folgarida Marilleva,36498,36498,1608,"554,25",1302,cabina,6,2190,si,Effettua servizio promiscuo ed estivo,78
+Piana di Vigo - Pradalago,C065h,Pinzolo,Soc.Fun. Madonna di Campiglio,37932,37932,1570,384,1782,seggiola chiusa,4,2070,si,,92
+Sass - BecÃ¨,C066m,Canazei,S.I.T.C.,36866,38309,968,275,2147,seggiola chiusa,6,2400,#,,48
+Polsa - Montagnola,C067l,Brentonico,Brentonico Ski societÃ  consortile a r.l.,37610,37610,1387,312,1195,seggiola,4,2195,#,Effettua servizio promiscuo,83
+Malga Panciana - Sghirlat,C069g,Commezzadura,Soc.Fun. Folgarida Marilleva,37253,38931,"471,54","85,5",1837,seggiola,4,1800,#,,28
+Norei - Cinque Dita,C070m,Canazei,S.I.T.C.,37610,37610,"1028,97",254,2125,seggiola chiusa,4,1800,#,,56
+Pian Pecei - PrÃ  Martin,C071m,Vigo di fassa,Soc. Catinaccio Impianti a Fune,37973,37973,"883,14","254,13",1802,seggiola chiusa,4,2198,#,,54
+Copai - Malga Panciana,C072g,Mezzana,Soc.Fun. Folgarida Marilleva,37594,37594,1937,438,1445,cabina,6,2190,#,Effettua servizio promiscuo ed estivo,80
+Malga Mezzavia - Fortino,C073e,Trento,Soc. Trento Funivie,37618,37618,2320,809,1184,seggiola chiusa,4,1500,si,,96
+Doss dei Laresi - Cermis,C074a,Cavalese,Soc.Fun. Alpe Cermis,38706,38706,2446,"736,69",1276,cabina,8,2400,si,"Effettua servizio promiscuo, estivo, notturno",77
+Campigol del Cermis - Cimon del TÃ² dela Trapola,C075a,Cavalese,Soc.Fun. Alpe Cermis,39433,39433,"1735,78","489,8","1760,2",seggiola chiusa,4,1800,#,,86
+Val Panciana - Monte Vigo,C076g,Commezzadura,Soc.Fun. Folgarida Marilleva,37957,37957,1473,318,1850,seggiola chiusa,6,1800,#,,50
+Meriz - Selletta,C077e,Fai,Soc. Paganella 2001,38341,40130,"1979,1","569,05","1410,95",seggiola chiusa,4,2200,Mis. Ges.,Effettua servizio promiscuo ed estivo,124
+Laghet - Prati di Gaggia,C078e,Andalo,Soc. Valle Bianca,38701,38701,"1116,42","303,6",1030,cabina,8,1800,#,"Effettua servizio promiscuo, estivo, notturno",23
+Rifugio Graffer - Passo GrostÃ¨,C079h,Ragoli,Soc.Fun. Madonna di Campiglio,38296,38296,1361,259,2242,seggiola chiusa,6,2800,#,,60
+Albi de Mez - Cima Paganella,C080e,Zambana - Terlago,Soc. Paganella 2001,38328,38667,"1223,7","382,5",1737,seggiola chiusa,4,2200,#,Effettua servizio promiscuo ed estivo,81
+Andalo - Doss PelÃ ,C082e,Andalo - Terlago,Soc. Paganella 2001,38688,38688,"2444,65","729,2",1034,cabina,8,2600,si,"Effettua servizio promiscuo, estivo, notturno",75
+Puza dai FÃ² - Monte Grual,C083h,Pinzolo - Stenico,Soc.Fun. Pinzolo,38708,38708,1365,299,1661,seggiola chiusa,4,1791,#,,68
+Costa - Moreta,C084l,Folgaria,Soc. Impianti Maso,38708,38708,"1167,84","207,9",1245,seggiola,4,1791,#,,62
+Passo San Pellegrino - Costabella,C086m,Moena,Soc. Catinaccio Impianti a Fune,38691,38691,"1619,5","367,55","1909,45",seggiola chiusa,4,2070,si,Effettua servizio promiscuo ed estivo,94
+Malga Valbiolo - Cima Tonale,C087g,Vermiglio,Soc. Carosello Tonale,38672,38672,"848,06","207,73",2230,seggiola chiusa,4,1800,si + M.G.,,44
+Malga Tognola - Rododendro,C088b,Siror,Soc.Fun. Seggiovie S.Martino,38653,38653,"688,22","221,5","1922,4",seggiola,4,1800,si,,40
+Zeledria - Pradalago,C089h,Pinzolo,Soc.Fun. Madonna di Campiglio,38684,38684,874,153,1947,seggiola,4,1800,#,,50
+AlbarÃ¨ - Copai,C090g,Mezzana,Soc.Fun. Folgarida Marilleva,38709,38709,270,82,1363,cabina,6,1000,#,Effettua servizio promiscuo,6
+Daolasa - Malghetto di Mastellina,C091g,Commezzadura,Soc.Fun. Folgarida Marilleva,39429,39429,1852,562,814,cabina,8,2000,#,Effettua servizio promiscuo ed estivo,44
+Malghetto di Mastellina - Bassetta del Vigo,C092g,Commezzadura,Soc.Fun. Folgarida Marilleva,39409,39409,2557,667,1376,cabina,8,2000,si + M.G.+frane,Effettua servizio promiscuo ed estivo,60
+Doss Leon - Passo Sant'Antonio,C093e,Terlago,Soc. Valle Bianca,39428,39428,"1166,15",234,1693,seggiola chiusa,4,1800,#,,57
+Ronchi - Valbona,C094m,Moena,Soc. Impianti Funiviari Lusia,39788,39788,1202,448,1367,cabina,8,2070,#,Effettua servizio promiscuo,37
+Valbona - Le Cune,C095m,Moena,Soc. Impianti Funiviari Lusia,39794,39794,1512,384,1815,cabina,8,2070,si + M.G.,Effettua servizio promiscuo,44
+Madonna di Campiglio - Pancugolo,C096h,Pinzolo,Soc.Fun. Madonna di Campiglio,39419,39419,2007,539,1520,cabina,8,1800,Mis. Ges.,Effettua servizio promiscuo ed estivo,42
+ToÃ¨ - Col dei Rossi,C097m,Canazei,S.I.T.C.,39410,39410,"1226,07","337,07","1934,93",cabina,8,2400,si,Effettua servizio promiscuo,38
+Fondo Piccolo - Plaut,C098l,Folgaria,Soc. Carosello Ski Folgaria,40140,40140,992,228,1480,seggiola,4,1800,si,,54
+Costalunga - Latemar,C099m,Vigo di Fassa,Soc. Latemar Carezza ,39800,40144,1110,293,1759,seggiola chiusa,4,1600,si,Effettua servizio estivo,54
+Puza dai FÃ² - Plaza,C100h,Pinzolo,Soc.Fun. Pinzolo,40904,40904,1221,513,1148,cabina,8,1800,si,,26
+Plaza - Colarin,C101h,Pinzolo,Soc.Fun. Pinzolo,40904,40904,2354,356,1148,cabina,8,1800,si,,50
+Colarin - Patascoss,C102h,Pinzolo,Soc.Fun. Pinzolo,40904,40904,1156,246,1504,cabina,8,1800,#,,26
+Tulot - Malga Cioca,C103h,Pinzolo,Soc.Fun. Pinzolo,40352,40352,2451,877,853,cabina,8,2000,si,Effettua servizio estivo,64
+Malga Piovernetta - Termental,C104l,Folgaria,Soc. Carosello Ski Folgaria,40529,40529,823,106,1573,seggiola,4,1800,#,,43
+Malga Piovernetta - Monte Pioverna,C105l,Folgaria,Soc. Carosello Ski Folgaria,40525,40525,990,207,1573,seggiola,4,1500,#,,42
+Malga Boch - Monte Spinale,C110h,Ragoli,Soc.Fun. Madonna di Campiglio,40877,40877,665,113,1952,seggiola chiusa,4,2000,#,,37
+Molveno - Pradel,C111e,Molveno,Soc.Fun. Molveno Pradel,41848,41848,950,456,901,cabina,10,1514,si,Effettua servizio estivo e notturno,20
+Cordela - Montesel,C112e,Trento,Soc. Trento Funivie,41604,41604,931,278,1448,seggiola,6,2200,Mis. Ges.,,43
+Bassetta - Monte Vigo,C114g,Commezzadura,Soc.Fun. Folgarida Marilleva,41970,41970,843,200,1966,seggiola chiusa,4,2190,Mis. Ges.,,57

@@ -1,0 +1,22 @@
+#synset-id	lexical-entry	pos-tag	direct-hypernym-id	definition
+KDI01	eco-fuel	n	14899228	fuel that does less harm to the environment than conventional fuel
+KDI02	shared bike station	n	04313218	a station where shared bikes can be rented from and have to be returned to
+KDI03	shared car station	n	04313218	a station where shared cars can be rented from and have to be returned to
+KDI04	transportation card	n	06489042	a card that allows the bearer to use public transportation
+KDI05	transportation class	n	14453411	a quality of accommodation on public transport
+KDI06	bike support	n	06702042	permission to bring one's bike to the public transportation
+KDI07	continuous transportation	n	04480667	a facility of transportation that works continuosly
+KDI08	eco-friendly	adj	01249700	something that is good for the envirnoment and does not do harm to it
+KDI09	eco-friendly contribution	n	13291061	a contribution to improving the condition of the environment
+KDI10	electric support	n	01210781	assistance through electric energy of a mean of transport (e.g. bike or scooter) making the ride easier for the driver
+KDI11	engine type	n	05848697	a type of engine according to the form of energy it accepts
+KDI12	shared car	n	02961779	a car that can be rented so that it is jointly used by several persons
+KDI13	stop ID	n	07285306	a unique string of symbols that establishes the identity of a station of public transport
+KDI14	transportation ID	n	07285306	a unique string of symbol that establishes the identity of a mean of transportation
+KDI15	transportation card type	n	05848697	a type of a card that allows the bearer to use transportation
+KDI16	private transportation type	n	04480667	a type of private transportation, e.g. car
+KDI17	wheelchair accessible	adj	00019169	capable of being reached with a wheelchair
+KDI18	first departure	n	00043495	the first time of the day that a specific mean of transportation departs
+KDI19	last departure	n	00043495	the last time of the day that a specific mean of transportation departs
+KDI20	private transportation	n	04480667	a transportation system used by individual persons
+KDI21	other services	n	13799556	services that are included in a public transportation card except for the use of means of public transportation

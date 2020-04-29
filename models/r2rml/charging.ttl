@@ -1,0 +1,481 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr5gvkk6x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "charging.csv" ;
+	km-dev:modelPublicationTime "1575364842116"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"operator\"}],[{\"columnName\":\"address\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"operator\"}],[{\"columnName\":\"address\"}]]" ;
+	km-dev:hasModelLabel "charging.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"OrganizeColumnsCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"orderedColumns\",
+                \"type\": \"orderedColumns\",
+                \"value\": [
+                    {
+                        \"visible\": true,
+                        \"name\": \"Column_1\",
+                        \"id\": [{\"columnName\": \"Column_1\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"latitude\",
+                        \"id\": [{\"columnName\": \"latitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"longitude\",
+                        \"id\": [{\"columnName\": \"longitude\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"address\",
+                        \"id\": [{\"columnName\": \"address\"}]
+                    },
+                    {
+                        \"visible\": true,
+                        \"name\": \"operator\",
+                        \"id\": [{\"columnName\": \"operator\"}]
+                    }
+                ]
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [
+            \"Transformation\",
+            \"IgnoreInBatch\"
+        ]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"latitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"longitude\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"address\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location/Location1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"address\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"operator\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place/Place1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"operator\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"operator\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_11210984-b532-4d38-8579-a29d4e040b11 a rr:TriplesMap .
+
+_:node1dr5gvkk6x1 km-dev:hasTriplesMap km-dev:TriplesMap_11210984-b532-4d38-8579-a29d4e040b11 .
+
+km-dev:TriplesMap_11210984-b532-4d38-8579-a29d4e040b11 km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x2 rr:tableName "charging.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasLogicalTable _:node1dr5gvkk6x2 .
+
+km-dev:TriplesMap_11210984-b532-4d38-8579-a29d4e040b11 rr:logicalTable _:node1dr5gvkk6x2 ;
+	rr:subjectMap _:node1dr5gvkk6x3 .
+
+_:node1dr5gvkk6x1 km-dev:hasSubjectMap _:node1dr5gvkk6x3 .
+
+_:node1dr5gvkk6x3 km-dev:isPartOfMapping _:node1dr5gvkk6x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Place1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_06bd8f7c-8c7d-4ebb-8f3b-80c06244311f rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> .
+
+_:node1dr5gvkk6x4 rr:column "operator" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasObjectMap _:node1dr5gvkk6x4 .
+
+km-dev:PredicateObjectMap_06bd8f7c-8c7d-4ebb-8f3b-80c06244311f rr:objectMap _:node1dr5gvkk6x4 .
+
+km-dev:TriplesMap_11210984-b532-4d38-8579-a29d4e040b11 rr:predicateObjectMap km-dev:PredicateObjectMap_06bd8f7c-8c7d-4ebb-8f3b-80c06244311f .
+
+km-dev:PredicateObjectMap_06bd8f7c-8c7d-4ebb-8f3b-80c06244311f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_06bd8f7c-8c7d-4ebb-8f3b-80c06244311f .
+
+km-dev:PredicateObjectMap_11dcf57c-7efc-4b61-a80f-799e3addcc7f rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> .
+
+km-dev:RefObjectMap_7fa4dae9-a51b-4abd-8d46-761e1d1e570a a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasObjectMap km-dev:RefObjectMap_7fa4dae9-a51b-4abd-8d46-761e1d1e570a .
+
+km-dev:PredicateObjectMap_11dcf57c-7efc-4b61-a80f-799e3addcc7f rr:objectMap km-dev:RefObjectMap_7fa4dae9-a51b-4abd-8d46-761e1d1e570a .
+
+km-dev:TriplesMap_11210984-b532-4d38-8579-a29d4e040b11 rr:predicateObjectMap km-dev:PredicateObjectMap_11dcf57c-7efc-4b61-a80f-799e3addcc7f .
+
+km-dev:PredicateObjectMap_11dcf57c-7efc-4b61-a80f-799e3addcc7f a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_11dcf57c-7efc-4b61-a80f-799e3addcc7f .
+
+km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 a rr:TriplesMap .
+
+_:node1dr5gvkk6x1 km-dev:hasTriplesMap km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 .
+
+km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x5 rr:tableName "charging.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasLogicalTable _:node1dr5gvkk6x5 .
+
+km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 rr:logicalTable _:node1dr5gvkk6x5 ;
+	rr:subjectMap _:node1dr5gvkk6x6 .
+
+_:node1dr5gvkk6x1 km-dev:hasSubjectMap _:node1dr5gvkk6x6 .
+
+_:node1dr5gvkk6x6 km-dev:isPartOfMapping _:node1dr5gvkk6x1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Location1" .
+
+km-dev:PredicateObjectMap_88cd9a24-6e9f-49ee-ae84-574e2cd4172c rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
+
+_:node1dr5gvkk6x7 rr:column "latitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasObjectMap _:node1dr5gvkk6x7 .
+
+km-dev:PredicateObjectMap_88cd9a24-6e9f-49ee-ae84-574e2cd4172c rr:objectMap _:node1dr5gvkk6x7 .
+
+km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 rr:predicateObjectMap km-dev:PredicateObjectMap_88cd9a24-6e9f-49ee-ae84-574e2cd4172c .
+
+km-dev:PredicateObjectMap_88cd9a24-6e9f-49ee-ae84-574e2cd4172c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_88cd9a24-6e9f-49ee-ae84-574e2cd4172c .
+
+km-dev:PredicateObjectMap_3b0e6b6c-2cc4-49cb-bdca-757ca02c81de rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+
+_:node1dr5gvkk6x8 rr:column "address" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasObjectMap _:node1dr5gvkk6x8 .
+
+km-dev:PredicateObjectMap_3b0e6b6c-2cc4-49cb-bdca-757ca02c81de rr:objectMap _:node1dr5gvkk6x8 .
+
+km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 rr:predicateObjectMap km-dev:PredicateObjectMap_3b0e6b6c-2cc4-49cb-bdca-757ca02c81de .
+
+km-dev:PredicateObjectMap_3b0e6b6c-2cc4-49cb-bdca-757ca02c81de a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3b0e6b6c-2cc4-49cb-bdca-757ca02c81de .
+
+km-dev:PredicateObjectMap_f99d6e94-f35b-43b3-94e8-b8c81354e265 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+
+_:node1dr5gvkk6x9 rr:column "longitude" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasObjectMap _:node1dr5gvkk6x9 .
+
+km-dev:PredicateObjectMap_f99d6e94-f35b-43b3-94e8-b8c81354e265 rr:objectMap _:node1dr5gvkk6x9 .
+
+km-dev:TriplesMap_97a256b3-3840-4672-b1e7-9e77d56ceda2 rr:predicateObjectMap km-dev:PredicateObjectMap_f99d6e94-f35b-43b3-94e8-b8c81354e265 .
+
+km-dev:PredicateObjectMap_f99d6e94-f35b-43b3-94e8-b8c81354e265 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5gvkk6x1 .
+
+_:node1dr5gvkk6x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_f99d6e94-f35b-43b3-94e8-b8c81354e265 .

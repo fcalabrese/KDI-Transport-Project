@@ -1,0 +1,423 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dr186fatx1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "fare_subscriptions_suburban.csv" ;
+	km-dev:modelPublicationTime "1575221411166"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"Fasce chilometriche\"}],[{\"columnName\":\"Settimanale\"}],[{\"columnName\":\"Annuale\"}],[{\"columnName\":\"Mensile\"}],[{\"columnName\":\"Semestrale\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"Fasce chilometriche\"}],[{\"columnName\":\"Settimanale\"}],[{\"columnName\":\"Annuale\"}],[{\"columnName\":\"Mensile\"}],[{\"columnName\":\"Semestrale\"}]]" ;
+	km-dev:hasModelLabel "fare_subscriptions_suburban.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Fasce chilometriche\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#type_Transportation_Card\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Fasce chilometriche\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Fasce chilometriche\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Settimanale\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_week\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Settimanale\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Settimanale\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Mensile\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Mensile\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Semestrale\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_semester\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Semestrale\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Semestrale\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Annuale\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card/Transportation_Card1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Annuale\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    }
+]""" .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 a rr:TriplesMap .
+
+_:node1dr186fatx1 km-dev:hasTriplesMap km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx2 rr:tableName "fare_subscriptions_suburban.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasLogicalTable _:node1dr186fatx2 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 rr:logicalTable _:node1dr186fatx2 ;
+	rr:subjectMap _:node1dr186fatx3 .
+
+_:node1dr186fatx1 km-dev:hasSubjectMap _:node1dr186fatx3 .
+
+_:node1dr186fatx3 km-dev:isPartOfMapping _:node1dr186fatx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Transportation_Card1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_a3667e04-22a5-4d55-9a6a-02f9bc4a2a17 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#type_Transportation_Card> .
+
+_:node1dr186fatx4 rr:column "Fasce chilometriche" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasObjectMap _:node1dr186fatx4 .
+
+km-dev:PredicateObjectMap_a3667e04-22a5-4d55-9a6a-02f9bc4a2a17 rr:objectMap _:node1dr186fatx4 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 rr:predicateObjectMap km-dev:PredicateObjectMap_a3667e04-22a5-4d55-9a6a-02f9bc4a2a17 .
+
+km-dev:PredicateObjectMap_a3667e04-22a5-4d55-9a6a-02f9bc4a2a17 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a3667e04-22a5-4d55-9a6a-02f9bc4a2a17 .
+
+km-dev:PredicateObjectMap_96e309da-37fd-4738-9996-18f04f2e0b0d rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_week> .
+
+_:node1dr186fatx5 rr:column "Settimanale" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasObjectMap _:node1dr186fatx5 .
+
+km-dev:PredicateObjectMap_96e309da-37fd-4738-9996-18f04f2e0b0d rr:objectMap _:node1dr186fatx5 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 rr:predicateObjectMap km-dev:PredicateObjectMap_96e309da-37fd-4738-9996-18f04f2e0b0d .
+
+km-dev:PredicateObjectMap_96e309da-37fd-4738-9996-18f04f2e0b0d a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_96e309da-37fd-4738-9996-18f04f2e0b0d .
+
+km-dev:PredicateObjectMap_fef46746-a51a-4f20-ac02-bd52bec5513b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month> .
+
+_:node1dr186fatx6 rr:column "Mensile" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasObjectMap _:node1dr186fatx6 .
+
+km-dev:PredicateObjectMap_fef46746-a51a-4f20-ac02-bd52bec5513b rr:objectMap _:node1dr186fatx6 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 rr:predicateObjectMap km-dev:PredicateObjectMap_fef46746-a51a-4f20-ac02-bd52bec5513b .
+
+km-dev:PredicateObjectMap_fef46746-a51a-4f20-ac02-bd52bec5513b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_fef46746-a51a-4f20-ac02-bd52bec5513b .
+
+km-dev:PredicateObjectMap_d12594e1-e2f3-4e81-8cec-6d7ec3f73afa rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_semester> .
+
+_:node1dr186fatx7 rr:column "Semestrale" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasObjectMap _:node1dr186fatx7 .
+
+km-dev:PredicateObjectMap_d12594e1-e2f3-4e81-8cec-6d7ec3f73afa rr:objectMap _:node1dr186fatx7 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 rr:predicateObjectMap km-dev:PredicateObjectMap_d12594e1-e2f3-4e81-8cec-6d7ec3f73afa .
+
+km-dev:PredicateObjectMap_d12594e1-e2f3-4e81-8cec-6d7ec3f73afa a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d12594e1-e2f3-4e81-8cec-6d7ec3f73afa .
+
+km-dev:PredicateObjectMap_99bf0114-a8d7-4623-97e3-55b350e56c62 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year> .
+
+_:node1dr186fatx8 rr:column "Annuale" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasObjectMap _:node1dr186fatx8 .
+
+km-dev:PredicateObjectMap_99bf0114-a8d7-4623-97e3-55b350e56c62 rr:objectMap _:node1dr186fatx8 .
+
+km-dev:TriplesMap_520b5047-cc24-499b-9888-53fe03664490 rr:predicateObjectMap km-dev:PredicateObjectMap_99bf0114-a8d7-4623-97e3-55b350e56c62 .
+
+km-dev:PredicateObjectMap_99bf0114-a8d7-4623-97e3-55b350e56c62 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr186fatx1 .
+
+_:node1dr186fatx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_99bf0114-a8d7-4623-97e3-55b350e56c62 .

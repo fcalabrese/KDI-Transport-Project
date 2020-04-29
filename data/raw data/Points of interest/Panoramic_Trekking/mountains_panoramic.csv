@@ -1,0 +1,41 @@
+MESSAGE_ID;MESSAGE_HEADER_I;MESSAGE_BODY_I;STREETNUMBER;ZONE_ID;ZONE_I;CODE_TOOLTIP_I;SUBCODE_I;SHAPE
+1;Passo Campolongo;;SS 244;6;Zona 6 - Val Pusteria;passi di montagna;percorribile liberamente;POINT (11.8758408705316 46.52404566399383)
+2;Passo Furcia;;LS/SP 43;6;Zona 6 - Val Pusteria;passi di montagna;limitazione al traffico;POINT (11.969245135684906 46.72319351378471)
+3;Passo Erbe;;LS/SP 29;7;Altri;passi di montagna;limitazione al traffico;POINT (11.814088834302726 46.67506732009182)
+4;Passo Lavazé;;SS 620 ;7;Altri;passi di montagna;limitazione al traffico;POINT (11.492672253510868 46.354557045487056)
+6;Passo Pennes;000 – km 64;;;;;;
+4;4;;;;;;;
+7;Passo Falzarego;;SS 48 ;7;Altri;passi di montagna;limitazione al traffico;POINT (12.009300020204307 46.518838694398355)
+9;Passo Pordoi;;SS 48 ;7;Altri;passi di montagna;percorribile liberamente;POINT (11.812299378589264 46.487522619160785)
+10;Passo Stelvio;50 m.;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+4;1;;;;;;;
+12;Passo Valparola;;LS/SP 37;6;Zona 6 - Val Pusteria;passi di montagna;percorribile liberamente;POINT (11.962065683401361 46.55784857684445)
+13;Passo Costalunga;Fino a giovedì 31.10.2019 - ore 23:59: Sul versante trentino tra il passo Costalunga e Vigo di Fassa divieto di transito per veicoli con peso complessivo superiore a 3,5 t.;SS 241;4;Zona 4 - Salto-Sciliar;passi di montagna;attenzione;POINT (11.604951240513987 46.40690701243879)
+15;Passo Monte Croce Comelico;;SS 52 ;6;Zona 6 - Val Pusteria;passi di montagna;percorribile liberamente;POINT (12.420294019207216 46.65584652286658)
+16;Passo Giovo;;SS 44;2;Zona 2 - Burgraviato;passi di montagna;limitazione al traffico;POINT (11.320625008750966 46.83951680084992)
+17;Passo Gardena;;SS 243;6;Zona 6 - Val Pusteria;passi di montagna;limitazione al traffico;POINT (11.810709207311293 46.55123906801853)
+18;Passo Sella;;SS 242 ;4;Zona 4 - Salto-Sciliar;passi di montagna;limitazione al traffico;POINT (11.766214611599302 46.514293801449824)
+19;Passo Mendola;;SS 42;3;Zona 3 - Bolzano-Bassa Atesina;passi di montagna;limitazione al traffico;POINT (11.236773033416915 46.42697825274294)
+20;Passo Palade;;SS 238;7;Altri;passi di montagna;percorribile liberamente;POINT (11.131107180781724 46.49353249829702)
+59;Passo Rombo;Divieto di transito per veicoli di peso superiore a 8 t e di lunghezza superiore a 10 m, divieto di transito per rimorchi di lunghezza superiore a 4,50 m.;SS 44;2;Zona 2 - Burgraviato;passi di montagna;limitazione al traffico;POINT (11.126850840651468 46.88809161600816)
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;

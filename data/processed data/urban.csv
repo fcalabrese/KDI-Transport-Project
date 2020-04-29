@@ -1,0 +1,37 @@
+"name","mode(bike_support)","mode(delay)","mode(electric_plug)","mode(first_arrival)","mode(last_departure)","mode(name)","mode(transportation_class)","mode(trip_id)","mode(trip_time)","mode(wi-fi)"
+"(Volano) Bettini Staz. Lizzana Marco",0,0.17830882352941177,0,"06:10:00","07:16:00","(Volano) Bettini Staz. Lizzana Marco",0,"0003176212019091220200610","00:32:00",0
+"03 Peders. Brione Stazione Isera (Lenzima)",0,0.07246376811594203,0,"06:05:00","20:21:00","03 Peders. Brione Stazione Isera (Lenzima)",0,"0003181122019091220200610","00:15:00",0
+"Brione Cesari Ospedale Podesta' Brione",0,1.0166666666666666,0,"06:55:00","20:08:00","Brione Cesari Ospedale Podesta' Brione",0,"0003175692019091220200610","00:33:00",0
+"C.So Bettini Lizzana Marco Mori",0,0.0,0,"22:57:00","25:49:00","C.So Bettini Lizzana Marco Mori",0,"0003180662019091220200610","00:35:00",0
+"Canova Melta Piazza Dante Gocciadoro",0,0.21774193548387097,0,"05:25:00","22:14:00","Canova Melta Piazza Dante Gocciadoro",0,"0003143852019091220200610","00:02:00",0
+"Castellano Molini Villa Lagarina",0,0.0,0,"10:11:00","19:21:00","Castellano Molini Villa Lagarina",0,"0003183392019091220200610","00:19:00",0
+"Castellano Stazione Fs",0,0.0,0,"22:50:00","25:56:00","Castellano Stazione Fs",0,"0003182752019091220200610","00:15:00",0
+"Centochiavi Martignano Cognola Povo",0,0.0,0,"07:50:00","19:05:00","Centochiavi Martignano Cognola Povo",0,"0003154942019091220200610","00:25:00",0
+"Centochiavi Piazza Dante Mattarello",0,0.2974137931034483,0,"05:08:00","nan","Centochiavi Piazza Dante Mattarello",0,"0003158142019091220200610","00:15:00",0
+"Cortesano Gardolo P.Dante Villazzano 3",0,0.39563106796116504,0,"05:37:00","24:05:00","Cortesano Gardolo P.Dante Villazzano 3",0,"0003144362019091220200610","00:19:00",0
+"Costa Corso Rosmini S.Giorgio/Ospedale",0,0.09114583333333333,0,"06:37:00","12:32:00","Costa Corso Rosmini S.Giorgio/Ospedale",0,"0003177862019091220200610","00:37:00",0
+"Costa Noriglio C.So Rosmini",0,0.0,0,"23:59:59","24:31:00","Costa Noriglio C.So Rosmini",0,"0003180572019091220200610","00:15:00",0
+"Funivia Trento Sardagna",0,0.0,0,"07:00:00","22:35:00","Funivia Trento Sardagna",0,"0003156362019091220200610","00:05:00",0
+"Gardolo Gardolo Di Mezzo E Spini",0,0.0,0,"06:41:00","19:22:00","Gardolo Gardolo Di Mezzo E Spini",0,"0003146552019091220200610","00:10:00",0
+"Gardolo Roncafort Stazione V.Deg. Mad.Bianca",0,0.2283653846153846,0,"05:41:00","20:42:00","Gardolo Roncafort Stazione V.Deg. Mad.Bianca",0,"0003143832019091220200610","00:15:00",0
+"Moietto Rosmini Campana Dei Caduti",0,0.0,0,"06:54:00","18:29:00","Moietto Rosmini Campana Dei Caduti",0,"0003178602019091220200610","00:21:00",0
+"Navetta Parcheggi: Zuffo M.Te Baldo Zuffo",0,1.2231638418079094,0,"06:30:00","21:33:00","Navetta Parcheggi: Zuffo M.Te Baldo Zuffo",0,"0003152122019091220200610","00:24:00",0
+"Nomi Besenello Stazione Fs",0,0.0,0,"22:48:00","25:17:00","Nomi Besenello Stazione Fs",0,"0003175682019091220200610","00:15:00",0
+"Nomi Villa Lagarina Stazione Mori",0,0.3260135135135135,0,"06:16:00","19:15:00","Nomi Villa Lagarina Stazione Mori",0,"0003178922019091220200610","00:25:00",0
+"Ospedale P.Dante Sopramonte",0,0.12562500000000001,0,"05:45:00","13:50:00","Ospedale P.Dante Sopramonte",0,"0003146872019091220200610","00:25:00",0
+"Ospedale Stazione Isera Villa Lagar.",0,0.15320512820512822,0,"06:11:00","20:05:00","Ospedale Stazione Isera Villa Lagar.",0,"0003181912019091220200610","00:30:00",0
+"Ossario Osp. S.Giorgio Osp. Ossario",0,0.9798850574712644,0,"06:51:00","19:36:00","Ossario Osp. S.Giorgio Osp. Ossario",0,"0003175842019091220200610","00:26:00",0
+"P.Dante Martignano Cognola / Montevaccino",0,0.5380597014925372,0,"06:45:00","23:58:00","P.Dante Martignano Cognola / Montevaccino",0,"0003145692019091220200610","00:30:00",0
+"P.Dante S.Donà Cognola Villamontagna",0,0.1358695652173913,0,"06:29:00","21:24:00","P.Dante S.Donà Cognola Villamontagna",0,"0003143692019091220200610","00:25:00",0
+"P.Dante Via Ghiaie Ravina Romagnano",0,0.19078947368421054,0,"06:35:00","23:53:00","P.Dante Via Ghiaie Ravina Romagnano",0,"0003146942019091220200610","00:21:00",0
+"P.Dante Via Sanseverino Belvedere Ravina",0,0.171875,0,"07:05:00","20:54:00","P.Dante Via Sanseverino Belvedere Ravina",0,"0003147502019091220200610","00:01:00",0
+"Piazza Dante P.Fiera Povo Oltrecastello",0,0.1865079365079365,0,"05:40:00","23:58:00","Piazza Dante P.Fiera Povo Oltrecastello",0,"0003143662019091220200610","00:24:00",0
+"Piazza Dante Via Bolzano Lamar Lavis",0,0.071875,0,"06:25:00","23:59:00","Piazza Dante Via Bolzano Lamar Lavis",0,"0003143642019091220200610","00:06:00",0
+"Piedic. Stazione Osp.S.Chiara Regione Piedic.",0,6.790880503144654,0,"05:55:00","23:16:00","Piedic. Stazione Osp.S.Chiara Regione Piedic.",0,"0003146832019091220200610","00:08:00",0
+"Povo Borino Celva Passo Cimirlo",0,0.0,0,"07:00:00","19:03:00","Povo Borino Celva Passo Cimirlo",0,"0003149572019091220200610","00:15:00",0
+"Savignano Pomarolo",0,0.0,0,"06:35:00","17:16:00","Savignano Pomarolo",0,"0003183532019091220200610","00:05:00",0
+"Spini Di Gardolo Via Brennero P.Dante",0,0.4318181818181818,0,"05:32:00","19:52:00","Spini Di Gardolo Via Brennero P.Dante",0,"0003147712019091220200610","00:20:00",0
+"Vela P.Dante Villazzano Grotta",0,0.22413793103448276,0,"05:35:00","22:06:00","Vela P.Dante Villazzano Grotta",0,"0003145202019091220200610","00:16:00",0
+"Via Magazol S.Giorgio Cornacalda",0,0.0,0,"07:52:00","19:53:00","Via Magazol S.Giorgio Cornacalda",0,"0003184222019091220200610","00:28:00",0
+"Villa Lag. Brione Staz. Isera Lenzima",0,0.30238095238095236,0,"06:08:00","12:44:00","Villa Lag. Brione Staz. Isera Lenzima",0,"0003181892019091220200610","00:25:00",0
+"Volano Besenello Calliano Nomi",0,0.0,0,"07:27:00","19:28:00","Volano Besenello Calliano Nomi",0,"0003183132019091220200610","00:14:00",0

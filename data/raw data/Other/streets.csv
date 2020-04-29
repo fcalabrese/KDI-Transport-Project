@@ -1,0 +1,322 @@
+﻿Dati della strada;Dati della strada;Dati della strada;Dati della strada;Dati della strada;Dati della strada;Dati della strada;Dati della strada;Dati della strada
+id strada;id lrs;codice servizio;denominazione;progressiva di inizio strada;progressiva di fine strada;localita di inizio strada;localita di fine strada;TIPO
+250;20001200;SS 12;dell'Abetone e del Brennero;326,181;401,275;Confine Provincia di Verona;Confine Provincia di Bolzano;B
+287;20001201;SS 12 svincoli;dell'Abetone e del Brennero - svincoli;0;6,749;;;B
+251;20004200;SS 42;del Tonale e della Mendola;147,846;220,5;Passo Tonale;Mendola;B
+252;20004300;SS 43;della Val di Non;0;30,65;Mostizzolo;SS 12 - San Michele all'Adige;B
+255;20004301;SS 43 dir;della Val di Non diramazione Sarnonico;0;13,715;S.S. 43 Dermulo;Sarnonico;B
+288;20004302;SS 43 rac;della Val di Non raccordo Ronzone;0;0,645;;;B
+234;20004303;SS ex SS 43;ex S.S. 43 della Val di Non tratto Sabino - Rocchetta;17,8;23,45;;;B
+256;20004501;SS 45 bis;della Gardesana Occidentale;106,848;154,16;Riva del Garda (Confine Provincia di Brescia);Trento;B
+343;20004502;SS 45 bis Variante Riva;SS 45 bis Variante Riva;112,768;116,228;;;B
+257;20004600;SS 46;del Pasubio;45;69,63;Confine Provincia di Vicenza - Passo Pian delle Fugazze;Rovereto;B
+258;20004601;SS 46 dir;del Pasubio diramazione Ossario;0;0,53;Pian delle Fugazze (Vallarsa);Confine Provincia di Vicenza - Passo Pian delle Fugazze;B
+259;20004700;SS 47;della Valsugana;73,014;130,804;Confine Provincia di Vicenza ;Melta di Gardolo -TRENTO-;B
+295;20004701;SS 47 sv;della Valsugana svincolo Melta;0;0,457;;;B
+334;20004703;EX SS 47 delle Laste;Ex SS 47 Tracciato dismesso Martignano ;126,6;130,9;;;B
+260;20004800;SS 48;delle Dolomiti;16,43;76,2;Passo San Lugano (confine Bolzano);Passo Pordoi (confine Belluno);B
+261;20004801;SS 48 var;delle Dolomiti variante di Predazzo;0;2,67;si stacca dalla S.S. 48 al km 36,950);si immette sulla S.S. 48 al km 38,600;B
+341;20004802;SS 48 Variante di Canazei;SS 48 Variante di Canazei;0;1,215;SS 48 km 63,820;SS 48 64,240;B
+262;20005000;SS 50;del Grappa e Passo Rolle;61,075;116,013;Confine Provincia di Feltre - Monte Croce o Pontèt;Predazzo (fine S.S.);B
+263;20023700;SS 237;del Caffaro;55,82;110,418;Ponte Caffaro (Confine con la Prov.di Brescia);SS 45 bis - Sarche ;B
+264;20023701;SS 237 sv;del Caffaro - svincolo;0;1,416;Cà Rossa incrocio al km 59.760; Storo incrocio al km 61,000;B
+265;20023800;SS 238;delle Palade;0;6,784;Fondo;Tret;B
+267;20023801;SS 238 dir;delle Palade diramazione innesto S.S 42;0;1,186;;;B
+305;20023802;SS 238 rac;delle Palade - raccordo;0;0,026;SS 238;SS 42;B
+268;20023900;SS 239;di Campiglio;0;47,45;Dimaro;Tione di Trento incrocio con la S.S 237 al km 85.900;B
+269;20024000;SS 240;di Loppio e Val di Ledro;3;52,18;Rovereto / Torbole;Cà Rossa (Storo);B
+270;20024001;SS 240 dir;di Loppio e Val di Ledro diramazione Nago - Arco;0;5,662;Nago - SS 240;Arco - SS 45  bis;B
+325;20024010;SS 240 variante Mori ; Variante di Mori ;2,45;7;SP 23 casello A22 uscita Rovereto Nord;SS 240 ;B
+271;20024100;SS 241;della Val D'Ega e Passo Costalunga;26,16;35,848;Passo Costalunga (confine Bolzano);San Giovanni (Vigo di Fassa) fine S.S.;B
+272;20024200;SS 242;della Val Gardena e Passo Sella;30,9;36,71;Passo Sella (confine Provincia di Bolzano);incrocio con SS 48 km 69,420;B
+273;20024900;SS 249;della Gardesana Orientale;91,022;100,435;Nago Torbole (confine Provincia di Verona);Arco (incrocio con S.S. 45 bis al km 116,720;B
+274;20034600;SS 346;del Passo San Pellegrino;1,035;14,138;svincoli  SS 48 km 46.856;loc. Zingari confine Provincia di Belluno;B
+275;20034700;SS 347;del Passo Cereda e Passo Duran;0;11,78;Tonadico (incrocio con SS 50 al km 72.600);Mis di Sopra - confine con provincia di Belluno;B
+276;20034900;SS 349;della Val d'Assa e Pedemontana Costo;4,8;45,768;S. Rocco di Trento;Provincia Vicenza;B
+277;20034901;SS 349 dir;della Val d'Assa e Pedemontana Costo - diramazione Lavarone;0;2,93;;;B
+278;20035000;SS 350;di Folgaria e di Val d'Astico ;0;27,507;Calliano - S.S. 12;Provincia Vicenza (loc. Laste Basse);B
+279;20042100;SS 421;dei Laghi di Molveno e Tenno;0;63,93;La Rocchetta SS 43;Riva (chiesa inviolata);B
+280;20061200;SS 612;della Val di Cembra;0;46,4;Lavis;Cavalese incr. SS 48 km 22.100;B
+298;20061201;SS 612 dir;della Val di Cembra diramazione innesto S.S. 48;0;0,88;;;B
+282;20062000;SS 620;del Passo di Lavazè;11,573;22,844;Passo Lavazè (confine di Bolzano);incr. SS 48 km 23.666 c.a. Cavalese;B
+283;20064100;SS 641;del Passo Fedaia;0,765;14,21;incr. SS  48 km 63.800 c.a. Canazei;Passo Fedaia (confine Provincia di Belluno);B
+1;30000100;SP 1;del Lago di Caldonazzo.;0;10,278;S. Cristoforo - SS. 47;Levico - SP. 228 km 10,278+0,180 svinc.;C
+2;30000101;SP 1 dir;del Lago di Cadonazzo diramazione Bosentino;0;4,331;Calceranica S.P 1;Vigolo Vattaro - SS 349 km 4,331+0,077 svincoli;C
+3;30000102;SP 1 sv SS 47;del Lago di Cadonazzo svincolo S.S. 47;0;0,18;;;C
+4;30000103;SP 1 sv SS 349;del Lago di Cadonazzo svincolo S.S. 349;0;0,077;;;C
+344;30000104;SP 1 sv  S.Cristoforo;SP 1 svincolo di S.Cristoforo;0;1,45;;;C
+5;30000200;SP 2;Rovereto - Folgaria;1,44;24,655;fine abitato di Rovereto;Folgaria (incrocio S.S. 350 Km 13,000;C
+6;30000201;SP 2 dir Parisa;Rovereto - Folgaria diramazione Parisa;0;3,39;Serrada (bivio S.P. 2 Km 20,292);bivio S.P. 143 Km 3,060;C
+7;30000300;SP 3;del Monte Baldo;0;35;Mori S.S. 240;confine Provincia di Verona (Km 3,221 Provincia VR);C
+299;30000400;SP 4;di San Romedio;0;3,142;Romeno;Coredo;C
+8;30000500;SP 5;del Bleggio;0;9,31;Ponte Arche incrocio con la S.S 421 al km 38,600;Fiavè;C
+9;30000600;SP 6;di Rumo;0;11,882;S.S. 42 km 191,590 Scanna;Confine Provincia di Bolzano;C
+10;30000700;SP 7;di Coredo;0;7,632;S.S. 43 dir km 0,670;Sfruz;C
+11;30000800;SP 8;della Valle dei Mocheni;0;15,49;Pergine incrocio S.P. 66;Palù del Fersina;C
+12;30000900;SP 9;di Luserna;0;11,75;Monterovere - SS 349;Passo Vezzena - SS 349;C
+13;30001000;SP 10;delle Quattro Ville;0;6,971;da SS 43 km 9,600;Tuenno si innesta su S.P. 73 km 14,431;C
+14;30001001;SP 10 dir Portolo;delle Quattro Ville diramazione Portolo;0;1,977;centro abitato Nanno km 3,640;Portolo;C
+15;30001100;SP 11;di Vetriolo;0;13,849;Levico Terme;Vetriolo;C
+16;30001200;SP 12;di Vignola;0;15,176;Assizzi - SP 228;Panarotta;C
+17;30001300;SP 13;della Predaia;0;15,068;S.S. 43 km 15,550 Mollaro;S.S. 43 km 12,040 Taio;C
+289;30001301;SP 13 dir Dardine;della Predaia diramazione Dardine;0;1,543;;;C
+290;30001302;SP 13 dir Vervò;della Predaia diramazione Vervò;0;9,161;SP 13 ;SFRUZ;C
+18;30001400;SP 14;del Lago di Tovel;0;10,713;S.P. n. 73  Tuenno;Tovel;C
+19;30001600;SP 16;del Colle di Tenna;0;6,679;S. Cristoforo - SS. 47;Levico - SP 1;C
+20;30001700;SP 17;di Civezzano;0;3,36;bivio tornante dopo ab. Cognola;incrocio con S.P. n. 83;C
+21;30001800;SP 18;dei Laghi di Terlago e Lamar;0;8,593;si stacca dalla SS 45;Lago Santo di Lamar;C
+22;30001801;SP 18 dir Vezzano;dei Laghi di Terlago e Lamar diramazione Vezzano;0;4,391;;;C
+23;30001802;SP 18 dir Lon;dei Laghi di Terlago e Lamar diramazione Lon e Vezzano;0;3,345;;;C
+24;30001803;SP 18 dir Ranzo;dei Laghi di Terlago e Lamar diramazione Lon e Ranzo;0;6,38;;;C
+321;30001804;SP 18 dir Margone;di Lamar-Vezzano dir Margone;0;1,6;km 3,2 sp 18 dir Lon;Margone;C
+25;30001900;SP 19;di Ruffrè;0;3,68;S.S. 42 km 215,660;S.S. 42 km 219,660;C
+26;30002000;SP 20;del Lago di Cei;0;18,211;Villa Lagarina (bivio S.P. 90 Km 7,000);bivio con S.P. 25;C
+27;30002100;SP 21;Mattarello - Aldeno;0;3,445;ponte sul fiume Adige bivio con S.P. 131;località Aldeno intersezione con S.P. 90 II° tronco;C
+28;30002200;SP 22;Chizzola - Brentonico;0;7,678;Chizzola;Brentonico S.P. 3 Km 8,532;C
+29;30002201;SP 22 dir;Chizzola - Brentonico diramazione Prada Saccone;0;5,241;S.P. 22 Km 2,698;S.P. 218 Km 3,535 (Prada);C
+30;30002300;SP 23;Mori - Marco;0,618;1,55;Mori Stazione (bivio S.S. 240 Km 2,850);bivio per Casello A22;C
+31;30002400;SP 24;di Dambel;0;11,152;S.S. 43 dir. km 4,900;S.S. 43 dir. km 13,600 Sarnonico;C
+32;30002500;SP 25;di Garniga;0;20,43;centro abitto di Aldeno;località Viotte intersezione S.P. 85;C
+33;30002600;SP 26;di Amblar e Don;0;2,102;S.S. 43 dir. km 12,190;Don;C
+34;30002601;SP 26 dir;di Amblar e Don diramazione Amblar;0;0,168;;;C
+35;30002700;SP 27;di Daone;0;7,5; Ai Forti, S.S 237 al km 75.320;Strada (Pieve di Bono) S.S 237 al km72.950;C
+36;30002701;SP 27 dir;di Daone diramazione Pracul;0;7,465;;;C
+37;30002800;SP 28;di Tregiovo;0;8,245;S.S. 42 km 196,440;Tregiovo;C
+38;30002801;SP 28 dir;di Tregiovo diramazione Frari;0;2,756;;;C
+39;30002900;SP 29;di Masetto;0;5,319;località Cacciatora staccandosi dalla S.S. 12;località Rocchetta (aperta fino al ponte sul fiume Noce a Mezzolombardo);C
+40;30003100;SP 31;del Passo Manghen;0;39,444;Castelnuovo (incr. S.P. 109 al km 1,200);Incrocio con S.P. n. 232 a Molina;C
+41;30003300;SP 33 dir Ponte Arche;di Villa Banale - Stenico diramazione Ponte Arche;0;1,655;Ponte Arche  ponte sul fiume Sarca; S.S 421 al km 37.150;C
+42;30003301;SP 33 ;di Villa Banale - Stenico;0;3,451;Villa Banale;Stenico S.P 34 al km15.140;C
+43;30003400;SP 34;del Lisano e Sesena;0;20,274;Villa Rendena; S.S 421;C
+44;30003401;SP 34 dir Preore;del Lisano e Sesena diramazione Preore;0;0,528;Preore al km 4.858;S.S.237 al km 88.300;C
+45;30003402;SP 34 dir Ragoli;del Lisano e Sesena diramazione Ragoli;0;1,301;Ragoli al km 6.420;S.S 237al km 91.440;C
+46;30003403;SP 34 dir Cros Val;del Lisano e Sesena diramazione Cros da Val;0;1,01;Cros da Val al km 17.170; Seo ( Stenico );C
+47;30003500;SP 35;di Malosco;0;1,921;S.S. 238 delle Palade al km 0,555;S.S. 42 al km 213,750;C
+48;30003600;SP 36;delle Grazie;0;4,382;Riva del Garda (incrocio con S.S. 421 km 62,648);Arco (incrocio con S.S. 45 bis al km 117,866);C
+49;30003601;SP 36 dir Varone;delle Grazie diramazione Varone;0;1,451;Località Pasina (incrocio con S.P. 36 al km 0,847);Varone (incrocio con S.S. 421 al km 61,050);C
+50;30003700;SP 37;del Monte Tombio;0;9,424;Riva del Garda (incrocio con S.S. 421 km 63,317);Lago di Tenno (Incrocio con S.S. 421 al km 53,026);C
+51;30003701;SP 37 dir Campi;del Monte Tombio diramazione Campi;0;2,745;km 7,956 della S.P. n. 37;in centro abitato di Campi;C
+342;30003702;SP 37 dir Riva;del Monte Tombio diramazione Riva del Garda;0;0,34;;;C
+52;30003800;SP 38;di Cavizzana;0;1,84;Bivio S.S. n. 42;Cavizzana;C
+53;30003900;SP 39;di Samone;0;1,696;Tomaselli;abitato Samone;C
+54;30004000;SP 40;della Valle di Sella;0;9,252;Borgo V.na - km 4,305 SP 109;località Sella di Borgo;C
+55;30004100;SP 41;Castelnuovo - Strigno;0;3,328;Castelnuovo - km 1,200 S.P. 109;Strigno (km 1,405 S.P. 78);C
+56;30004200;SP 42;Strigno - Spera;0;1,176;abitato Strigno;abitato Spera;C
+57;30004300;SP 43;di Castelfondo;0;6,451;S.S. 42 al km 206,480;Forcella di Brez;C
+58;30004301;SP 43 dir Brez;di Castelfondo diramazione Brez;0;2,967;;;C
+59;30004500;SP 45;Isera - Valle San Felice;0;11,862;Isera (bivio S.P. 90 Km 2,535);Valle S. Felice (bivio S.P. 88 Km 5,225);C
+60;30004800;SP 48;del Monte Velo;0;15,875;Bolognano (bivio SS 240 dir. km 4,222);Ronzo - Chienis (bivio S.P. 88 Km 10,860);C
+61;30004900;SP 49;di Besenello;0;2,67;Posta Vecchia (bivio S.S. 12 Km 364,300;Calliano (bivio S.S. 12 Km 362,700);C
+62;30005000;SP 50;di Trambileno;0;7,89;S. Colombano (bivio S.S. 46 Km 68,825);bivio S.S. 46 Km 65,250;C
+63;30005100;SP 51;di Capriana;0;1,851;S.S. 612 km 34,000;Fine S.P. Paese Capriana;C
+64;30005101;SP 51 dir Trento;di Capriana diramazione Trento;0;0,164;;fine dir.;C
+65;30005300;SP 53;di Montagne;0;4,284;C.a.Preore S.P 34 al km 5.200;C.a. Larzana ( Montagne );C
+300;30005400;SP 54;di Grauno;0;1,078;;;C
+67;30005500;SP 55;di Campodenno;0;4,253;Crescino;Campodenno con immissione sulla S.P. 67 km 8,048;C
+69;30005501;SP 55 dir Lover;di Campodenno diramazione Lover;0;2,316;;;C
+68;30005502;SP 55 dir Dercolo;di Campodenno diramazione Dercolo;0;0,277;;;C
+70;30005600;SP 56;di Caoria;0;10,809;km 12,318 S.P. 79;abitato Caoria;C
+71;30005700;SP 57;Cis - Livo;0;4,659;S.S. 42 al km 189,200;Livo innesto con la S.P. 6 al km 1,940;C
+72;30005800;SP 58;di Faedo;0;11,385;centro abitato di San Michele;Ville di Giovo;C
+73;30005900;SP 59;Nomi - Calliano;0;1,96;Nomi (bivio via Roma);Calliano (bivio via Marconi);C
+74;30005901;SP 59/COL;Nomi - Calliano collegamento S.P. 90;0;0,29;Nomi (bivio S.P. 59 Km 0,000);bivio S.P. 90 km 11,025;C
+75;30006000;SP 60;di Ivano e Ospedaletto;0;4,883;Abitato di Strigno S.P. 78 km 1,250;Abitato Ospedaletto;C
+76;30006001;SP 60 dir;di Ivano e Ospedaletto diramazione Ivano;0;2,161;S.P. 60 km 0,109;Abitato Agnedo incr. S.P. 60 al km 1,106;C
+340;30006100;SP 61;di Agnedo;0;1,62;SS 47;SP 60;C
+77;30006400;SP 64;di Fai;0;17,002;dopo l'abitato di Mezzolombardo staccandosi dalla S.S. 43;centro abitato di Andalo all'intersezione con la S.S. 421;C
+78;30006500;SP 65;Panoramica della Valsugana;0;14,8;Marter incr. con S.P. n. 228 al km 17.491;Abitato di Villa inc. con S.P. n. 78 al Km 0,780;C
+81;30006501;SP 65 dir;Panoramica della Valsugana diramazione Fontane;0;1,951;Roncegno incr. con S.P. n. 65 al km 1,623;incrocio con S.P. 109 al km 6,630;C
+82;30006600;SP 66;di Montagnaga;0;11,1;Pergine;Baselga di Pinè;C
+83;30006700;SP 67;del Lovernatico;0;11,967;Crescino;Cunevo S.P. 73 al km 5,809;C
+84;30006800;SP 68;di Bresimo;0;4,4;S.P. 6 di Rumo al km 2,408;Bresimo;C
+85;30006900;SP 69;di Storo e Bondone;0;10,66;C.a. Storo;C.a. Bondone;C
+86;30007000;SP 70;di Castel Condino;0;4,467;Cimego S.S 237 al km 68.700;C.a. Castel Condino;C
+87;30007100;SP 71;Fersina - Avisio;0;40;Civezzano;Stramentizzo fine S.P. incrocio con SS612 km 40,500;C
+326;30007200;SP 72;della val Camino;0;1,48;SP 83;SP 71;C
+88;30007300;SP 73;Destra Anaunia;0;17,923;S.S. 43 al km 19,990;Cles;C
+89;30007400;SP 74;della Novella;0;6,315;Revò - SS 42 km 196,950;S. Zeno su SS 43 dir. 4,055;C
+90;30007401;SP 74 dir Casez;della Novella diramazione Casez;0;0,564;si stacca da S.P. 74 al km 3,456;fine Casez sulla S.P. 24 al km 1,490;C
+91;30007500;SP 75;del Grigno;0;11,252;Abitato di Grigno incr. con S.P. n. 75/dir. al km 2,750;Abitato Castello Tesino incr. con S.P. n. 78 al km 14,514;C
+93;30007501;SP 75 dir Grigno;diramazione di Grigno;2,14;8,69;;;C
+94;30007502;SP 75 dir sv Serafini;del Grigno diramazione svincoli Serafini;0;0,74;;;C
+312;30007503;SP 75 sv;del Grigno svincoli;0;0,675;;;C
+95;30007600;SP 76;Gardolo - Lases;0;14,453;S.S. 12 Lamar di Gardolo;Lases incrocio con S.P. 71;C
+96;30007601;SP 76 dir S.Lazzaro;Gardolo - Lases diramazione S. Lazzaro;0;1,35;Meano;San Lazzaro;C
+98;30007602;SP 76 dir Lases;Gardolo - Lases diramazione Lases;0;0,09;S.P. 76;Lases;C
+345;30007700;SP 77;della Valcava;0;4,835;innesto con SP 71 al km 24,450;innesto con SP8 83 al km 19,780 - abitato di Brusago;C
+99;30007800;SP 78;del Tesino;0;14,592;Barricata incr. Con S.S. 47 al km 91,150;abitato Castello Tesino;C
+100;30007900;SP 79;del Brocon;0;44,348;Imer incr. con S.S. 50 al km 67,700;abitato Castello Tesino;C
+101;30008000;SP 80;del Totoga;0;3,75;Lanterna Rossa incr. con S.S. 50 al km 65,400;Lausen incr. on S.P. n. 79 al km 10,230;C
+102;30008100;SP 81;del Passo Valles;0;6,796;incrocio con S.S. 50;fine S.S. confine con Provincia di Belluno;C
+103;30008300;SP 83;di Pinè;0;26,407;incrocio con S.S.47;Sover incrocio con S.P. 71;C
+104;30008301;SP 83 dir Faida;di Pinè diramazione Faida;0;3,43;Baselga di Pinè;Faida;C
+105;30008302;SP 83 dir Bedollo;di Pinè diramazione Bedollo;0;2,452;Centrale;Bedollo;C
+106;30008303;SP 83 sv Mochena;di Pinè svincolo Mochena;0;0,475;Mochena;Mochena;C
+107;30008400;SP 84;di Cavedine;0;20,444;dopo l'abitato di Mezzano staccandosi dalla S.S. 45 bis e diamazioni;paese di Dro;C
+108;30008401;SP 84 dir Padergnone;di Cavedine diramazione Padergnone;0;1,462;;;C
+109;30008402;SP 84 sv Dro;di Cavedine svincolo Dro;0;1,396;;;C
+110;30008403;SP 84 sv Padergnone;di Cavedine svincolo Padergnone;0;0,155;;;C
+111;30008500;SP 85;del Monte Bondone;0;39,861;si stacca dalla S.S. 45 in località Monte Video;intersezione con S.P. 84 dopo Paese di Lasino;C
+112;30008501;SP 85 dir Sopramonte;del Monte Bondone diramazione Sopramonte;0;7,357;inizia staccandosi dalla S.P. 85 in località Candriai;intersezione con S.S 45 bis prima dell'abitato di Cadine;C
+113;30008502;SP 85 dir VigBaselga;del Monte Bondone diramazione Vigolo Baselga;0;2,985;inizia staccandosi dalla diramazione per Sopramonte prima del Paese di Sopramonte;intersezione con S.S. 45 bis dopo Paese di Vigolo Baselga;C
+114;30008600;SP 86;di Rabbi;0;11,95;Bivio S.P n.201 di Malè;Rabbi Plan;C
+115;30008601;SP 86 dir Piazzola;di Rabbi diramazione Piazzola;0;3,257;;;C
+117;30008700;SP 87;di Pejo;0;11,59;Fucine;Peio;C
+116;30008701;SP 87 dir Comasine;di Pejo diramazione Comasine;0;1,11;;;C
+118;30008702;SP 87 dir Celentino;di Pejo diramazione Celentino;0;2,58;;;C
+119;30008800;SP 88;della Val di Gresta;0;21,185;Loppio (bivio S.S. 240 km 9,000);Croce di Castellano (bivio S.P. 20 KM 9,550);C
+120;30008900;SP 89;Sinistra Leno;1,403;20,625;Rovereto;loc. Ometto fine Strada;C
+121;30008901;SP 89 dir Miravalle;Sinistra Leno diramazione Miravalle;0;0,9;S.P. 89 km 2,045;Campana dei Caduti fine strada;C
+122;30008902;SP 89 dir Anghebeni;Sinistra Leno diramazione Anghebeni;0;3,486;località Aste km 14,880 della S.P. 89;località Anghebeni km 56,930 SS. 46 del Pasubio;C
+123;30009000;SP 90 1°tronco;Destra Adige 1° tronco (confine VR - Mori);0;20,863;Mama d'Avio confine Provincia di Verona;Centro abitato Mori;C
+124;30009001;SP 90 1°tronco dir Borghetto;Destra Adige 1° tronco diramazione Borghetto;0,565;2,086;ponte sull'Adige confine Provincia di Verona;S.S. 12 km 326,400;C
+125;30009002;SP 90 1°tronco dir Ala;Destra Adige 1° tronco diramazione Ala;0;0,63;;;C
+126;30009003;SP 90 2°tronco;Destra Adige 2° tronco (Mori - Ravina);0;25,423;Ravazzone (bivio S.S. 240 km 3,350);Ravina;C
+127;30009004;SP 90 dir Rovereto;Destra Adige 2° tronco diramazione Rovereto;0;1,265;Cornalé (bivio S.P. 90 km 2,355);ponte f. Adige Borgo Sacco (sinistra orografica);C
+128;30009005;SP 90 dir SS 12;Destra Adige 2° tronco diramazione Sant Ilario;0;0,508;Villa Lagarina (bivio S.P. 90 Km 6,745);ponte f. Adige S.Ilario (sinistra orografica);C
+130;30009006;SP 90 2°tronco dir;Destra Adige 2° tronco diramazione per aeroporto;0;1,769;;;C
+131;30009007;SP 90 3°tronco;Destra Adige 3° tronco (Zambana - Mezzolombardo);0;7,51;;;C
+132;30009008;SP 90 3°tronco dir;Destra Adige 3° tronco diramazone Ponte Nave S. Felice;0;0,354;;;C
+133;30009009;SP 90 4°tronco;Destra Adige 4° tronco (Mezzocorona - Roveré della Luna);0;7,76;;;C
+134;30009010;SP 90 4°tronco dir;Destra Adige 4° tronco diramazione Grumo;0;0,829;;;C
+135;30009011;SP 90 5°tronco;Destra Adige 5° tronco (confine BZ - confine BZ);0;1,29;Roverè della Luna;Provincia di Bolzano;C
+136;30009100;SP 91;Fraviano - Cortina;0;1,55;Pizzano;Bivio S.S. n. 42;C
+137;30009400;SP 94;di Stavel;0;6,454;Pizzano;Bivio S.S. n. 42;C
+139;30009600;SP 96;del Lago Santo;0;5,08;Cembra - bivio S.S. 612;Lago Santo;C
+302;30009800;SP 98;di Anterivo;0;4,64;;;C
+140;30010100;SP 101;Trasversale Valle di Cembra;0;4,439;Faver - bivio S.S. 612;S.P. 71 - km 16,150;C
+333;30010101;SP 101 sv Faver;SP 101 svincolo di Faver;15,555;15,82;;;C
+319;30010200;SP 102;delle Piramidi;0;2,929;Saletto - SP 71;Strente;C
+141;30010400;SP 104;delle Quadrate;0;2,74;S.P. 83 km 5,700;Fornace;C
+142;30010600;SP 106;di San Michele all'Adige;0;3,749;staccandosi dalla S.S. 12 prima dell'abitato di San Michele;all'intersezinione con S.S. 12 in loc. Cacciatore;C
+316;30010601;SP 106 dir;SP 106 diramazione S.S. 12;0;0,08;;;C
+143;30010700;SP 107;del Lago di Canzolino;0;2,655;Bivio S.P. 66;Bivio S.P. 83;C
+144;30010701;SP 107 dir;del Lago di Canzolino diramazione per Canzolino;0;0,9;località Canzolino;Lago di Canzolino;C
+145;30010800;SP 108;della Valle di Centa;0;6,81;Vattaro Pian dei Pradi SS 349;Caldonazzo S.P. 133;C
+146;30010900;SP 109;di Borgo;0;7,552;Samatec in corrispondenza del km 0,000 S.P. 237;Larganza incrocio con S.S. 47 al km 99,350 svincoli complessivi km 1,062;C
+308;30010901;SP 109 sv;di Borgo svincoli;0;1,062;;;C
+148;30011000;SP 110;di Telve;0;2,143;Borgo incrocio con S.P. 109 al km 3,000;Telve incrocio con S.P. n.  31 al km 2,103;C
+149;30011100;SP 111;di Carzano;0;1,166;incrocio con S.P. n. 31 al km 1,000;Carzano incrocio con S.P. 65 al km 12,346;C
+150;30011400;SP 114;Pieve - Cinte Tesino;0;1,09;Pieve Tesino incrocio con S.P. 78 al km 11,735;inizio abitato Cinte Tesino;C
+151;30011500;SP 115;di Sagron Mis;0;3,062;Abitato Mis di mezzo incrocio con la S.S. 347 al km 11,400;Abitato di Sagron;C
+153;30011800;SP 118;di San Giorgio;0,5;3,76;Riva del Garda (incrocio con S.S. 240 al km 18,474);Arco (rotatoria con S.S. 45 bis );C
+154;30011900;SP 119;di Concei;0;2,947;Pieve di Ledro (incrocio con S.S. 240 al km 34,353);Centro abitato di Lenzumo;C
+155;30011901;SP 119 dir;di Concei diramazione Bezzecca;0;0,942;Locca (incrocio con S.P. n. 119 al km 1,202);Bezzecca (incrocio con S.S. 240 al km 34,879);C
+156;30012200;SP 122;di Prezzo;0;2,08;Creto (P.di Bono) S.S 237 al km 71.500;C.a. Prezzo;C
+322;30012201;SP 122 dir Boniprati;di Prezzo diramazione Boniprati;0;4,55;Prezzo;Boniprati;C
+157;30012300;SP 123;di Brione;0;5,738;centro abitato Condino;centro abitato Brione;C
+158;30012301;SP 123 sv;di Brione svincolo Condino nord;0;4,181;Bivio sud Condino S.S 237 al km 63.350;Bivio Condino nord S.S 237 al km 65.900;C
+159;30012400;SP 124;di Ton;0;4,912;S.S. 43 al km 22,400;S.P. n. 203 del Rinassico al km 2,576;C
+160;30012401;SP 124 dir;di Ton diramazione Castel Thun;0;1,324;;;C
+161;30012500;SP 125;Terzolas;0;2,726;Magras;Bivio S.S. n. 42;C
+303;30012501;SP 125 dir;di Terzolas diramazione Samoclevo;0;0,156;;;C
+162;30012600;SP 126;della Taoletta;0;4,279;bivio S.S. 48 al km  19,864;S.S. 620 km 20,536 fine S.P.;C
+163;30012601;SP 126 dir;della Taoletta diramazione Cavalese;0;1,728;S.P. della Taoletta km 2,255;S.S. 48 km 23,641 fine S.P.;C
+164;30012700;SP 127;di Tremalzo;0;13,016;Tiarno di Sopra loc. Passo Ampola (incrocio con S.S. 240 km 42,356);Tiarno di Sopra località Tremalzo;C
+165;30013100;SP 131 1°tronco;del Vino 1° tronco (da Pressano alla S.P. 58);0;7,447;si stacca dalla S.S. 612 nel centro abitato di Lavis;intersezione con S.P. 58;C
+166;30013101;SP 131 1°tronco dir Verla;del Vino 1° tronco diramazione Verla;0;5,75;;;C
+167;30013102;SP 131 2°tronco;del Vino 2° tronco (da Maso Bolleri a Montevaccino);0;4,498;;;C
+168;30013103;SP 131 5°tronco;del Vino 5° tronco (da Mattarello a Romagnano);0;1,238;;;C
+338;30013200;SP 132;z.a. Caldonazzo;0;0,565;SP 8;SP 133;C
+169;30013300;SP 133;di Monterovere;0;11,237;Caldonazzo S.P. 1;Monterovere SS 349;C
+170;30013301;SP 133 dir;di Monterovere diramazione di Levico;0;4,089;Levico S.P. 228;Bivio Pegolara SP. 133;C
+314;30013302;SP 133 dir sv SS 47;di Monterovere diramazione svincoli SS 47;0;0,898;;;C
+329;30013400;SP 134 ;Destra Centa;0;2,586;SP 133;SP 133 DIR;C
+171;30013500;SP 135;Sinistra Fersina;0;12,68;Canezza;Palù del Fersina;C
+172;30013800;SP 138;della Borcola;0;9,95;Piazza di Terragnolo (bivio S.P. 2 Km 12,482);Passo Borcola (confine Vicenza);C
+173;30013900;SP 139;del Castellaz;0;2,614;S.S. 43 al km 3,750;S.S. 42 al km 194,290;C
+174;30014000;SP 140;Ortisè - Menas;0;6,375;Claiano;Menas;C
+175;30014100;SP 141;di Bolentina;0;5,207;Malè;Bolentina;C
+304;30014101;SP 141 dir Montes;di Bolentino diramazione Montes;0;0,838;;;C
+176;30014200;SP 142;dei Fiorentini;0;9,695;Passo Sommo (bivio S.S. 350 Km 15,950);confine Vicenza;C
+177;30014300;SP 143;dei Francolini;0;9,558;Folgaria (bivio S.P. 2 Km 24,020);confine Vicenza;C
+178;30014301;SP 143 dir;dei Francolini diramazione Fondo Grande;0;0,455;bivio S.P. 143 Km 2,900;Fondo Grande;C
+179;30020100;SP 201;di Malè;0;3,54;Terzolas;Croviana;C
+180;30020200;SP 202;di Ossana;0;1,592;Cusiano;Fucine;C
+181;30020300;SP 203;del Rinassico;0;3,744;S.S. 43 al km 21,300;Toss di Ton;C
+182;30020301;SP 203 dir;del Rinassico diramazione Vigo;0;0,672;;;C
+183;30020400;SP 204;Villazzano - Ponte Lodovico - S.S. 47;0;5,72;Villazzano;incrocio con S.S. 47;C
+184;30020600;SP 206;di Marilleva;0,72;9,794;Mezzana;Marilleva 1400;C
+185;30020800;SP 208;Avio - San Valentino;0;16,215;Avio S.P. 90 km 4,094;S.P. 3 Km 17,770 S. Valentino;C
+186;30021100;SP 211;dei Monti Lessini;0;13,539;Sdruzzinà km 334,789 della S.S. 12;Sega di Ala confine Provincia di Verona;C
+187;30021200;SP 212;della Roa;0;8,789;Incrocio con S.P. n. 79 al km 41,829;Confine provincia di Belluno;C
+188;30021300;SP 213;del Lomaso;0;6,609;Ponte Arche S.S 237 al km 99.380;Vigo Lomaso;C
+189;30021301;SP 213 dir Comano;del Lomaso diramazione Comano;0;1,4;Poia  al km 2.620;centro abitato Comano;C
+190;30021302;SP 213 dir Lundo;del Lomaso diramazione Lundo;0;1,495;al km 4.390;centro abitato Lundo;C
+191;30021400;SP 214;del Lago di Cavedine;0;9,513;;;C
+193;30021401;SP 214 dir;del Lago di Cavedine diramazione Pietramurata;0;1,495;;;C
+194;30021500;SP 215;di Pampeago;0;9,97;Tesero - si stacca dalla S.S. 48 al km 28,688;confine con la Provincia di Bolzano;C
+195;30021501;SP 215 dir;di Pampeago diramazione Lavazè;0;3,208;S.S. 220 del Passo Lavazzè al km 15,950;;C
+196;30021600;SP 216;Cappella - Dazio;0;4,598;Lavarone Cappella SS 349;Dazio (Folgaria) SS. 349;C
+197;30021601;SP 216 sv Cappella;Cappella - Dazio svincolo Cappella - S.S. 349;0;0,148;;;C
+297;30021602;SP 216 sv Dazio;Cappella - Dazio svincolo Dazio - S.S. 349;0;0,059;;;C
+198;30021800;SP 218;della Polsa;0;11,227;Brentonico S.P. 3 Km 8,924;Polsa fine strada;C
+199;30021900;SP 219;di Camposilvano;0;11,455;S.S. 46 Km 53,200;S.S. 46 Km 45,525 Passo Pian delle Fugazze;C
+200;30022000;SP 220;Mezzomonte - Serrada;0;8,87;Mezzomonte (bivio S.S. 350 Km 6,050);Serrada (bivio S.P. 2 km 19,695;C
+201;30022100;SP 221;della Val Noana;0,5;6,122;Mezzano rotatoria con S.S. 50 al km 68,320;Bivio diga ENEL;C
+202;30022200;SP 222;del Duron;0;11,95;Marazzone;Basso Arnò;C
+203;30022201;SP 222 dir Tonello;del Duron diramazione Tonello;0;0,875;Zuclo;Tonello S.S 237 al km 87.700;C
+204;30022202;SP 222 dir Spine;del Duron diramazione Spine;0;0,263;Spine;Spine S.S 237 al km 87.300;C
+205;30022400;SP 224;del Redebus;0;6,3;Bedollo bivio S.P. 83;Palù del Fersina - S.P. 8;C
+206;30022500;SP 225;di Santa Colomba;0;7,2;Torchio - S.P. 71;;C
+207;30022800;SP 228;di Levico - Novaledo;0;17,552;Pergine;Marter in corrispondenza km 0,000 S.P. n. 65;C
+208;30022801;SP 228 sv SS 47;di Levico - Novaledo svincolo S.S. 47;0;0,35;;;C
+210;30022802;SP 228 sv Marter;di Levico - Novaledo svincoli Marter;0;1,015;;;C
+301;30022803;SP 228 sv2 SS 47;di Levico - Novaledo svincolo 2 S.S. 47;0;0,38;;;C
+309;30022804;SP 228 sv zona ind.le Novaledo;di Levico - Novaledo svincoli zona ind.le Novaledo;0;0,92;;;C
+212;30022900;SP 229;Mendola - Campi da Golf;0;1,639;S.S. 42 al km 220,350;Campi da Golf;C
+213;30023000;SP 230;dei Dossioli;0;6,451;S.P. 208 km 11,553 (Pra Stua);S.P. 3 Km 28,707 loc. Dossioli;C
+214;30023100;SP 231;del Lusia;0;1,62;incrocio S.S. 50;Fine S.P. loc. Castellir;C
+215;30023200;SP 232;di Fiemme;0;14,736;loc. Vecchia Stazione S.S. 48 km 20,350;loc. Rotonda Ziano S.S. 48 km 35,000 fine S.S.;C
+216;30023201;SP 232 dir Molina;di Fiemme diramazione Molina;0;2,159;;;C
+217;30023202;SP 232 dir Castello;di Fiemme diramazione Castello;0;0,207;;;C
+218;30023203;SP 232 dir Cermis;di Fiemme diramazione Cermis;0;1,505;;;C
+220;30023205;SP 232 dir Ziano;di Fiemme diramazione Ziano Panchià;0;0,305;;;C
+221;30023300;SP 233;di Roveda;0;5,891;;;C
+222;30023400;SP 234;di Pregasina;0;1,707;Biacesa (incrocio con S.S. 240 km 24,825);fine galleria;C
+223;30023500;SP 235;dell'Interporto;0;17,4;;;C
+224;30023501;SP 235 sv circonvallazione;dell'Interporto svincolo circonvallazione;0;0,79;;;C
+294;30023502;SP 235 sv autostrada;dell'Interporto svincolo autostrada;0;0,86;;;C
+225;30023600;SP 236;Spiazzo - Bocenago;0;4,486; C.a.Spiazzo S.S 239 al km 38.270;(Gal) S.S 239 al km 33.900;C
+226;30023700;SP 237;della zona industriale di Scurelle;0;1,08;incrocio con S.S. 47 al km 91,860;incrocio con S.P. n. 65 km 14,166;C
+227;30023800;SP 238;di Monzon;0;2,05;da bivio S.S. 48 km 56,180;S.C. 223 fine S.P.;C
+228;30023900;SP 239;del Lago di Calaita;0;8,7;incrocio con  S.P. n. 79;Rifugio Calaita;C
+229;30023901;SP 239 dir;del Lago di Calaita diramazione Prade;0;5,255;Mureri incrocio con S.P. 239 al km 2,455;Incrocio con S.P. n. 79 al km 8,528;C
+230;30024000;SP 240;del Cermis;0;4,15;;;C
+231;30024100;SP 241;di Riccomassimo;0;4,6;;;C
+232;30024200;SP 242;di Val di Bondone;0;1,417;;;C
+233;30024300;SP 243;del Cirè;0;2,268;località Cirè;Ponte Regio Pergine;C
+236;30024301;SP 243 dir Cirè;ex S.S. 47 della Valsugana diramazione Cirè;0;0,51;;;C
+237;30024302;SP 243 dir zona ind;ex S.S. 47 della Valsugana diramazione zona industriale;0;0,16;;;C
+238;30024303;SP 243 dir Doss Roda;ex S.S. 47 della Valsugana diramazione Doss della Roda;0;0,5;;;C
+239;30024400;SP 244;della zona industriale di Borgo Valsugana;0;1,258;;;C
+284;30024500;SP 245;di Santa Massenza;0;1,08;;;C
+292;30024600;SP 246;del Celado;0;9,5;;;C
+320;30024800;SP 248;di Salter;0;4,187;Malgolo;Romeno;C
+336;30024900;SP 249;di Ponte Arche - Stenico;0;2,75;Ponte Arche (SP 33 km 0.100);Stenico (SP 33 dir);C
+323;30025000;SP 250;di Valfloriana;0;6,4;SP 71 loc. Casatta;Bait del Manz;C
+324;30025100;SP 251;di Ponte Oliveti;0;3,326;SP 214;SP 84;C
+327;30025200;SP 252;di Montesover;0;2,1;SP 83;Montesover;C
+328;30025201;SP 252 dir Piani;Di Montesover diramazione Piani;0;0,236;SP 252;;C
+330;30025300;SP 253;di Transacqua;0;0,44;rotatoria SS 50;;C
+331;30025400;SP 254;della Rupe;0;0,654;rotatoria SP 235;rotatoria 90 3° tronco;C
+335;30025500;SP 255;di Lavis;0;1,519;Rotatoria SP 235;Lavis rotatoria SS 12;C
+337;30025600;SP 256;Trento sud Ravina;0;1,024;innesto SS 12;innesto SP 90 II tronco;C
+339;30025700;SP 257;di Grigno Centro;0;0,568;SS 47;SP 60;C
+240;30240000;Dep C2;accesso depuratore C 2;0;0,5;;;Z
+241;30241000;Dep C3;accesso depuratore C 3;0;0,575;;;Z
+242;30242000;Dep Mezzana;accesso depuratore Mezzana;0;0,472;;;Z
+243;30243000;Dep Malè;accesso depuratore Malè;0;0,235;;;Z
+244;30244000;Scuola sport Tonale;Scuola sport Tonale e Altoporto;0;0,668;;;Z
+245;30245000;Dep Levico;accesso depuratore Levico;0;0,275;;;Z
+246;30246000;Dep Lavarone;accesso depuratore Lavarone;0;0,629;;;Z
+247;30247000;Dep Carbonare;accesso depuratore Carbonare;0;0,745;;;Z
+248;30248000;Dep Tremalzo;accesso depuratore Tremalzo;0;0,235;;;Z
+249;30249000;Dep Pieve di Ledro;accesso depuratore Pieve di Ledro;0;0,297;;;Z
+291;30291000;Dep Taio;accesso depuratore Taio;0;1,3;;;Z
+296;30296000;Dep Malga Laghetto;accesso depuratore Malga Laghetto;0;0,935;;;Z
+306;30306000;SP ex SS 47;ex S.S. 47 della Valsugana tratto Crozi - Civezzano;0;1,8;;;C
+307;30307000;Dep Calavino;accesso depuratore Calavino;0;0,8;;;Z
+313;30313000;Dep Faver;accesso depuratore Faver;0;0,8;;;Z
+318;30318000;Dep C3 di Pieve Tesino;accesso depuratore C 3 di Pieve Tesino;0;0,22;;;Z
+346;30334600;Dep Sover;accesso depuratore di Sover;0;0,778;incrocio con SP 71 km 26,01;depuratore Sover;Z

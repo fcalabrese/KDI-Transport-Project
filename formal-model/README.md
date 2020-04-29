@@ -1,0 +1,1 @@
+In this folder there are the output of the formal modeling. The results have been divided into two separate subfolders: the *formal* sub-folder contains just the ontology defined during the project, while the *grounded* sub-folder contains the ontology grounded to the chosen top-level ontology.

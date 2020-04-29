@@ -1,0 +1,23 @@
+name,address,id,bikes,slots,totalSlots,position/0,position/1
+Aeroporto,Via Lidorno / Aeroporto Caproni,Aeroporto - Trento,1,7,8,46.01983619754026,11.127080654939277
+Azienda Sanitaria,Via De Gasperi - Lato Trento Frutta,Azienda Sanitaria - Trento,4,12,16,46.044433415996814,11.12804971230321
+Bezzi,Via Bezzi / Via Vittorio Veneto,Bezzi - Trento,1,8,9,46.058020904033015,11.119315767528406
+Biblioteca,Via Alfieri / Via Torre Vanga,Biblioteca - Trento,8,14,24,46.07043395910254,11.121399842327946
+Bren Center,Via Guardini fr. civ. 75,Bren Center - Trento,0,17,17,46.094653868146885,11.117693389024225
+Centro Santa Chiara,Via S. Croce 78,Centro Santa Chiara - Trento,0,15,16,46.06345393738132,11.12375366752849
+Cimitero,via Madruzzo / via Rosmini,Cimitero - Trento,2,7,9,46.063653753791996,11.119203004368615
+Gardolo,Via IV Novembre / Piscina,Gardolo - Trento,4,2,6,46.10407094472173,11.112932473016372
+Lidl,,Lidl - Trento,0,0,0,46.0836111,11.119444444444445
+Lidorno,Via Lidorno / Park Trento Sud,Lidorno - Trento,3,9,12,46.03316279422745,11.126252122229062
+Muse,Corso del Lavoro e della Scienza,Muse - Trento,4,8,12,46.06137765005302,11.116027144580812
+Piazza della Mostra,P.za della Mostra 30,Piazza della Mostra - Trento,0,12,12,46.071784324082046,11.125761136176266
+Piazza di Centa,P.le di Centa / Via Vannetti,Piazza di Centa - Trento,1,11,12,46.07538723420181,11.12382177686004
+Piazza Venezia,Via Grazioli / P.za Venezia,Piazza Venezia - Trento,1,20,21,46.06753791402558,11.126987115869156
+Piscina,Via Fogazzaro / Via Gocciadoro,Piscina - Trento,6,6,12,46.05627509524844,11.13094278895494
+Stazione Autocorriere,Via Pozzo / Via Torre Vanga,Stazione Autocorriere - Trento,2,19,21,46.07023563810641,11.119849430688419
+Stazione FFSS - Ospedale,Via Gocciadoro - Staz. S. Chiara,Stazione FFSS - Ospedale - Trento,0,12,12,46.054586705531555,11.135349258821861
+Top Center,Via Pranzelores / Via Giuseppe Gilli,Top Center - Trento,1,23,24,46.09010372321067,11.118583717279193
+Università,Via Rosmini 50 - Università,Università - Trento,0,17,18,46.06632943181332,11.119020308598351
+Vannetti,piazza Dante / via Vannetti,Vannetti - Trento,3,3,6,46.072996732945235,11.121911281089751
+Zuffo 1,,Zuffo 1 - Trento,0,0,0,46.075,11.109444444444444
+Zuffo 2,,Zuffo 2 - Trento,0,0,0,46.075,11.11
